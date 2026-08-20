@@ -10,52 +10,59 @@
     <meta property="og:description" content="两种订阅格式、导入说明与公开检测规则。">
     <meta property="og:url" content="https://nodes.udptoos.com/">
     <meta property="og:type" content="website">
-    <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"WebSite","name":"Nodes","url":"https://nodes.udptoos.com/","inLanguage":"zh-CN","description":"Base64 与 Clash YAML 订阅格式及客户端导入说明。"}
-    </script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"Nodes","url":"https://nodes.udptoos.com/","inLanguage":"zh-CN","description":"Base64 与 Clash YAML 订阅格式及客户端导入说明。"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Clash、V2RayN 与小火箭该选哪个订阅？","acceptedAnswer":{"@type":"Answer","text":"Clash 和 Mihomo 使用 Clash YAML；V2RayN、v2rayNG 与 Shadowrocket 使用 Base64 通用订阅。"}},{"@type":"Question","name":"节点国家缩写代表什么？","acceptedAnswer":{"@type":"Answer","text":"国旗与两位国家缩写来自节点 IP 的公开地理归属，仅用于识别，不代表速度或可用性保证。"}}]}]}</script>
     <style>
-      :root { --ink:#171717; --muted:#4d4d4d; --line:#ebebeb; --paper:#fff; --soft:#fafafa; --blue:#0072f5; --green:#166534; }
+      :root { --ink:#171717; --muted:#4d4d4d; --line:#e6e9ee; --paper:#fff; --soft:#f7f9fc; --blue:#0072f5; --blue-soft:#edf5ff; --green:#166534; }
       * { box-sizing:border-box; }
       html { scroll-behavior:smooth; }
       body { margin:0; color:var(--ink); background:var(--paper); font:17px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
       a { color:inherit; text-underline-offset:3px; }
       a:focus-visible, button:focus-visible { outline:3px solid var(--blue); outline-offset:3px; }
       .wrap { width:min(1120px,calc(100% - 40px)); margin:auto; }
-      header { border-bottom:1px solid var(--line); }
-      nav { height:64px; display:flex; align-items:center; justify-content:space-between; gap:16px; font-size:14px; }
+      header { position:sticky; top:0; z-index:3; background:rgba(255,255,255,.94); border-bottom:1px solid var(--line); backdrop-filter:blur(12px); }
+      nav { min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:16px; font-size:14px; }
       .brand { font-weight:650; letter-spacing:-.04em; text-decoration:none; }
       .navlinks { display:flex; gap:18px; color:var(--muted); }
-      .hero { padding:88px 0 72px; background:linear-gradient(90deg,rgba(0,114,245,.06) 1px,transparent 1px),linear-gradient(rgba(0,114,245,.06) 1px,transparent 1px); background-size:32px 32px; }
-      .hero-grid { display:grid; grid-template-columns:1.1fr .9fr; gap:64px; align-items:end; }
+      .hero { padding:56px 0; background:radial-gradient(circle at 90% 5%,#e9f3ff 0,transparent 30%),linear-gradient(90deg,rgba(0,114,245,.04) 1px,transparent 1px),linear-gradient(rgba(0,114,245,.04) 1px,transparent 1px); background-size:auto,32px 32px,32px 32px; }
+      .hero-grid { display:grid; grid-template-columns:1.05fr .95fr; gap:48px; align-items:center; }
       .eyebrow,.badge { font:500 12px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.08em; text-transform:uppercase; }
       .eyebrow { color:var(--blue); }
-      h1 { margin:14px 0 18px; max-width:680px; font-size:clamp(42px,6vw,64px); line-height:1.03; letter-spacing:-.065em; }
+      h1 { margin:14px 0 18px; max-width:680px; font-size:clamp(38px,5vw,56px); line-height:1.08; letter-spacing:-.065em; }
       h2 { margin:0 0 20px; font-size:32px; line-height:1.2; letter-spacing:-.045em; }
       p { margin:0 0 16px; color:var(--muted); }
-      .hero p { max-width:600px; font-size:19px; }
-      .status { padding:24px; background:#fff; box-shadow:0 0 0 1px rgba(0,0,0,.08),0 12px 30px rgba(0,0,0,.05); border-radius:8px; }
-      .status strong { display:block; margin:8px 0; font-size:22px; letter-spacing:-.03em; }
-      .status p { margin:0; font-size:14px; }
-      main section { padding:72px 0; border-bottom:1px solid var(--line); }
-      .subscriptions { display:grid; gap:12px; }
-      .subscription { display:grid; grid-template-columns:132px 1fr auto; gap:18px; align-items:center; padding:20px; background:var(--soft); box-shadow:0 0 0 1px var(--line); border-radius:8px; }
+      .hero p { max-width:620px; font-size:18px; }
+      .choices { display:grid; gap:12px; }
+      .choice { display:block; padding:20px; border-radius:10px; background:#fff; box-shadow:0 0 0 1px rgba(0,0,0,.09),0 12px 30px rgba(0,20,60,.05); text-decoration:none; transition:transform .18s ease,box-shadow .18s ease; }
+      .choice:hover { transform:translateY(-2px); box-shadow:0 0 0 1px var(--blue),0 16px 32px rgba(0,20,60,.10); }
+      .choice strong { display:block; margin:6px 0 3px; font-size:21px; letter-spacing:-.03em; }
+      .choice span { color:var(--muted); font-size:14px; }
+      main section { padding:64px 0; border-bottom:1px solid var(--line); }
+      .subscriptions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+      .subscription { display:flex; min-height:184px; flex-direction:column; align-items:flex-start; gap:14px; padding:24px; background:var(--soft); box-shadow:0 0 0 1px var(--line); border-radius:10px; }
+      .subscription strong { font-size:22px; letter-spacing:-.03em; }
       .subscription code { min-width:0; overflow-wrap:anywhere; font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace; color:#242424; }
       .badge { color:var(--green); background:#edf9f0; padding:6px 8px; border-radius:999px; }
-      .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+      .button { display:inline-flex; align-items:center; min-height:38px; margin-top:auto; padding:8px 13px; border-radius:6px; background:var(--ink); color:#fff; font-size:14px; font-weight:600; text-decoration:none; }
+      .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+      .grid article { padding:20px; background:#fff; box-shadow:0 0 0 1px var(--line); border-radius:8px; }
       .grid h3 { margin:0 0 8px; font-size:18px; letter-spacing:-.02em; }
+      .grid a { color:var(--blue); font-weight:600; }
+      .pipeline { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; counter-reset:steps; }
+      .pipeline div { padding:18px; background:var(--blue-soft); border-radius:8px; }
+      .pipeline b { display:block; margin-bottom:4px; font:600 12px/1.3 ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--blue); }
       .notice { padding:20px 24px; background:var(--soft); border-left:3px solid var(--blue); }
       footer { padding:36px 0 56px; font-size:14px; color:var(--muted); }
-      @media (max-width:760px) { .wrap { width:min(100% - 32px,1120px); } .hero { padding:64px 0 52px; } .hero-grid,.grid { grid-template-columns:1fr; gap:28px; } .subscription { grid-template-columns:1fr; gap:10px; } .navlinks { gap:12px; font-size:13px; } main section { padding:56px 0; } }
+      @media (max-width:760px) { .wrap { width:min(100% - 32px,1120px); } .hero { padding:44px 0; } .hero-grid,.grid,.pipeline,.subscriptions { grid-template-columns:1fr; gap:14px; } .navlinks { gap:12px; font-size:13px; overflow:auto; white-space:nowrap; } main section { padding:52px 0; } }
       @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none!important; } }
     </style>
   </head>
   <body>
-    <header><nav class="wrap"><a class="brand" href="/">nodes.udptoos.com</a><div class="navlinks"><a href="#subscriptions">订阅</a><a href="/clash-subscription.html">Clash</a><a href="/v2rayn-subscription.html">V2RayN</a><a href="/shadowrocket-subscription.html">小火箭</a></div></nav></header>
+    <header><nav class="wrap"><a class="brand" href="/">nodes.udptoos.com</a><div class="navlinks"><a href="#subscriptions">订阅</a><a href="#clients">客户端</a><a href="#method">方法</a><a href="https://github.com/xyfqzy/free-nodes">GitHub</a></div></nav></header>
     <main>
-      <section class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Public subscription directory</div><h1>免费节点订阅，保持格式清晰。</h1><p>为 Clash、V2RayN 与 Shadowrocket 提供两种可直接导入的订阅格式，并公开说明更新来源、格式校验与使用限制。</p></div><aside class="status"><div class="eyebrow">Format policy</div><strong>只保留两种订阅</strong><p>Base64 用于通用 URI 客户端；Clash YAML 用于 Clash 系客户端。链接稳定，内容随上游数据更新。</p></aside></div></section>
-      <section id="subscriptions"><div class="wrap"><div class="eyebrow">Subscriptions</div><h2>订阅链接</h2><p>请复制完整链接，在客户端的“订阅”或“配置文件”入口添加。节点来源公开且可能随时失效，请自行判断风险。</p><div class="subscriptions"><div class="subscription"><strong>Base64</strong><code>https://nodes.udptoos.com/subscriptions/base64.txt</code><span class="badge">URI 格式</span></div><div class="subscription"><strong>Clash YAML</strong><code>https://nodes.udptoos.com/subscriptions/clash.yaml</code><span class="badge">YAML 格式</span></div></div></div></section>
-      <section id="clients"><div class="wrap"><div class="eyebrow">Client guides</div><h2>Clash、V2RayN 与小火箭怎么导入</h2><div class="grid"><article><h3>Clash 节点</h3><p>使用 Clash YAML 链接。在 Profiles 或配置订阅中粘贴 URL，下载后选择该配置。不同客户端名称略有差异。</p></article><article><h3>V2RayN 节点</h3><p>使用 Base64 链接。在“订阅分组”中添加 URL，更新订阅后从服务器列表选择节点。</p></article><article><h3>Shadowrocket / 小火箭</h3><p>使用 Base64 链接。点击右上角加号并选择 Subscribe，粘贴 URL 后更新。iOS 客户端版本不同，菜单文字可能不同。</p></article></div></div></section>
-      <section id="method"><div class="wrap"><div class="eyebrow">Methodology</div><h2>来源与检测方式</h2><div class="notice"><strong>格式校验，不承诺可用性。</strong><p>发布流程只保留可解析的 URI 与有效 YAML 文档，并去除空行和重复条目。网络连通性、速度与地区可用性会受运营商、时间和客户端设置影响，不将其表述为保证。</p></div></div></section>
+      <section class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Public subscription directory</div><h1>免费节点订阅：选对格式，直接导入。</h1><p>为 Clash、V2RayN、v2rayNG 与 Shadowrocket（小火箭）提供两种清晰的订阅格式；每两小时更新，并公开说明来源、命名和格式校验范围。</p></div><div class="choices"><a class="choice" href="#subscriptions"><div class="eyebrow">For V2RayN &amp; Shadowrocket</div><strong>Base64 通用订阅</strong><span>URI 格式，适合支持多协议订阅的客户端。</span></a><a class="choice" href="#subscriptions"><div class="eyebrow">For Clash &amp; Mihomo</div><strong>Clash YAML 配置</strong><span>YAML 格式，适合 Clash 系配置客户端。</span></a></div></div></section>
+      <section id="subscriptions"><div class="wrap"><div class="eyebrow">Subscriptions</div><h2>先按客户端选择订阅格式</h2><p>所有节点均统一显示为「国旗 + 国家缩写 - udptoos.com」。请复制完整链接，在客户端的订阅或配置入口添加。</p><div class="subscriptions"><article class="subscription"><span class="badge">V2RayN · Shadowrocket</span><strong>Base64 通用订阅</strong><code>https://nodes.udptoos.com/subscriptions/base64.txt</code><a class="button" href="/subscriptions/base64.txt">打开 Base64 订阅</a></article><article class="subscription"><span class="badge">Clash · Mihomo</span><strong>Clash YAML 配置</strong><code>https://nodes.udptoos.com/subscriptions/clash.yaml</code><a class="button" href="/subscriptions/clash.yaml">打开 Clash YAML</a></article></div></div></section>
+      <section id="clients"><div class="wrap"><div class="eyebrow">Client guides</div><h2>按你的客户端开始</h2><div class="grid"><article><h3>Clash 节点</h3><p>Clash Meta、Mihomo、Clash Verge 与 ClashX 使用 YAML 配置。</p><a href="/clash-subscription.html">查看 Clash 导入教程</a></article><article><h3>V2RayN 节点</h3><p>Windows 上通过订阅分组添加 Base64 链接，再执行更新订阅。</p><a href="/v2rayn-subscription.html">查看 V2RayN 教程</a></article><article><h3>小火箭节点</h3><p>在 Shadowrocket 的 Subscribe 入口添加 Base64 URL 并更新。</p><a href="/shadowrocket-subscription.html">查看小火箭教程</a></article></div></div></section>
+      <section id="method"><div class="wrap"><div class="eyebrow">Methodology</div><h2>公开来源，清楚说明处理过程</h2><div class="pipeline"><div><b>01 · SOURCE</b>读取公开 Base64 与 Clash YAML 数据源。</div><div><b>02 · NORMALIZE</b>解析 URI、校验 YAML，并按 IP 地理归属生成国旗和国家缩写。</div><div><b>03 · PUBLISH</b>只发布 Base64 与 Clash YAML 两种可直接导入的格式。</div></div><div class="notice"><strong>格式校验，不承诺可用性。</strong><p>公共节点的速度、稳定性和地区可用性会随网络环境变化；请不要用它们处理账号、支付或其他敏感信息。</p></div></div></section>
       <section><div class="wrap"><div class="eyebrow">Responsible use</div><h2>使用前请了解本地规则</h2><p>本页面仅提供格式与客户端导入说明。请遵守适用法律、服务条款和网络安全要求；不要将公共节点用于敏感账号、支付或其他需保密的数据传输。</p></div></section>
     </main>
     <footer class="wrap">最后更新由自动化工作流写入订阅文件。<a href="https://github.com/xyfqzy/free-nodes">GitHub 仓库</a></footer>
