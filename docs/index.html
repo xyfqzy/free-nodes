@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>免费节点订阅 | Clash、V2RayN 与 Shadowrocket 使用说明</title>
+    <meta name="description" content="提供 Base64 与 Clash YAML 两种订阅格式，并说明 Clash、V2RayN、Shadowrocket（小火箭）的导入方式、格式限制与安全提示。">
+    <link rel="canonical" href="https://nodes.udptoos.com/">
+    <meta property="og:title" content="免费节点订阅：Clash、V2RayN、Shadowrocket">
+    <meta property="og:description" content="两种订阅格式、导入说明与公开检测规则。">
+    <meta property="og:url" content="https://nodes.udptoos.com/">
+    <meta property="og:type" content="website">
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebSite","name":"Nodes","url":"https://nodes.udptoos.com/","inLanguage":"zh-CN","description":"Base64 与 Clash YAML 订阅格式及客户端导入说明。"}
+    </script>
+    <style>
+      :root { --ink:#171717; --muted:#4d4d4d; --line:#ebebeb; --paper:#fff; --soft:#fafafa; --blue:#0072f5; --green:#166534; }
+      * { box-sizing:border-box; }
+      html { scroll-behavior:smooth; }
+      body { margin:0; color:var(--ink); background:var(--paper); font:17px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
+      a { color:inherit; text-underline-offset:3px; }
+      a:focus-visible, button:focus-visible { outline:3px solid var(--blue); outline-offset:3px; }
+      .wrap { width:min(1120px,calc(100% - 40px)); margin:auto; }
+      header { border-bottom:1px solid var(--line); }
+      nav { height:64px; display:flex; align-items:center; justify-content:space-between; gap:16px; font-size:14px; }
+      .brand { font-weight:650; letter-spacing:-.04em; text-decoration:none; }
+      .navlinks { display:flex; gap:18px; color:var(--muted); }
+      .hero { padding:88px 0 72px; background:linear-gradient(90deg,rgba(0,114,245,.06) 1px,transparent 1px),linear-gradient(rgba(0,114,245,.06) 1px,transparent 1px); background-size:32px 32px; }
+      .hero-grid { display:grid; grid-template-columns:1.1fr .9fr; gap:64px; align-items:end; }
+      .eyebrow,.badge { font:500 12px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.08em; text-transform:uppercase; }
+      .eyebrow { color:var(--blue); }
+      h1 { margin:14px 0 18px; max-width:680px; font-size:clamp(42px,6vw,64px); line-height:1.03; letter-spacing:-.065em; }
+      h2 { margin:0 0 20px; font-size:32px; line-height:1.2; letter-spacing:-.045em; }
+      p { margin:0 0 16px; color:var(--muted); }
+      .hero p { max-width:600px; font-size:19px; }
+      .status { padding:24px; background:#fff; box-shadow:0 0 0 1px rgba(0,0,0,.08),0 12px 30px rgba(0,0,0,.05); border-radius:8px; }
+      .status strong { display:block; margin:8px 0; font-size:22px; letter-spacing:-.03em; }
+      .status p { margin:0; font-size:14px; }
+      main section { padding:72px 0; border-bottom:1px solid var(--line); }
+      .subscriptions { display:grid; gap:12px; }
+      .subscription { display:grid; grid-template-columns:132px 1fr auto; gap:18px; align-items:center; padding:20px; background:var(--soft); box-shadow:0 0 0 1px var(--line); border-radius:8px; }
+      .subscription code { min-width:0; overflow-wrap:anywhere; font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace; color:#242424; }
+      .badge { color:var(--green); background:#edf9f0; padding:6px 8px; border-radius:999px; }
+      .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+      .grid h3 { margin:0 0 8px; font-size:18px; letter-spacing:-.02em; }
+      .notice { padding:20px 24px; background:var(--soft); border-left:3px solid var(--blue); }
+      footer { padding:36px 0 56px; font-size:14px; color:var(--muted); }
+      @media (max-width:760px) { .wrap { width:min(100% - 32px,1120px); } .hero { padding:64px 0 52px; } .hero-grid,.grid { grid-template-columns:1fr; gap:28px; } .subscription { grid-template-columns:1fr; gap:10px; } .navlinks { gap:12px; font-size:13px; } main section { padding:56px 0; } }
+      @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none!important; } }
+    </style>
+  </head>
+  <body>
+    <header><nav class="wrap"><a class="brand" href="/">nodes.udptoos.com</a><div class="navlinks"><a href="#subscriptions">订阅</a><a href="#clients">客户端</a><a href="#method">检测方式</a></div></nav></header>
+    <main>
+      <section class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Public subscription directory</div><h1>免费节点订阅，保持格式清晰。</h1><p>为 Clash、V2RayN 与 Shadowrocket 提供两种可直接导入的订阅格式，并公开说明更新来源、格式校验与使用限制。</p></div><aside class="status"><div class="eyebrow">Format policy</div><strong>只保留两种订阅</strong><p>Base64 用于通用 URI 客户端；Clash YAML 用于 Clash 系客户端。链接稳定，内容随上游数据更新。</p></aside></div></section>
+      <section id="subscriptions"><div class="wrap"><div class="eyebrow">Subscriptions</div><h2>订阅链接</h2><p>请复制完整链接，在客户端的“订阅”或“配置文件”入口添加。节点来源公开且可能随时失效，请自行判断风险。</p><div class="subscriptions"><div class="subscription"><strong>Base64</strong><code>https://nodes.udptoos.com/subscriptions/base64.txt</code><span class="badge">URI 格式</span></div><div class="subscription"><strong>Clash YAML</strong><code>https://nodes.udptoos.com/subscriptions/clash.yaml</code><span class="badge">YAML 格式</span></div></div></div></section>
+      <section id="clients"><div class="wrap"><div class="eyebrow">Client guides</div><h2>Clash、V2RayN 与小火箭怎么导入</h2><div class="grid"><article><h3>Clash 节点</h3><p>使用 Clash YAML 链接。在 Profiles 或配置订阅中粘贴 URL，下载后选择该配置。不同客户端名称略有差异。</p></article><article><h3>V2RayN 节点</h3><p>使用 Base64 链接。在“订阅分组”中添加 URL，更新订阅后从服务器列表选择节点。</p></article><article><h3>Shadowrocket / 小火箭</h3><p>使用 Base64 链接。点击右上角加号并选择 Subscribe，粘贴 URL 后更新。iOS 客户端版本不同，菜单文字可能不同。</p></article></div></div></section>
+      <section id="method"><div class="wrap"><div class="eyebrow">Methodology</div><h2>来源与检测方式</h2><div class="notice"><strong>格式校验，不承诺可用性。</strong><p>发布流程只保留可解析的 URI 与有效 YAML 文档，并去除空行和重复条目。网络连通性、速度与地区可用性会受运营商、时间和客户端设置影响，不将其表述为保证。</p></div></div></section>
+      <section><div class="wrap"><div class="eyebrow">Responsible use</div><h2>使用前请了解本地规则</h2><p>本页面仅提供格式与客户端导入说明。请遵守适用法律、服务条款和网络安全要求；不要将公共节点用于敏感账号、支付或其他需保密的数据传输。</p></div></section>
+    </main>
+    <footer class="wrap">最后更新由自动化工作流写入订阅文件。<a href="https://github.com/xyfqzy/free-nodes">GitHub 仓库</a></footer>
+  </body>
+</html>
