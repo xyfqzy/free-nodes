@@ -34,3 +34,15 @@ jobs:
               raise SystemExit("robots.txt or sitemap.xml is missing")
           if not Path("docs/subscriptions/base64.txt").is_file() or not Path("docs/subscriptions/clash.yaml").is_file():
               raise SystemExit("A public subscription artifact is missing")
+          guides = (
+              "clash-subscription.html",
+              "v2rayn-subscription.html",
+              "shadowrocket-subscription.html",
+          )
+          sitemap = Path("docs/sitemap.xml").read_text(encoding="utf-8")
+          for guide in guides:
+              content = Path("docs", guide).read_text(encoding="utf-8")
+              if 'rel="canonical"' not in content or 'application/ld+json' not in content:
+                  raise SystemExit(f"Guide lacks indexable metadata: {guide}")
+              if guide not in sitemap:
+                  raise SystemExit(f"Guide is missing from sitemap: {guide}")
