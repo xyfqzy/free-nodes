@@ -25,10 +25,6 @@ def flag(code: str) -> str:
     return "".join(chr(127397 + ord(letter)) for letter in code.upper())
 
 
-def host_label(host: str) -> str:
-    return host.removeprefix("www.").lower() or "unknown"
-
-
 def resolve(host: str) -> tuple[str, str]:
     try:
         return host, socket.gethostbyname(host)
@@ -53,8 +49,8 @@ def country_codes(hosts: set[str]) -> dict[str, str]:
     return {host: by_address.get(address, "ZZ") for host, address in resolved.items()}
 
 
-def display_name(host: str, code: str, used: Counter[str]) -> str:
-    base = f"{flag(code)}{code} - {host_label(host)}" if code != "ZZ" else f"🌐ZZ - {host_label(host)}"
+def display_name(code: str, used: Counter[str]) -> str:
+    base = f"{flag(code)}{code} - udptoos.com" if code != "ZZ" else "🌐ZZ - udptoos.com"
     used[base] += 1
     return base if used[base] == 1 else f"{base} #{used[base]}"
 
@@ -91,7 +87,7 @@ def normalize_uris(source: str) -> str:
     hosts = {uri_host(uri) for uri in uris}
     codes = country_codes({host for host in hosts if host})
     used: Counter[str] = Counter()
-    return "\n".join(rename_uri(uri, display_name(uri_host(uri), codes.get(uri_host(uri), "ZZ"), used)) for uri in uris) + "\n"
+    return "\n".join(rename_uri(uri, display_name(codes.get(uri_host(uri), "ZZ"), used)) for uri in uris) + "\n"
 
 
 def normalize_clash(source: str) -> str:
@@ -104,7 +100,7 @@ def normalize_clash(source: str) -> str:
     for proxy in document["proxies"]:
         if isinstance(proxy, dict):
             host = str(proxy.get("server", ""))
-            proxy["name"] = display_name(host, codes.get(host, "ZZ"), used)
+            proxy["name"] = display_name(codes.get(host, "ZZ"), used)
     return yaml.safe_dump(document, allow_unicode=True, sort_keys=False)
 
 
