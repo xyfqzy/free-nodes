@@ -1,0 +1,50 @@
+name: Publish subscription artifacts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build two public subscription formats
+        shell: python
+        run: |
+          from __future__ import annotations
+
+          import base64
+          from pathlib import Path
+
+          source = Path("nodes/v2ray.txt")
+          clash_source = Path("nodes/clash.yaml")
+          target_dir = Path("docs/subscriptions")
+          target_dir.mkdir(parents=True, exist_ok=True)
+
+          uri_lines = [
+              line.strip()
+              for line in source.read_text(encoding="utf-8").splitlines()
+              if line.strip().startswith(("vmess://", "vless://", "ss://", "trojan://"))
+          ]
+          if not uri_lines:
+              raise SystemExit("No supported URI entries found")
+
+          clash_document = clash_source.read_text(encoding="utf-8")
+          if "proxies:" not in clash_document:
+              raise SystemExit("Clash document has no proxies section")
+
+          payload = "\n".join(dict.fromkeys(uri_lines)).encode("utf-8")
+          (target_dir / "base64.txt").write_text(base64.b64encode(payload).decode("ascii") + "\n", encoding="ascii")
+          (target_dir / "clash.yaml").write_text(clash_document, encoding="utf-8")
+      - name: Commit published artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/subscriptions/base64.txt docs/subscriptions/clash.yaml
+          git diff --cached --quiet || git commit -m "chore: refresh subscription artifacts"
+          git push
