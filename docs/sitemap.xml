@@ -5,4 +5,7 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+  <url><loc>https://nodes.udptoos.com/clash-subscription.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nodes.udptoos.com/v2rayn-subscription.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nodes.udptoos.com/shadowrocket-subscription.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
