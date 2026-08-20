@@ -1,79 +1,88 @@
-# 🚀 免费代理节点分享
+# 免费节点订阅：Clash、V2RayN 与 Shadowrocket 使用说明
 
-[![更新状态](https://github.com/xyfqzy/free-nodes/actions/workflows/update-nodes.yml/badge.svg)](https://github.com/xyfqzy/free-nodes/actions)
-[![节点数量](https://img.shields.io/badge/节点数量-动态更新-brightgreen)](https://github.com/xyfqzy/free-nodes)
-[![V2Ray](https://img.shields.io/badge/V2Ray-免费节点-blue)](https://github.com/xyfqzy/free-nodes)
-[![Shadowsocks](https://img.shields.io/badge/Shadowsocks-免费-red)](https://github.com/xyfqzy/free-nodes)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/fq521)
+面向 Clash、V2RayN、v2rayNG 与 Shadowrocket（小火箭）的公开订阅目录。项目只维护两种容易识别、便于导入的订阅格式：**Base64 通用订阅** 与 **Clash YAML 订阅**。
 
-> **关键词**: 免费V2Ray节点, 免费SS节点, Clash订阅, 科学上网, 翻墙工具, 免费代理, VPN节点, Shadowsocks免费, Trojan节点, 免费梯子, 机场分享
-TG群 https://t.me/fq521
-## 📋 节点列表
+> 项目主页：[nodes.udptoos.com](https://nodes.udptoos.com/) · 更新频率：每 2 小时 · 本仓库不承诺节点速度、稳定性或任何地区可用性。
 
-### 🔗 订阅链接
-- **V2Ray**: `https://raw.githubusercontent.com/xyfqzy/free-nodes/main/nodes/v2ray.txt`
-- **Clash**: `https://raw.githubusercontent.com/xyfqzy/free-nodes/main/nodes/clash.yaml`
-- **Shadowsocks**: `https://raw.githubusercontent.com/xyfqzy/free-nodes/main/nodes/shadowsocks.txt`
-- **Trojan**: `https://raw.githubusercontent.com/xyfqzy/free-nodes/main/nodes/trojan.txt`
+## 订阅链接
 
-### 📱 客户端推荐
-- **Windows**: [v2rayN](https://github.com/2dust/v2rayN/releases) 
-- **Android**: [v2rayNG](https://github.com/2dust/v2rayNG/releases) 
-- **iOS**: Shadowrocket | Quantumult X | Surge
-- **Mac**: [ClashX](https://github.com/yichengchen/clashX/releases) | [V2rayU](https://github.com/yanue/V2rayU/releases)
-- **Linux**: [v2ray-core](https://github.com/v2fly/v2ray-core/releases) | [clash](https://github.com/Dreamacro/clash/releases)
+| 格式 | 适用客户端 | 订阅链接 |
+| --- | --- | --- |
+| Base64（通用） | V2RayN、v2rayNG、Shadowrocket / 小火箭、支持 URI 订阅的客户端 | `https://nodes.udptoos.com/subscriptions/base64.txt` |
+| Clash YAML | Clash Meta、Mihomo、Clash Verge、ClashX 等 YAML 配置客户端 | `https://nodes.udptoos.com/subscriptions/clash.yaml` |
 
-## ⚡ 使用方法
+所有条目会以 `🇭🇰HK - udptoos.com` 这类格式展示：国旗与两位国家缩写用于识别出口位置，`udptoos.com` 是统一显示名称。相同国家可能附带序号，以避免客户端中的重名冲突。
 
-### 方法一：订阅链接
-1. 复制上面的订阅链接
-2. 在客户端中添加订阅
-3. 更新订阅获取最新节点
-4. 选择节点开始使用
+## 如何导入订阅
 
-### 方法二：手动导入
-1. 访问 [节点文件](https://github.com/xyfqzy/free-nodes/tree/main/nodes)
-2. 复制节点内容到客户端
-3. 测试连接速度选择最佳节点
+### Clash 节点 / Clash 订阅
 
-## 🔄 更新频率
+1. 复制 Clash YAML 链接。
+2. 在 Clash Meta、Mihomo、Clash Verge 或 ClashX 的「Profiles / 配置订阅」中添加 URL。
+3. 下载或更新配置后选择该配置文件。
 
-- **自动更新**: 每 **6 小时** 一次
-- **手动触发**: 点击 [Actions](https://github.com/xyfqzy/free-nodes/actions) 页面的 "Run workflow"
-- **数据来源**: 多个开源项目和免费节点分享
+Clash YAML 是完整配置格式，不应作为 Base64 订阅导入。
 
-## 📊 节点统计
+### V2RayN 节点
 
-实时统计数据请查看: [API接口](https://raw.githubusercontent.com/xyfqzy/free-nodes/main/api/nodes.json)
+1. 复制 Base64 通用订阅链接。
+2. 在 V2RayN 中打开「订阅分组」，添加订阅 URL。
+3. 点击更新订阅，再从服务器列表选择节点。
 
-## 🔥 热门搜索关键词
-- 免费V2Ray节点 | Free V2Ray Nodes
-- 免费Shadowsocks账号 | Free SS Accounts  
-- Clash订阅链接 | Clash Subscription
-- 科学上网工具 | Circumvention Tools
-- 翻墙软件推荐 | VPN Software
-- 免费代理服务器 | Free Proxy Servers
-- 高速稳定节点 | High-Speed Stable Nodes
+### Shadowrocket / 小火箭节点
 
-## ⚠️ 免责声明
+1. 复制 Base64 通用订阅链接。
+2. 在 Shadowrocket 点击右上角加号，选择 **Subscribe**。
+3. 粘贴 URL 并完成添加，之后从订阅列表更新。
 
-- 本项目仅供学习交流使用
-- 请遵守当地法律法规
-- 节点来源于网络，稳定性不保证
-- 请勿用于非法用途
-- 使用前请了解相关风险
+不同客户端版本的菜单文字可能略有不同；无法导入时，请优先检查订阅格式是否选对。
 
-## 📞 反馈与建议
+## 节点命名与 GEO 信息
 
-- 🐛 [报告问题](https://github.com/xyfqzy/free-nodes/issues)
-- 💡 [功能建议](https://github.com/xyfqzy/free-nodes/discussions)
-- ⭐ 如果对你有帮助，请给个 Star
+节点名称按出口 IP 的公开地理归属生成国家缩写与国旗。例如 `🇭🇰HK - udptoos.com` 代表该节点解析到的 IP 归属为香港（HK）。地理数据库存在滞后或误差，国家信息仅用于筛选与识别，不代表服务提供者、线路质量或真实物理位置。
 
-## 🤝 贡献
+## 数据来源与检测方式
 
-欢迎提交 Pull Request 来改进这个项目！
+每两小时自动读取以下公开订阅源，并生成本仓库的两种统一输出：
 
----
-**最后更新**: `2025-06-26 08:30:00 UTC`
+- Clash / Standard：`https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/all.yaml`
+- Base64 通用：`https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/base64.txt`
 
-**Star ⭐ 这个项目来获取最新更新！**
+发布前会执行：
+
+1. 解析可识别的 `vmess`、`vless`、`ss`、`trojan` URI；
+2. 移除空记录，生成统一 Base64 订阅；
+3. 校验 Clash 文档含有 `proxies` 列表；
+4. 解析节点主机并根据公开 IP 地理数据统一命名。
+
+这属于**格式与数据完整性校验**，不是速度测试、可用性测试或安全认证。公共节点的连通性会随时间、网络和地区变化。
+
+## 常见问题
+
+### 免费节点订阅为什么会失效？
+
+上游公开节点会被关闭、限流或改变配置；因此请在客户端中定期更新订阅，并不要把公共节点用于账号登录、支付或其他敏感数据。
+
+### Clash、V2RayN 和小火箭该使用哪个链接？
+
+优先按客户端选择：Clash / Mihomo 使用 Clash YAML；V2RayN 与 Shadowrocket 使用 Base64 通用链接。
+
+### 为什么名称后缀都是 udptoos.com？
+
+这是项目的统一展示名称，避免向用户展示杂乱或可能误导的上游备注。实际地址、端口、协议和传输参数不会因显示名称而变化。
+
+### 这个项目是机场吗？
+
+不是。项目不销售服务、不提供账号，也不保证节点可用性；它只是整理公开订阅格式与客户端导入说明。
+
+## 使用与安全提示
+
+- 请遵守所在地法律、网络规则及服务条款。
+- 公共节点不适合敏感账号、支付、个人资料或机密文件传输。
+- 请自行判断来源、风险与客户端安全设置。
+- 如发现格式问题，请通过 [Issues](https://github.com/xyfqzy/free-nodes/issues) 提交可复现信息。
+
+## SEO 与站点入口
+
+仓库首页与 [nodes.udptoos.com](https://nodes.udptoos.com/) 使用一致的订阅入口。站点包含 canonical、结构化数据、robots.txt 与 sitemap.xml，方便搜索引擎理解页面用途；内容聚焦 Clash 节点、V2RayN 节点、Shadowrocket 节点和免费订阅的实际导入流程，而非承诺无法验证的“高速”或“稳定”。
+
