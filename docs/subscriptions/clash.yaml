@@ -1,12 +1,12 @@
 proxies:
-- name: 🇳🇱NL - 84.17.47.125
+- name: 🇳🇱NL - udptoos.com
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇳🇱NL - 84.17.47.125 #2'
+- name: '🇳🇱NL - udptoos.com #2'
   password: None
   port: 9002
   server: 84.17.47.125
@@ -14,56 +14,56 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇳🇱NL - 84.17.47.150
+- name: '🇳🇱NL - udptoos.com #3'
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇳🇱NL - 84.17.47.148
+- name: '🇳🇱NL - udptoos.com #4'
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇳🇱NL - 84.17.47.149
+- name: '🇳🇱NL - udptoos.com #5'
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.59
+- name: 🇷🇴RO - udptoos.com
   port: 9002
   server: 84.239.49.59
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.14.153
+- name: '🇷🇴RO - udptoos.com #2'
   port: 9002
   server: 84.239.14.153
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.181
+- name: '🇷🇴RO - udptoos.com #3'
   port: 9002
   server: 84.239.49.181
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.38
+- name: '🇷🇴RO - udptoos.com #4'
   port: 9002
   server: 84.239.49.38
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇷🇴RO - 84.239.49.181 #2'
+- name: '🇷🇴RO - udptoos.com #5'
   password: None
   port: 9002
   server: 84.239.49.181
@@ -71,14 +71,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.162
+- name: '🇷🇴RO - udptoos.com #6'
   port: 9002
   server: 84.239.49.162
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.201
+- name: '🇷🇴RO - udptoos.com #7'
   password: None
   port: 9002
   server: 84.239.49.201
@@ -86,21 +86,21 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.244
+- name: '🇷🇴RO - udptoos.com #8'
   port: 9002
   server: 84.239.49.244
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.189
+- name: '🇷🇴RO - udptoos.com #9'
   port: 9002
   server: 84.239.49.189
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.155
+- name: '🇷🇴RO - udptoos.com #10'
   password: None
   port: 9002
   server: 84.239.49.155
@@ -108,14 +108,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.168
+- name: '🇷🇴RO - udptoos.com #11'
   port: 9002
   server: 84.239.49.168
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.235
+- name: '🇷🇴RO - udptoos.com #12'
   password: None
   port: 9002
   server: 84.239.49.235
@@ -123,21 +123,21 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.176
+- name: '🇷🇴RO - udptoos.com #13'
   port: 9002
   server: 84.239.49.176
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.43
+- name: '🇷🇴RO - udptoos.com #14'
   port: 9002
   server: 84.239.49.43
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.14.157
+- name: '🇷🇴RO - udptoos.com #15'
   password: None
   port: 9002
   server: 84.239.14.157
@@ -145,28 +145,28 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.229
+- name: '🇷🇴RO - udptoos.com #16'
   port: 9002
   server: 84.239.49.229
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.203
+- name: '🇷🇴RO - udptoos.com #17'
   port: 9002
   server: 84.239.49.203
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.241
+- name: '🇷🇴RO - udptoos.com #18'
   port: 9002
   server: 84.239.49.241
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.209
+- name: '🇷🇴RO - udptoos.com #19'
   password: None
   port: 9002
   server: 84.239.49.209
@@ -174,77 +174,77 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.40
+- name: '🇷🇴RO - udptoos.com #20'
   port: 9002
   server: 84.239.49.40
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.14.147
+- name: '🇷🇴RO - udptoos.com #21'
   port: 9002
   server: 84.239.14.147
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.14.159
+- name: '🇷🇴RO - udptoos.com #22'
   port: 9002
   server: 84.239.14.159
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.14.156
+- name: '🇷🇴RO - udptoos.com #23'
   port: 9002
   server: 84.239.14.156
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.199
+- name: '🇷🇴RO - udptoos.com #24'
   port: 9002
   server: 84.239.49.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 193.176.84.35
+- name: '🇷🇴RO - udptoos.com #25'
   port: 9002
   server: 193.176.84.35
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 193.176.84.17
+- name: '🇷🇴RO - udptoos.com #26'
   port: 9002
   server: 193.176.84.17
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.192
+- name: '🇷🇴RO - udptoos.com #27'
   port: 9002
   server: 84.239.49.192
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.225
+- name: '🇷🇴RO - udptoos.com #28'
   port: 9002
   server: 84.239.49.225
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.233
+- name: '🇷🇴RO - udptoos.com #29'
   port: 9002
   server: 84.239.49.233
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.58
+- name: '🇷🇴RO - udptoos.com #30'
   password: 'null'
   port: 9002
   server: 84.239.49.58
@@ -253,63 +253,63 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 🇷🇴RO - 84.239.49.179
+- name: '🇷🇴RO - udptoos.com #31'
   port: 9002
   server: 84.239.49.179
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.245
+- name: '🇷🇴RO - udptoos.com #32'
   port: 9002
   server: 84.239.49.245
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.161
+- name: '🇷🇴RO - udptoos.com #33'
   port: 9002
   server: 84.239.49.161
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.254
+- name: '🇷🇴RO - udptoos.com #34'
   port: 9002
   server: 84.239.49.254
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.200
+- name: '🇷🇴RO - udptoos.com #35'
   port: 9002
   server: 84.239.49.200
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.240
+- name: '🇷🇴RO - udptoos.com #36'
   port: 9002
   server: 84.239.49.240
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.217
+- name: '🇷🇴RO - udptoos.com #37'
   port: 9002
   server: 84.239.49.217
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.182
+- name: '🇷🇴RO - udptoos.com #38'
   port: 9002
   server: 84.239.49.182
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.197
+- name: '🇷🇴RO - udptoos.com #39'
   password: None
   port: 9002
   server: 84.239.49.197
@@ -317,14 +317,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.41
+- name: '🇷🇴RO - udptoos.com #40'
   port: 9002
   server: 84.239.49.41
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.62
+- name: '🇷🇴RO - udptoos.com #41'
   password: None
   port: 9002
   server: 84.239.49.62
@@ -332,14 +332,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.14.155
+- name: '🇷🇴RO - udptoos.com #42'
   port: 9002
   server: 84.239.14.155
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.252
+- name: '🇷🇴RO - udptoos.com #43'
   password: None
   port: 9002
   server: 84.239.49.252
@@ -347,21 +347,21 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.191
+- name: '🇷🇴RO - udptoos.com #44'
   port: 9002
   server: 84.239.49.191
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.170
+- name: '🇷🇴RO - udptoos.com #45'
   port: 9002
   server: 84.239.49.170
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.194
+- name: '🇷🇴RO - udptoos.com #46'
   password: None
   port: 9002
   server: 84.239.49.194
@@ -369,63 +369,63 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.214
+- name: '🇷🇴RO - udptoos.com #47'
   port: 9002
   server: 84.239.49.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.39
+- name: '🇷🇴RO - udptoos.com #48'
   port: 9002
   server: 84.239.49.39
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.207
+- name: '🇷🇴RO - udptoos.com #49'
   port: 9002
   server: 84.239.49.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.37
+- name: '🇷🇴RO - udptoos.com #50'
   port: 9002
   server: 84.239.49.37
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.234
+- name: '🇷🇴RO - udptoos.com #51'
   port: 9002
   server: 84.239.49.234
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.211
+- name: '🇷🇴RO - udptoos.com #52'
   port: 9002
   server: 84.239.49.211
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.239
+- name: '🇷🇴RO - udptoos.com #53'
   port: 9002
   server: 84.239.49.239
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.187
+- name: '🇷🇴RO - udptoos.com #54'
   port: 9002
   server: 84.239.49.187
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.242
+- name: '🇷🇴RO - udptoos.com #55'
   password: None
   port: 9002
   server: 84.239.49.242
@@ -433,7 +433,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 193.176.84.31
+- name: '🇷🇴RO - udptoos.com #56'
   password: None
   port: 9002
   server: 193.176.84.31
@@ -441,7 +441,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - 84.239.49.186
+- name: '🇷🇴RO - udptoos.com #57'
   port: 9002
   server: 84.239.49.186
   skip-cert-verify: true
@@ -451,7 +451,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB - 138.124.125.211
+  name: 🇬🇧GB - udptoos.com
   network: tcp
   port: '443'
   reality-opts:
@@ -464,7 +464,7 @@ proxies:
   udp: true
   uuid: 1996007c-e7bc-464b-999b-cac28cec6c3e
   xudp: true
-- name: 🇬🇧GB - 212.58.132.5
+- name: '🇬🇧GB - udptoos.com #2'
   password: ''
   port: '1080'
   server: 212.58.132.5
@@ -473,7 +473,7 @@ proxies:
   username: ''
 - down: ''
   fingerprint: ''
-  name: 🇸🇬SG - 140.99.130.34
+  name: 🇸🇬SG - udptoos.com
   obfs: ''
   obfs-password: ''
   password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
@@ -487,7 +487,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇨🇦CA - 162.159.136.234
+  name: 🇨🇦CA - udptoos.com
   network: ws
   password: humanity
   port: '443'
@@ -503,7 +503,7 @@ proxies:
     path: /assignment
 - down: ''
   fingerprint: ''
-  name: '🇸🇬SG - 140.99.130.34 #2'
+  name: '🇸🇬SG - udptoos.com #2'
   obfs: ''
   obfs-password: ''
   password: 1427eb10-7529-4d38-a6a2-01b337868b37
@@ -515,7 +515,7 @@ proxies:
   up: ''
 - down: ''
   fingerprint: ''
-  name: 🇷🇺RU - els1.mangshe.xyz
+  name: 🇷🇺RU - udptoos.com
   obfs: ''
   obfs-password: ''
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
@@ -527,7 +527,7 @@ proxies:
   up: ''
 - down: ''
   fingerprint: ''
-  name: 🇦🇺AU - vpn-au-002.fastervpn.world
+  name: 🇦🇺AU - udptoos.com
   obfs: ''
   obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -539,7 +539,7 @@ proxies:
   up: ''
 - auth: ce91dfcc-c596-4b5a-b738-25344bd610e6
   down: 100 Mbps
-  name: 🇺🇸US - tissues-halls.tun.ply.gg
+  name: 🇺🇸US - udptoos.com
   password: ce91dfcc-c596-4b5a-b738-25344bd610e6
   port: 32926
   server: tissues-halls.tun.ply.gg
@@ -550,7 +550,7 @@ proxies:
   up: 100 Mbps
 - auth: fa66f1e6-b12e-4f21-8597-1ad4dd7654b1
   down: 100 Mbps
-  name: '🇺🇸US - tissues-halls.tun.ply.gg #2'
+  name: '🇺🇸US - udptoos.com #2'
   password: fa66f1e6-b12e-4f21-8597-1ad4dd7654b1
   port: 32926
   server: tissues-halls.tun.ply.gg
@@ -559,7 +559,7 @@ proxies:
   type: hysteria2
   udp: true
   up: 100 Mbps
-- name: 🇹🇼TW - tw3.catzl.top
+- name: 🇹🇼TW - udptoos.com
   password: 4d5296a3-3fd4-4a85-a93c-f3099a8017ef
   port: 40073
   server: tw3.catzl.top
@@ -567,7 +567,7 @@ proxies:
   udp: true
 - auth: 402df54f-d686-4785-b5da-14ed5f257860
   down: 100 Mbps
-  name: '🇺🇸US - tissues-halls.tun.ply.gg #3'
+  name: '🇺🇸US - udptoos.com #3'
   password: 402df54f-d686-4785-b5da-14ed5f257860
   port: 32926
   server: tissues-halls.tun.ply.gg
@@ -576,38 +576,38 @@ proxies:
   type: hysteria2
   udp: true
   up: 100 Mbps
-- name: 🇻🇳VN - vn3.nbjc.top
+- name: 🇻🇳VN - udptoos.com
   password: 2bff2128-daa3-4364-9a0a-f88a56cdb009
   port: 11683
   server: vn3.nbjc.top
   type: anytls
   udp: true
-- name: 🇻🇳VN - vn2.nbjc.top
+- name: '🇻🇳VN - udptoos.com #2'
   password: 2bff2128-daa3-4364-9a0a-f88a56cdb009
   port: 11682
   server: vn2.nbjc.top
   type: anytls
   udp: true
-- name: 🇺🇸US - us2.catzl.top
+- name: '🇺🇸US - udptoos.com #4'
   password: 2bff2128-daa3-4364-9a0a-f88a56cdb009
   port: 40022
   server: us2.catzl.top
   type: anytls
   udp: true
-- name: 🇰🇷KR - kr2.catzl.top
+- name: 🇰🇷KR - udptoos.com
   password: 2bff2128-daa3-4364-9a0a-f88a56cdb009
   port: 40042
   server: kr2.catzl.top
   type: anytls
   udp: true
-- name: '🇺🇸US - us2.catzl.top #2'
+- name: '🇺🇸US - udptoos.com #5'
   password: 4d5296a3-3fd4-4a85-a93c-f3099a8017ef
   port: 40022
   server: us2.catzl.top
   type: anytls
   udp: true
 - auth: 2bc2efc9-1943-4b2e-9412-43190d5099e4
-  name: '🇺🇸US - tissues-halls.tun.ply.gg #4'
+  name: '🇺🇸US - udptoos.com #6'
   password: 2bc2efc9-1943-4b2e-9412-43190d5099e4
   port: 32926
   server: tissues-halls.tun.ply.gg
@@ -616,7 +616,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 0ff75485-7f48-41e8-8152-3c70d9d87654
-  name: '🇺🇸US - tissues-halls.tun.ply.gg #5'
+  name: '🇺🇸US - udptoos.com #7'
   password: 0ff75485-7f48-41e8-8152-3c70d9d87654
   port: 32926
   server: tissues-halls.tun.ply.gg
@@ -625,7 +625,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 249d2fc6-b772-4265-b5fb-17f0267ee3f2
-  name: '🇺🇸US - tissues-halls.tun.ply.gg #6'
+  name: '🇺🇸US - udptoos.com #8'
   password: 249d2fc6-b772-4265-b5fb-17f0267ee3f2
   port: 32926
   server: tissues-halls.tun.ply.gg
@@ -634,7 +634,7 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
-  name: 🇳🇱NL - 167.172.32.216
+  name: '🇳🇱NL - udptoos.com #6'
   network: ws
   port: 2053
   server: 167.172.32.216
@@ -649,7 +649,7 @@ proxies:
       Host: forfreeuse.rtqa.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪DE - 3.126.23.194
+  name: 🇩🇪DE - udptoos.com
   network: ws
   port: 443
   server: 3.126.23.194
@@ -663,7 +663,7 @@ proxies:
     headers:
       Host: hys40.wba-pn.ru
     path: /
-- name: 🇵🇱PL - pl4.lckdwn.ru
+- name: 🇵🇱PL - udptoos.com
   network: ws
   port: 443
   server: pl4.lckdwn.ru
@@ -677,7 +677,7 @@ proxies:
       Host: pl4.lckdwn.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪DE - 94.159.101.254
+  name: '🇩🇪DE - udptoos.com #2'
   network: ws
   port: 443
   server: 94.159.101.254
@@ -692,7 +692,7 @@ proxies:
       Host: hys40.wba-pn.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪DE - 185.126.117.253
+  name: '🇩🇪DE - udptoos.com #3'
   network: ws
   port: 443
   server: 185.126.117.253
@@ -707,7 +707,7 @@ proxies:
       Host: hys40.wba-pn.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇳🇱NL - 212.34.138.242
+  name: '🇳🇱NL - udptoos.com #7'
   network: ws
   port: 443
   server: 212.34.138.242
@@ -722,7 +722,7 @@ proxies:
       Host: hys40.wba-pn.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇫🇷FR - 45.155.103.57
+  name: 🇫🇷FR - udptoos.com
   network: ws
   port: 443
   server: 45.155.103.57
@@ -737,7 +737,7 @@ proxies:
       Host: hys40.wba-pn.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇳🇱NL - 134.209.205.250
+  name: '🇳🇱NL - udptoos.com #8'
   network: ws
   port: 2053
   server: 134.209.205.250
@@ -752,7 +752,7 @@ proxies:
       Host: forfreeuse.rtqa.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇫🇮FI - 45.142.142.27
+  name: 🇫🇮FI - udptoos.com
   network: ws
   port: 443
   server: 45.142.142.27
@@ -767,7 +767,7 @@ proxies:
       Host: hys40.wba-pn.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇫🇷FR - 162.19.13.248
+  name: '🇫🇷FR - udptoos.com #2'
   network: ws
   port: 2053
   server: 162.19.13.248
@@ -782,7 +782,7 @@ proxies:
       Host: forfreeuse.rtqa.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇳🇱NL - 89.110.116.183
+  name: '🇳🇱NL - udptoos.com #9'
   network: ws
   port: 2053
   server: 89.110.116.183
@@ -797,7 +797,7 @@ proxies:
       Host: forfreeuse.rtqa.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪DE - 64.188.71.30
+  name: '🇩🇪DE - udptoos.com #4'
   network: ws
   port: 443
   server: 64.188.71.30
@@ -812,7 +812,7 @@ proxies:
       Host: hys40.wba-pn.ru
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪DE - 94.159.104.158
+  name: '🇩🇪DE - udptoos.com #5'
   network: ws
   port: 443
   server: 94.159.104.158
@@ -826,7 +826,7 @@ proxies:
     headers:
       Host: hys40.wba-pn.ru
     path: /
-- name: '🇵🇱PL - pl4.lckdwn.ru #2'
+- name: '🇵🇱PL - udptoos.com #2'
   network: ws
   port: 443
   server: pl4.lckdwn.ru
@@ -839,7 +839,7 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: edge
-  name: 🇨🇦CA - cfd.130209.xyz
+  name: '🇨🇦CA - udptoos.com #2'
   network: ws
   port: '443'
   server: cfd.130209.xyz
@@ -857,7 +857,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇫🇮FI - 163.5.153.153
+  name: '🇫🇮FI - udptoos.com #2'
   network: raw
   port: '443'
   reality-opts:
@@ -872,7 +872,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇺🇸US - us.opngtr.nl
+  name: '🇺🇸US - udptoos.com #9'
   network: tcp
   port: '443'
   reality-opts:
