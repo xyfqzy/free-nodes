@@ -1,0 +1,36 @@
+name: SEO health check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 3 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify SEO and subscription surfaces
+        shell: python
+        run: |
+          from pathlib import Path
+
+          page = Path("docs/index.html").read_text(encoding="utf-8")
+          required = (
+              '<title>',
+              'name="description"',
+              'rel="canonical"',
+              'application/ld+json',
+              'https://nodes.udptoos.com/subscriptions/base64.txt',
+              'https://nodes.udptoos.com/subscriptions/clash.yaml',
+          )
+          missing = [item for item in required if item not in page]
+          if missing:
+              raise SystemExit(f"Missing required SEO surface: {missing}")
+          if not Path("docs/robots.txt").is_file() or not Path("docs/sitemap.xml").is_file():
+              raise SystemExit("robots.txt or sitemap.xml is missing")
+          if not Path("docs/subscriptions/base64.txt").is_file() or not Path("docs/subscriptions/clash.yaml").is_file():
+              raise SystemExit("A public subscription artifact is missing")
