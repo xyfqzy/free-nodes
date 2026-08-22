@@ -495,14 +495,14 @@ proxies:
   uuid: fb520c26-b22f-49ac-8959-81a5502c446c
   xudp: true
 - auth: 3703ccc0-ae74-49bd-b9d7-0897192bf8c4
-  name: '🇺🇸US - udptoos.com #3'
+  name: 🇵🇱PL - udptoos.com
   password: 3703ccc0-ae74-49bd-b9d7-0897192bf8c4
   port: 443
   server: node.embrofree.org
   skip-cert-verify: true
   sni: node.embrofree.org
   type: hysteria2
-- name: '🇺🇸US - udptoos.com #4'
+- name: '🇺🇸US - udptoos.com #3'
   obfs: ''
   obfs-password: ''
   password: gf1:gfhysteria2024
@@ -531,7 +531,7 @@ proxies:
 - alpn:
   - h3
   auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  name: '🇺🇸US - udptoos.com #5'
+  name: '🇺🇸US - udptoos.com #4'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: pl94.mechvpn.online
@@ -547,7 +547,7 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   type: hysteria2
 - auth: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  name: '🇺🇸US - udptoos.com #6'
+  name: '🇺🇸US - udptoos.com #5'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8443
   server: 103.246.248.226
