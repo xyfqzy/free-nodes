@@ -1,159 +1,133 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇨🇳CN - udptoos.com
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-- cipher: aes-256-cfb
   name: 🇬🇧GB - udptoos.com
   password: amazonskr05
   port: 443
-  server: 13.135.73.177
+  server: 13.135.73.3
   type: ss
-- name: 🇮🇳IN - udptoos.com
-  password: ''
-  port: '1088'
-  server: 144.24.111.128
+- cipher: aes-256-cfb
+  name: '🇬🇧GB - udptoos.com #2'
+  password: amazonskr05
+  port: 443
+  server: 35.178.212.194
+  type: ss
+- name: 🇺🇸US - udptoos.com
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20068
+  server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
-  type: socks5
-  username: ''
-- down: ''
-  fingerprint: ''
+  sni: hk.catxstar.com
+  type: trojan
+- cipher: aes-256-gcm
   name: 🇸🇬SG - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: '443'
-  server: 13.228.168.117
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-  up: ''
+  password: rjV4WyP9ts5eEGsr
+  port: 31352
+  server: general-live-13877.holphappyeveryday.com
+  type: ss
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🇬🇧GB - udptoos.com #3'
+  password: Zgnzl2S6ae8VJygD6VyKAT7t/mX5afzPwvEOH2Ekrvg=
+  port: 61312
+  server: 129.151.75.231
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷FR - udptoos.com
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  type: ss
 - cipher: aes-256-cfb
   name: 🇮🇪IE - udptoos.com
   password: amazonskr05
-  port: '443'
+  port: 443
   server: 34.252.199.48
   type: ss
-  udp: true
-- name: 🇻🇳VN - udptoos.com
-  password: c38c4c71-345e-4cac-a4c5-989b309451c5
-  port: 11682
-  server: vn2.nbjc.top
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰HK - udptoos.com
-  password: 7ab8660c-1759-4cf2-a93c-e5406c0e617a
-  port: 12345
-  server: 202.155.141.87
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🇸🇬SG - udptoos.com #2'
+  password: 8C+C41HLztRjvq+sf6K94V2i+6SYGHN/ldg2UttNNY4=
+  port: 56927
+  server: 129.150.48.175
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇭🇰HK - udptoos.com #2'
-  password: bc7f2c77-3bb2-4612-b256-0cb8383b9791
-  port: 12345
-  server: 202.155.141.87
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇭🇰HK - udptoos.com #3'
-  password: cffd20b5-0c68-43f7-ac7f-5f02fcfa4535
-  port: 12345
-  server: 202.155.141.87
-  type: ss
-  udp: true
-- name: '🇻🇳VN - udptoos.com #2'
-  password: 13d3e0c5-711e-4d9e-9323-9ba28f8fc70d
-  port: 11682
-  server: vn2.nbjc.top
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇭🇰HK - udptoos.com #4'
-  password: be6cbb46-ebb0-4726-9202-6a3bac1d0afb
-  port: 12345
-  server: 202.155.141.87
-  type: ss
-  udp: true
-- name: '🇻🇳VN - udptoos.com #3'
-  password: c38c4c71-345e-4cac-a4c5-989b309451c5
-  port: 11681
-  server: vn1.nbjc.top
-  type: anytls
-  udp: true
-- name: 🇺🇸US - udptoos.com
-  password: 13d3e0c5-711e-4d9e-9323-9ba28f8fc70d
-  port: 40022
-  server: us2.catzl.top
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇭🇰HK - udptoos.com #5'
-  password: 22b9e864-fae0-4928-916e-66e8280c90c9
-  port: 12345
-  server: 202.155.141.87
-  type: ss
-  udp: true
-- name: '🇭🇰HK - udptoos.com #6'
-  password: c38c4c71-345e-4cac-a4c5-989b309451c5
-  port: 40011
-  server: hk1.catzl.top
-  type: anytls
-  udp: true
-- name: '🇻🇳VN - udptoos.com #4'
-  password: 13d3e0c5-711e-4d9e-9323-9ba28f8fc70d
-  port: 11683
-  server: vn3.nbjc.top
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇭🇰HK - udptoos.com #7'
-  password: 5d79906d-89ab-430b-acbc-3327568a5be3
-  port: 12345
-  server: 202.155.141.87
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇭🇰HK - udptoos.com #8'
-  password: b1f03070-791a-41d8-889f-4d545aa495ef
-  port: 12345
-  server: 202.155.141.87
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇭🇰HK - udptoos.com #9'
-  password: e936372a-d976-4e25-8b3b-29c1a5841e06
-  port: 12345
-  server: 202.155.141.87
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇭🇰HK - udptoos.com #10'
-  password: e0cc75c8-5f0a-4d16-b6b4-7e87759af006
-  port: 12345
-  server: 202.155.141.87
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇭🇰HK - udptoos.com #11'
-  password: 5017b1a2-1d9d-4bec-a4cc-43706bbdd0d7
-  port: 12345
-  server: 202.155.141.87
-  type: ss
-  udp: true
-- client-fingerprint: chrome
+- encryption: none
+  http-opts:
+    path:
+    - /
   name: 🇩🇪DE - udptoos.com
+  network: http
+  packet-encoding: xudp
+  port: 3389
+  server: 94.237.102.117
+  type: vless
+  uuid: fc9bf9b8-06b5-4244-aea5-75a460ec5066
+- name: 🇯🇵JP - udptoos.com
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 443
+  server: jd-us77.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: jd-us77.y1static-content-distribution.shop
+  type: anytls
+- cipher: aes-256-cfb
+  name: '🇮🇪IE - udptoos.com #2'
+  password: amazonskr05
+  port: 443
+  server: 34.254.226.220
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬SG - udptoos.com #3'
+  network: none
+  port: 53386
+  server: x-ui.zxhh.top
+  tls: false
+  type: vmess
+  uuid: 32e75662-c1ed-4e8d-f78c-3dcc685cc795
+- name: '🇺🇸US - udptoos.com #2'
   network: tcp
-  port: '8053'
-  reality-opts:
-    public-key: hjJ1VN2xwcl1n7vrwvOspB2NFWrXNySUNPexutOVvAM
-    short-id: 109754c5259066d1
-  server: 45.134.38.204
-  servername: www.amd.com
-  tls: true
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: '🇬🇧GB - udptoos.com #4'
+  port: 5002
+  server: 92.48.125.152
+  type: http
+- cipher: aes-256-cfb
+  name: '🇮🇪IE - udptoos.com #3'
+  password: amazonskr05
+  port: 443
+  server: 54.247.216.201
+  type: ss
+  udp: true
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇨🇦CA - udptoos.com
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-ca-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-ca-002.fastervpn.world
+  type: hysteria2
+  udp: true
+- encryption: none
+  name: 🇹🇼TW - udptoos.com
+  network: tcp
+  port: '10000'
+  server: 220.130.75.250
   type: vless
   udp: true
-  uuid: a88e2744-3555-4a0a-9635-0aae23e038f8
+  uuid: 6f361c37-bc54-43dd-8c8b-0f59354745a5
   xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇵🇱PL - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  port: '443'
+  server: 45.192.12.93
+  skip-cert-verify: false
+  sni: admin.wwwinternetvideo.click
+  type: hysteria2
+  up: ''
