@@ -1,38 +1,8 @@
 proxies:
-- encryption: none
-  name: 🇺🇸US - udptoos.com
-  network: ws
-  port: '8880'
-  server: 45.40.149.50
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime39.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇳🇱NL - udptoos.com
-  network: ws
-  port: '80'
-  server: 91.206.71.8
-  type: vless
-  udp: true
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  ws-opts:
-    headers:
-      Host: round-haze-8783.294.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /pyip=Telegram🇨🇳+@WangCai2
-  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #2'
+  name: 🇺🇸US - udptoos.com
   network: ws
   password: humanity
   port: '443'
@@ -43,8 +13,23 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇹🇷TR - udptoos.com
+  network: ws
+  password: humanity
+  port: '443'
+  server: 86.38.214.205
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: 🇮🇷IR - udptoos.com
@@ -58,12 +43,12 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   encryption: none
-  name: '🇺🇸US - udptoos.com #3'
+  name: '🇺🇸US - udptoos.com #2'
   network: ws
   port: '443'
   server: 199.232.78.159
@@ -75,64 +60,9 @@ proxies:
   ws-opts:
     headers:
       Host: pane3.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇺🇸US - udptoos.com #4'
-  network: ws
-  port: '443'
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 27315937-5479-49fd-867d-6b2f17246708
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #5'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 130.250.137.171
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /assignment
-- name: 🇨🇭CH - udptoos.com
-  password: 1Telegram_MojiVPN
-  port: '1080'
-  server: ch-zur.pvdata.host
-  skip-cert-verify: true
-  type: socks5
-  username: N9cyF6jvgy3ZEmCNKe04zBIR
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇳🇱NL - udptoos.com #2'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
-    short-id: 82f5d3a1e9c0b661
-  server: 85.155.226.156
-  servername: getsavesafe.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
   xudp: true
 - alpn:
   - h2
@@ -149,9 +79,16 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /assignment
+- name: 🇮🇳IN - udptoos.com
+  password: ''
+  port: '1088'
+  server: 144.24.111.128
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - cipher: aes-256-cfb
   name: 🇫🇷FR - udptoos.com
   password: 7eadc6dbe2ae
@@ -161,7 +98,7 @@ proxies:
   udp: true
 - down: ''
   fingerprint: ''
-  name: '🇺🇸US - udptoos.com #6'
+  name: '🇺🇸US - udptoos.com #3'
   obfs: ''
   obfs-password: ''
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
@@ -173,7 +110,7 @@ proxies:
   up: ''
 - client-fingerprint: chrome
   encryption: none
-  name: '🇺🇸US - udptoos.com #7'
+  name: '🇺🇸US - udptoos.com #4'
   network: ws
   port: '443'
   server: 151.101.56.7
@@ -185,12 +122,12 @@ proxies:
   ws-opts:
     headers:
       Host: pane2.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
   xudp: true
 - client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #8'
+  name: '🇺🇸US - udptoos.com #5'
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: '20066'
@@ -199,59 +136,165 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #9'
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: '20085'
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳CN - udptoos.com
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  name: '🇨🇦CA - udptoos.com #2'
-  password: amazonskr05
-  port: '443'
-  server: 35.182.226.235
-  type: ss
-  udp: true
-- name: 🇻🇳VN - udptoos.com
-  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
-  port: 11683
-  server: vn3.nbjc.top
-  type: anytls
-  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: 🇹🇼TW - udptoos.com
   password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
-  port: 40072
-  server: tw2.catzl.top
+  port: 40071
+  server: tw1.catzl.top
   type: anytls
   udp: true
-- name: '🇻🇳VN - udptoos.com #2'
-  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
-  port: 11682
-  server: vn2.nbjc.top
+- name: '🇹🇼TW - udptoos.com #2'
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 40071
+  server: tw1.catzl.top
   type: anytls
   udp: true
-- name: 🇰🇷KR - udptoos.com
-  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
-  port: 40041
-  server: kr1.catzl.top
-  type: anytls
-  udp: true
-- name: '🇰🇷KR - udptoos.com #2'
-  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
-  port: 40042
-  server: kr2.catzl.top
-  type: anytls
-  udp: true
-- name: '🇻🇳VN - udptoos.com #3'
+- name: 🇻🇳VN - udptoos.com
   password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
   port: 11681
   server: vn1.nbjc.top
   type: anytls
   udp: true
+- name: '🇹🇼TW - udptoos.com #3'
+  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
+  port: 40073
+  server: tw3.catzl.top
+  type: anytls
+  udp: true
+- name: '🇻🇳VN - udptoos.com #2'
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 11683
+  server: vn3.nbjc.top
+  type: anytls
+  udp: true
+- name: '🇺🇸US - udptoos.com #6'
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 40022
+  server: us2.catzl.top
+  type: anytls
+  udp: true
+- name: 🇭🇰HK - udptoos.com
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 40012
+  server: hk2.catzl.top
+  type: anytls
+  udp: true
+- name: 🇰🇷KR - udptoos.com
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 40041
+  server: kr1.catzl.top
+  type: anytls
+  udp: true
+- name: '🇻🇳VN - udptoos.com #3'
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 11681
+  server: vn1.nbjc.top
+  type: anytls
+  udp: true
+- name: '🇻🇳VN - udptoos.com #4'
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 11682
+  server: vn2.nbjc.top
+  type: anytls
+  udp: true
+- name: '🇹🇼TW - udptoos.com #4'
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 40073
+  server: tw3.catzl.top
+  type: anytls
+  udp: true
+- name: '🇰🇷KR - udptoos.com #2'
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 40042
+  server: kr2.catzl.top
+  type: anytls
+  udp: true
+- name: 🇩🇪DE - udptoos.com
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 40062
+  server: de2.catzl.top
+  type: anytls
+  udp: true
+- name: '🇻🇳VN - udptoos.com #5'
+  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
+  port: 11682
+  server: vn2.nbjc.top
+  type: anytls
+  udp: true
+- name: '🇰🇷KR - udptoos.com #3'
+  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
+  port: 40042
+  server: kr2.catzl.top
+  type: anytls
+  udp: true
+- name: '🇻🇳VN - udptoos.com #6'
+  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
+  port: 11683
+  server: vn3.nbjc.top
+  type: anytls
+  udp: true
+- name: '🇹🇼TW - udptoos.com #5'
+  password: 0e3cea8c-62d6-46c2-a93f-b99f48fd8373
+  port: 40072
+  server: tw2.catzl.top
+  type: anytls
+  udp: true
+- name: '🇰🇷KR - udptoos.com #4'
+  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
+  port: 40041
+  server: kr1.catzl.top
+  type: anytls
+  udp: true
+- name: '🇺🇸US - udptoos.com #7'
+  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
+  port: 40022
+  server: us2.catzl.top
+  type: anytls
+  udp: true
+- name: '🇹🇼TW - udptoos.com #6'
+  password: 0846f9b3-e9ab-4a0d-81f2-817d9dc9b9bd
+  port: 40072
+  server: tw2.catzl.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 🇨🇿CZ - udptoos.com
+  network: ws
+  port: 443
+  server: 87.236.146.43
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: '🇫🇷FR - udptoos.com #2'
+  network: ws
+  port: 443
+  server: 132.243.204.84
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
 - client-fingerprint: chrome
   name: 🇧🇬BG - udptoos.com
   network: ws
@@ -267,38 +310,52 @@ proxies:
       Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
 - client-fingerprint: chrome
-  name: '🇧🇬BG - udptoos.com #2'
-  network: ws
-  port: 443
-  server: 94.72.140.210
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
-  name: '🇨🇭CH - udptoos.com #2'
-  network: ws
-  port: 443
-  server: 199.68.196.119
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
   name: 🇸🇪SE - udptoos.com
   network: ws
-  port: 8443
-  server: 130.49.178.164
+  port: 443
+  server: 77.110.121.157
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: '🇨🇿CZ - udptoos.com #2'
+  network: ws
+  port: 443
+  server: 85.137.167.21
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU - udptoos.com
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
+    short-id: e91da98020a38be9
+  server: 31.76.34.203
+  servername: russia.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
+- client-fingerprint: chrome
+  name: 🇪🇪EE - udptoos.com
+  network: ws
+  port: 443
+  server: 5.45.118.220
   servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -309,10 +366,10 @@ proxies:
       Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
 - client-fingerprint: chrome
-  name: '🇸🇪SE - udptoos.com #2'
+  name: '🇪🇪EE - udptoos.com #2'
   network: ws
   port: 443
-  server: 94.242.59.31
+  server: 5.175.178.254
   servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -322,124 +379,251 @@ proxies:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
-- cipher: aes-256-cfb
-  name: 🇨🇳CN - udptoos.com
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #10'
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: '20065'
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇮🇷IR - udptoos.com #2'
-  network: xhttp
-  port: '45193'
-  reality-opts:
-    public-key: P_cosX7bq116CV2VW3YzSwPDFps1ERvoJ5eGpfDyt3Y
-    short-id: 4fdd53d6
-  server: res1.mohamadtak3tare.ir
-  servername: aws.amazon.com
+  name: '🇫🇷FR - udptoos.com #3'
+  network: ws
+  port: 8443
+  server: 217.60.39.39
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: f176fecc-7e48-4563-bfb4-fff83a379984
-  xhttp-opts:
-    mode: auto
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: '🇫🇷FR - udptoos.com #4'
+  network: ws
+  port: 443
+  server: 46.8.225.124
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇩🇪DE - udptoos.com #2'
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  name: 🇳🇱NL - udptoos.com
+  network: ws
+  port: 443
+  server: 84.32.101.72
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 🇫🇮FI - udptoos.com
+  network: ws
+  port: 8443
+  server: 62.60.254.18
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: '🇳🇱NL - udptoos.com #2'
+  network: ws
+  port: 443
+  server: 91.223.119.197
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: '🇩🇪DE - udptoos.com #3'
+  network: ws
+  port: 443
+  server: 83.147.255.84
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 🇱🇻LV - udptoos.com
+  network: ws
+  port: 8443
+  server: 31.59.102.96
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇸🇬SG - udptoos.com
+  network: grpc
+  port: '10038'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg3-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇸🇪SE - udptoos.com #2'
+  network: tcp
+  port: '2083'
+  reality-opts:
+    public-key: a3_DLO6p_ZfPf7I0JFTVlAI2pPAPtC-ji2diyPcHcQA
+    short-id: b4
+  server: sw.volnalink.uk
+  servername: www.booking.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f8efa61-96db-1391-b134-9ce844e31228
+  xudp: true
+- name: '🇺🇸US - udptoos.com #8'
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20065
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
 - name: '🇳🇱NL - udptoos.com #3'
+  password: None
   port: 9002
-  server: 84.17.47.150
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 🇷🇴RO - udptoos.com
   port: 9002
-  server: 193.176.84.39
+  server: 193.176.84.17
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇺🇸US - udptoos.com #11'
+- name: '🇷🇴RO - udptoos.com #2'
   port: 9002
-  server: 138.199.35.195
+  server: 193.176.84.20
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇺🇸US - udptoos.com #12'
+- name: 🇬🇧GB - udptoos.com
   password: null
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇭🇺HU - udptoos.com
   port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇹IT - udptoos.com
-  port: 1999
-  server: 185.201.65.242
-  type: http
-- name: '🇺🇸US - udptoos.com #13'
-  password: null
-  port: 9002
-  server: 138.199.35.197
+  server: 193.36.118.210
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '🇺🇸US - udptoos.com #14'
+- name: '🇩🇪DE - udptoos.com #4'
   password: null
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '🇮🇹IT - udptoos.com #2'
   port: 443
-  server: 185.183.105.130
+  server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
+- name: '🇩🇪DE - udptoos.com #5'
+  port: 2077
+  server: 168.119.100.60
+  type: http
+- name: '🇷🇴RO - udptoos.com #3'
+  password: None
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇰DK - udptoos.com
+  password: null
+  port: 443
+  server: 185.245.84.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: '🇳🇱NL - udptoos.com #4'
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇵🇱PL - udptoos.com
+- name: '🇬🇧GB - udptoos.com #2'
+  password: None
   port: 443
-  server: 37.120.156.18
+  server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB - udptoos.com
+  username: null
+- name: '🇬🇧GB - udptoos.com #3'
   port: 443
   server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '🇳🇱NL - udptoos.com #5'
+  port: 443
+  server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU - udptoos.com
+  name: '🇷🇺RU - udptoos.com #2'
   network: raw
   port: 443
   reality-opts:
@@ -452,28 +636,12 @@ proxies:
   udp: true
   uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
   xudp: true
-- name: 🇩🇪DE - udptoos.com
+- name: '🇧🇬BG - udptoos.com #2'
   port: 443
-  server: 130.61.112.125
-  type: http
-- name: '🇷🇴RO - udptoos.com #2'
-  password: None
-  port: 9002
-  server: 193.176.84.40
+  server: 185.94.192.210
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '🇫🇷FR - udptoos.com #2'
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇫🇷FR - udptoos.com #3'
-  port: 49153
-  server: 37.187.57.177
-  type: socks5
 - name: '🇸🇪SE - udptoos.com #3'
   password: null
   port: 443
@@ -482,19 +650,30 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇪🇪EE - udptoos.com
-  password: 1Telegram_MojiVPN
-  port: 1080
-  server: ee-tal.pvdata.host
+- name: 🇮🇹IT - udptoos.com
+  port: 443
+  server: 178.237.4.200
   skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: N9cyF6jvgy3ZEmCNKe04zBIR
-- name: '🇺🇸US - udptoos.com #15'
-  port: 26214
-  server: 104.251.93.135
+  tls: true
   type: http
-- name: '🇷🇴RO - udptoos.com #3'
+- name: 🇨🇴CO - udptoos.com
+  port: 555
+  server: 190.60.42.141
+  type: http
+- name: 🇦🇺AU - udptoos.com
+  port: 443
+  server: 103.62.50.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '🇷🇴RO - udptoos.com #4'
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: '🇷🇴RO - udptoos.com #5'
   port: 9002
   server: 193.176.84.31
   skip-cert-verify: true
@@ -502,287 +681,136 @@ proxies:
   tls: true
   type: http
 - client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #16'
-  network: raw
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: '20065'
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
-  name: '🇮🇷IR - udptoos.com #3'
+  name: '🇳🇱NL - udptoos.com #6'
   network: tcp
-  port: '443'
+  port: '17780'
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 185.24.151.242
-  servername: jobinvest.ru
+    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
+    short-id: a0fbc54d937aaccb
+  server: 172.239.237.246
+  servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
+  uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
   xudp: true
-- name: '🇷🇴RO - udptoos.com #4'
+- down: ''
+  fingerprint: ''
+  name: '🇩🇪DE - udptoos.com #6'
+  obfs: ''
+  obfs-password: ''
+  password: hysteria2_fastlane_04ng96ah3:nqZabliS7TcydBDDKid682NfoWQxVzkM
+  port: '1935'
+  server: 2.26.26.164
+  skip-cert-verify: false
+  sni: de9.h.fastlanehosting.ru
+  type: hysteria2
+  up: ''
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🇺🇸US - udptoos.com #9'
+  password: 7D9/3Y5+MCeBDNpC6ftRDlkAJdKpXCc1mOE94SvcXEc=
+  port: '50356'
+  server: 129.146.38.3
+  type: ss
+  udp: true
+- name: '🇷🇴RO - udptoos.com #6'
   port: 9002
   server: 193.176.84.22
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇵🇱PL - udptoos.com #2'
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 31.59.125.49
-  servername: eu-central.cendora.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: '🇺🇸US - udptoos.com #17'
+- name: '🇺🇸US - udptoos.com #10'
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20068
-  server: kkvlvvq-a.catcat321.com
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-- name: '🇺🇸US - udptoos.com #18'
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20085
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #3'
-  network: ws
-  port: '2096'
-  server: 172.64.151.254
-  servername: oyue.rainfall0705.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
-  ws-opts:
-    headers:
-      Host: oyue.rainfall0705.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /
-  xudp: true
-- name: '🇨🇦CA - udptoos.com #4'
+- name: '🇨🇦CA - udptoos.com #2'
   network: ws
   port: '80'
-  server: 172.64.153.36
+  server: 172.66.138.120
   type: vless
   udp: true
   uuid: b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d
   ws-opts:
     headers:
       Host: cfnew.schzyc.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇰DK - udptoos.com
-  network: ws
-  port: '8443'
-  server: 77.37.97.204
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /
   xudp: true
 - client-fingerprint: chrome
   name: 🇺🇦UA - udptoos.com
   network: ws
-  port: '8443'
-  server: 213.111.149.58
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇮🇱IL - udptoos.com
-  network: ws
-  port: '8443'
-  server: 64.176.170.68
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇮🇱IL - udptoos.com #2'
-  network: ws
   port: '443'
-  server: 192.71.27.237
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇸🇪SE - udptoos.com #4'
-  network: ws
-  port: '443'
-  server: 45.80.228.24
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇷🇺RU - udptoos.com #2'
-  network: ws
-  port: '8443'
-  server: 89.23.113.51
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  server: 141.105.130.102
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
   uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
     path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: '🇭🇺HU - udptoos.com #2'
+  name: '🇫🇮FI - udptoos.com #2'
   network: ws
   port: '443'
-  server: 38.180.109.174
-  servername: eded-52n.pages.dev
+  server: 62.60.253.3
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: 🇿🇦ZA - udptoos.com
+  name: '🇳🇱NL - udptoos.com #7'
   network: ws
   port: '443'
-  server: 139.84.230.41
-  servername: eded-52n.pages.dev
+  server: 194.87.0.196
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: 🇮🇳IN - udptoos.com
+  name: '🇷🇺RU - udptoos.com #3'
   network: ws
   port: '443'
-  server: 65.20.85.14
-  servername: eded-52n.pages.dev
+  server: 193.37.71.6
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇰🇬KG - udptoos.com
-  network: ws
-  port: '8443'
-  server: 188.240.213.98
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇹🇷TR - udptoos.com
-  network: ws
-  port: '443'
-  server: 138.124.107.35
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
   name: '🇹🇷TR - udptoos.com #2'
@@ -797,49 +825,15 @@ proxies:
   ws-opts:
     headers:
       Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: 🇧🇷BR - udptoos.com
+  name: '🇩🇪DE - udptoos.com #7'
   network: ws
-  port: '8443'
-  server: 216.238.110.198
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇧🇾BY - udptoos.com
-  network: ws
-  port: '443'
-  server: 191.44.32.253
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇱🇻LV - udptoos.com
-  network: ws
-  port: '443'
-  server: 188.253.20.190
+  port: '2053'
+  server: 213.226.71.38
   servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -848,100 +842,66 @@ proxies:
   ws-opts:
     headers:
       Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
     path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇿CZ - udptoos.com
+  name: '🇱🇻LV - udptoos.com #2'
   network: ws
   port: '443'
-  server: 194.182.80.100
-  servername: eded-52n.pages.dev
+  server: 91.197.2.220
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: 🇲🇩MD - udptoos.com
+  name: '🇪🇪EE - udptoos.com #3'
   network: ws
   port: '443'
-  server: 193.36.38.222
-  servername: eded-52n.pages.dev
+  server: 95.85.243.240
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇷🇸RS - udptoos.com
-  network: ws
-  port: '443'
-  server: 185.48.250.138
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
   name: 🇸🇰SK - udptoos.com
   network: ws
   port: '8443'
   server: 89.46.42.141
-  servername: eded-52n.pages.dev
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/39.0.2171.95 Safari/537.36
-    path: /
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
   name: 🇸🇮SI - udptoos.com
   network: ws
   port: '443'
   server: 91.132.94.151
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇸🇮SI - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 91.132.94.151
   servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -951,99 +911,14 @@ proxies:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
     path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG - udptoos.com
+  name: '🇳🇱NL - udptoos.com #8'
   network: ws
   port: '443'
-  server: 43.174.195.1
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇸🇬SG - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 43.174.193.1
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇷🇺RU - udptoos.com #3'
-  network: ws
-  port: '8443'
-  server: 178.253.45.198
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇫🇷FR - udptoos.com #4'
-  network: ws
-  port: '443'
-  server: 207.180.218.132
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇵🇱PL - udptoos.com #3'
-  network: ws
-  port: '8443'
-  server: 80.211.250.20
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇵🇱PL - udptoos.com #4'
-  network: ws
-  port: '443'
-  server: 193.124.41.236
+  server: 43.170.17.114
   servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -1052,49 +927,32 @@ proxies:
   ws-opts:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: 🇮🇪IE - udptoos.com
-  network: ws
-  port: '8443'
-  server: 194.87.245.205
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇳🇱NL - udptoos.com #5'
-  network: ws
-  port: '8443'
-  server: 89.125.146.39
-  servername: cf3.schzyc.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
-    path: /proxyip=ProxyIP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇪🇪EE - udptoos.com #2'
+  name: 🇯🇵JP - udptoos.com
   network: ws
   port: '443'
-  server: 5.45.118.220
+  server: 172.104.81.253
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /pg/10086-dfc816f117c49173
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇧🇪BE - udptoos.com
+  network: ws
+  port: '8443'
+  server: 38.180.18.43
   servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -1103,12 +961,12 @@ proxies:
   ws-opts:
     headers:
       Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /pg/10086-dfc816f117c49173fp=chrome
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: '🇪🇪EE - udptoos.com #3'
+  name: '🇪🇪EE - udptoos.com #4'
   network: ws
   port: '443'
   server: 5.101.118.52
@@ -1120,80 +978,117 @@ proxies:
   ws-opts:
     headers:
       Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: '🇷🇴RO - udptoos.com #5'
-  network: ws
-  port: '8443'
-  server: 185.39.30.18
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇲🇩MD - udptoos.com #2'
+  name: '🇪🇪EE - udptoos.com #5'
   network: ws
   port: '443'
-  server: 81.180.92.55
-  servername: eded-52n.pages.dev
+  server: 159.253.21.82
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
-    path: /
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
-- client-fingerprint: firefox
-  name: '🇮🇹IT - udptoos.com #3'
-  network: tcp
-  port: '17780'
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: a0fbc54d937aaccb
-  server: 104.105.78.231
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
-  xudp: true
-- name: '🇺🇸US - udptoos.com #19'
+- client-fingerprint: chrome
+  name: 🇨🇭CH - udptoos.com
   network: ws
-  port: '80'
-  server: mtn.v2plus.ovh
-  servername: worker3.fexepit851.workers.dev
+  port: '443'
+  server: 176.10.125.114
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
   type: vless
   udp: true
-  uuid: 2cf79e40-74fe-4de9-ae0e-e496620a09a6
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: worker3.fexepit851.workers.dev
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇸🇪SE - udptoos.com #4'
+  network: ws
+  port: '8443'
+  server: 84.32.99.175
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    max-early-data: 2560
-    path: /BMnajv3ovlpn8Abs
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇷🇴RO - udptoos.com #7'
+  network: ws
+  port: '443'
+  server: 82.152.132.14
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
   name: '🇧🇬BG - udptoos.com #3'
   network: ws
-  port: '2087'
+  port: '8443'
   server: 13.140.29.144
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /pg/10086-dfc816f117c49173
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇧🇬BG - udptoos.com #4'
+  network: ws
+  port: '443'
+  server: 13.140.29.144
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇭🇰HK - udptoos.com #2'
+  network: ws
+  port: '443'
+  server: 155.117.224.193
   servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -1207,123 +1102,40 @@ proxies:
     path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: '🇧🇬BG - udptoos.com #4'
+  name: '🇰🇷KR - udptoos.com #5'
   network: ws
   port: '443'
-  server: 45.39.241.116
-  servername: eded-52n.pages.dev
+  server: 168.107.32.255
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: '🇮🇪IE - udptoos.com #2'
+  name: '🇧🇬BG - udptoos.com #5'
   network: ws
-  port: '2096'
-  server: 167.160.177.68
-  servername: eded-52n.pages.dev
+  port: '2087'
+  server: 13.140.29.144
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇲🇾MY - udptoos.com
-  network: ws
-  port: '8443'
-  server: 149.118.158.90
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇮🇪IE - udptoos.com #3'
-  network: ws
-  port: '2083'
-  server: 198.55.102.68
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
-- name: '🇺🇸US - udptoos.com #20'
-  network: ws
-  port: '8880'
-  server: 166.62.107.2
-  type: vless
-  udp: true
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  ws-opts:
-    headers:
-      Host: old-violet-a5ce.29-440.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /pyip=Telegram🇨🇳 @WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇱🇻LV - udptoos.com #2'
-  network: ws
-  port: '8443'
-  server: 46.8.71.115
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇫🇮FI - udptoos.com
-  network: ws
-  port: '8443'
-  server: 62.60.228.84
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /
-  xudp: true
-- name: '🇺🇸US - udptoos.com #21'
+- name: '🇺🇸US - udptoos.com #11'
   network: ws
   port: '8880'
   server: 80.93.202.40
@@ -1334,107 +1146,44 @@ proxies:
   ws-opts:
     headers:
       Host: vms.lifetime02.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: ''
   xudp: true
-- name: '🇬🇧GB - udptoos.com #2'
+- encryption: none
+  name: '🇬🇧GB - udptoos.com #4'
   network: ws
   port: '80'
-  server: 91.193.58.145
+  server: 91.193.58.79
   type: vless
   udp: true
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
   ws-opts:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /pyip=telegram-wangcai2🇨🇳
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /pyip=Telegram-WangCai2🇨🇳
   xudp: true
 - client-fingerprint: chrome
-  name: '🇱🇻LV - udptoos.com #3'
+  name: '🇳🇱NL - udptoos.com #9'
   network: ws
-  port: '443'
-  server: 45.43.76.227
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇵🇱PL - udptoos.com #5'
-  network: ws
-  port: '443'
-  server: 91.108.237.23
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇷🇺RU - udptoos.com #4'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: e91da98020a38be9
-  server: 31.76.34.203
-  servername: russia.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇷🇺RU - udptoos.com #5'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: uFzv_DhDhQUc2PYaMJCM7mD5Ed670K3ubHHej52XNU0
-    short-id: ''
-  server: ndnode.protectednetwork.shop
-  servername: ndcdn.protectednetwork.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: dc22c7ac-d35d-4a7f-9889-4271119e7818
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇳🇱NL - udptoos.com #6'
-  network: ws
-  port: '443'
-  server: 91.223.119.197
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  port: '8443'
+  server: 95.181.175.209
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
   uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /pg/10086-dfc816f117c49173fp=chrome
   xudp: true
 - client-fingerprint: chrome
-  name: '🇳🇱NL - udptoos.com #7'
+  name: '🇳🇱NL - udptoos.com #10'
   network: ws
   port: '443'
   server: 91.223.119.174
@@ -1446,96 +1195,12 @@ proxies:
   ws-opts:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /pg/10086-dfc816f117c49173fp=chrome
   xudp: true
 - client-fingerprint: chrome
-  name: '🇳🇱NL - udptoos.com #8'
-  network: ws
-  port: '443'
-  server: 188.164.248.67
-  servername: vp21.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp21.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇳🇱NL - udptoos.com #9'
-  network: ws
-  port: '8443'
-  server: 188.164.248.123
-  servername: vp21.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp21.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
-- client-fingerprint: chrome
-  name: '🇳🇱NL - udptoos.com #10'
-  network: ws
-  port: '443'
-  server: 188.226.174.73
-  servername: cf3.schzyc.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /proxyip=ProxyIP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇫🇮FI - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 185.239.141.89
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
   name: '🇳🇱NL - udptoos.com #11'
-  network: ws
-  port: '2053'
-  server: 85.192.26.210
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇳🇱NL - udptoos.com #12'
   network: ws
   port: '2053'
   server: 185.214.10.72
@@ -1547,30 +1212,31 @@ proxies:
   ws-opts:
     headers:
       Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
     path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: chrome
-  name: 🇦🇱AL - udptoos.com
+  name: '🇳🇱NL - udptoos.com #12'
   network: ws
   port: '443'
-  server: 91.239.6.40
-  servername: eded-52n.pages.dev
+  server: 185.36.143.123
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇵🇱PL - udptoos.com #6'
+  name: 🇵🇱PL - udptoos.com
   network: tcp
   port: '443'
   reality-opts:
@@ -1584,70 +1250,25 @@ proxies:
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   xudp: true
 - client-fingerprint: chrome
-  name: '🇸🇪SE - udptoos.com #5'
+  name: '🇫🇷FR - udptoos.com #5'
   network: ws
-  port: '8443'
-  server: 77.110.120.45
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  port: '2053'
+  server: 31.57.108.170
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
   uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /pg/10086-dfc816f117c49173
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇸🇪SE - udptoos.com #6'
-  network: tcp
-  port: '2083'
-  reality-opts:
-    public-key: a3_DLO6p_ZfPf7I0JFTVlAI2pPAPtC-ji2diyPcHcQA
-    short-id: b4
-  server: sw.volnalink.uk
-  servername: www.booking.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f8efa61-96db-1391-b134-9ce844e31228
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇲🇾MY - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 216.173.67.119
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-  xudp: true
 - down: ''
   fingerprint: ''
-  name: '🇹🇷TR - udptoos.com #3'
-  obfs: ''
-  obfs-password: ''
-  password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
-  port: '443'
-  server: 194.135.34.130
-  skip-cert-verify: true
-  sni: 194.135.34.130
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🇩🇪DE - udptoos.com #2'
+  name: '🇩🇪DE - udptoos.com #8'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -1657,9 +1278,3 @@ proxies:
   sni: de1.sferavpn.pro
   type: hysteria2
   up: ''
-- cipher: aes-256-cfb
-  name: 🇹🇭TH - udptoos.com
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  type: ss
