@@ -1,148 +1,65 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇨🇳CN - udptoos.com
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
+  name: 🇬🇧GB - udptoos.com
+  password: amazonskr05
+  port: 443
+  server: 35.176.118.152
   type: ss
-- client-fingerprint: firefox
-  encryption: none
+  udp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
   name: 🇺🇸US - udptoos.com
   network: tcp
-  port: 43595
+  port: 39399
   reality-opts:
-    public-key: waNzNRIL_3TaF3UfgeAy1M5r8YVUeOA0nx3jPiXYZSE
-    short-id: e482c0320674c651
-  server: 45.33.62.166
-  servername: www.amd.com
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2642f590-2bce-4031-8f93-7eed983621f5
-  xudp: true
-- client-fingerprint: firefox
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: safari
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU - udptoos.com
+  name: 🇭🇰HK - udptoos.com
   network: tcp
-  packet-encoding: xudp
-  port: 443
+  port: 60013
   reality-opts:
-    public-key: DM3bRAvFPKomKjjmatlS2dH5VYZnUkPHw0BmA40kI2k
-    short-id: 0f4daaf87f9dff
-  server: 46.8.210.143
-  servername: smartcaptcha.yandexcloud.net
+    public-key: nzwLXAhU6QUZGQfzHACFSxc0T1YHfBxZs9Rlc2jXews
+    short-id: 7a91fe90e1d176fc
+  server: hk3.mfm-oss.top
+  servername: www.xiaohongshu.com
   tls: true
   type: vless
-  udp: true
-  uuid: 7a322a80-b9ae-0007-bec7-affed230a484
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇹🇼TW - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🇹🇼TW - udptoos.com #2'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: 160.187.100.109
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🇹🇼TW - udptoos.com #3'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🇹🇼TW - udptoos.com #4'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world\u0026insecure=1\u0026allowinsecure=1
-  type: hysteria2
-  up: ''
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
+  uuid: 2dd387bd-6d19-473a-8d5e-ecbca573b0f9
+- cipher: aes-256-cfb
+  name: 🇫🇷FR - udptoos.com
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  type: ss
+- client-fingerprint: chrome
   name: '🇺🇸US - udptoos.com #2'
-  password: 47fb9025-cbd8-4ef3-9f6f-57c7b1649e65
-  port: 443
-  reduce-rtt: false
-  request-timeout: 0
-  server: 156.229.161.223
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 47fb9025-cbd8-4ef3-9f6f-57c7b1649e65
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '🇺🇸US - udptoos.com #3'
-  password: 06000035-3c99-482a-b0d1-fbaca3b7a1f3
-  port: 443
-  reduce-rtt: false
-  request-timeout: 15000
-  server: 156.229.161.223
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 06000035-3c99-482a-b0d1-fbaca3b7a1f3
-- client-fingerprint: qq
-  name: 🇨🇦CA - udptoos.com
   network: ws
-  port: '2087'
-  server: fu.baiproxy.us.ci
+  port: 443
+  server: us.mkdir.kdns.fr
+  servername: web-jornttsa.pages.dev
   tls: true
   type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
   ws-opts:
     headers:
-      Host: fu.baiproxy.us.ci
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- client-fingerprint: chrome
+      Host: web-jornttsa.pages.dev
+    path: /
+- auth: f87376e17da040ed04c9665ce8972930
   name: 🇸🇬SG - udptoos.com
-  network: tcp
-  port: '23816'
-  server: node.qingyi668.biz
-  servername: node.qingyi668.biz
-  tls: true
-  type: vless
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
   udp: true
-  uuid: 881b936b-2591-4ea8-d21d-8215a36d41a3
-  xudp: true
