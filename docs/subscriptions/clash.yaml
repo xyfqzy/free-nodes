@@ -1,35 +1,4 @@
 proxies:
-- name: 🇺🇸US - udptoos.com
-  network: ws
-  port: 8880
-  server: 45.40.149.50
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime39.workers.dev
-    path: /
-- cipher: aes-256-cfb
-  name: 🇨🇦CA - udptoos.com
-  password: amazonskr05
-  port: 443
-  server: 3.96.124.46
-  type: ss
-- cipher: aes-256-cfb
-  name: '🇨🇦CA - udptoos.com #2'
-  password: amazonskr05
-  port: 443
-  server: 35.182.250.193
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇫🇷FR - udptoos.com
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 95.170.13.47
-  type: ss
 - cipher: aes-256-cfb
   name: 🇨🇳CN - udptoos.com
   password: 7eadc6dbe2ae
@@ -95,33 +64,47 @@ proxies:
   udp: true
 - name: 🇷🇴RO - udptoos.com
   port: 9002
-  server: 193.176.84.35
+  server: 193.176.84.30
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '🇷🇴RO - udptoos.com #2'
   port: 9002
-  server: 193.176.84.24
+  server: 193.176.84.35
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '🇷🇴RO - udptoos.com #3'
   port: 9002
-  server: 193.176.84.25
+  server: 193.176.84.17
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '🇷🇴RO - udptoos.com #4'
   port: 9002
-  server: 193.176.84.20
+  server: 193.176.84.24
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '🇷🇴RO - udptoos.com #5'
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇷🇴RO - udptoos.com #6'
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇷🇴RO - udptoos.com #7'
   password: None
   port: 9002
   server: 193.176.84.31
@@ -129,7 +112,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '🇷🇴RO - udptoos.com #6'
+- name: '🇷🇴RO - udptoos.com #8'
   password: None
   port: 9002
   server: 193.176.84.23
@@ -137,164 +120,255 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '🇷🇴RO - udptoos.com #7'
+- name: '🇷🇴RO - udptoos.com #9'
   port: 9002
   server: 193.176.84.27
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇷🇴RO - udptoos.com #8'
+- name: '🇷🇴RO - udptoos.com #10'
   port: 9002
   server: 193.176.84.32
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇫🇮FI - udptoos.com
-  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  port: 443
-  server: fin14qr.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fin14qr.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- name: '🇺🇸US - udptoos.com #2'
-  password: None
+- name: '🇷🇴RO - udptoos.com #11'
   port: 9002
-  server: 138.199.35.216
+  server: 193.176.84.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇸🇬SG - udptoos.com
+  password: +igdJIkJgF39Q5wXddAP9Rlj667jG6pucZ3pIhq3CyY=
+  port: '56927'
+  server: 140.245.99.244
+  type: ss
+  udp: true
+- name: 🇵🇹PT - udptoos.com
+  password: None
+  port: 443
+  server: 149.22.86.14
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU - udptoos.com
-  network: tcp
-  port: '16445'
-  reality-opts:
-    public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
-    short-id: a1b2c3d4
-  server: 159.194.234.196
-  servername: fr.aeternavpn.space
+- name: '🇵🇹PT - udptoos.com #2'
+  password: None
+  port: 443
+  server: 149.22.86.1
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-  xudp: true
-- name: '🇺🇸US - udptoos.com #3'
+  type: http
+  username: null
+- name: 🇺🇸US - udptoos.com
   port: 12344
   server: 154.21.89.32
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇰🇷KR - udptoos.com
-  network: tcp
-  port: 5000
-  reality-opts:
-    public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
-    short-id: a1b2c3d4
-  server: 31.77.183.88
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-  xudp: true
-- client-fingerprint: qq
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇷🇺RU - udptoos.com #2'
+  name: 🇭🇰HK - udptoos.com
   network: tcp
-  port: 5012
+  port: 443
   reality-opts:
-    public-key: S-hF71pRzH9xT1zd3spq6RGlXCrpzyWpTmVKHbdTERg
-    short-id: a1b2c3d4
-  server: 62.113.106.165
-  servername: pl.aeternavpn.space
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+    short-id: ''
+  server: de48.tranzit-net.ru
+  servername: d.tranzit-net.ru
   tls: true
   type: vless
   udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇫🇮FI - udptoos.com #2'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-  server: 138.124.8.117
-  servername: fin2.helper-internet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇹🇷TR - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI
-    short-id: 5606d4a25c99e7af
-  server: 156.67.63.231
-  servername: sync-bridge.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: b052df40-d51c-456c-9bd6-57af01a87e4e
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇰🇷KR - udptoos.com #2'
-  network: tcp
-  port: '5001'
-  reality-opts:
-    public-key: D-G2rTpSUTAF6Rj0C6Gxnk-uzsaGzM6MSbJX3jCyBBk
-    short-id: a1b2c3d4
-  server: 31.77.183.88
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-  xudp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG - udptoos.com
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
   name: '🇸🇬SG - udptoos.com #2'
+  password: 22654943-6142-4fdb-8722-ea9fefe9c4dc
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: 22654943-6142-4fdb-8722-ea9fefe9c4dc
+- name: '🇺🇸US - udptoos.com #2'
+  password: 9d7a5883-c944-4169-9079-186b0b92f6bc
+  port: 40022
+  server: us2.catzl.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🇸🇬SG - udptoos.com #3'
+  password: 860d3c09-1226-4560-9c5c-da09647af060
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: 860d3c09-1226-4560-9c5c-da09647af060
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🇸🇬SG - udptoos.com #4'
+  password: 068f8ba4-310f-400d-8832-9ec1645cd766
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: 068f8ba4-310f-400d-8832-9ec1645cd766
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🇸🇬SG - udptoos.com #5'
+  password: c5031c3d-bc5a-47fd-9ab2-636c307eec59
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: c5031c3d-bc5a-47fd-9ab2-636c307eec59
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🇸🇬SG - udptoos.com #6'
+  password: 633b661b-272e-457d-85ad-fb0175caa675
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: 633b661b-272e-457d-85ad-fb0175caa675
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🇸🇬SG - udptoos.com #7'
+  password: 0731d3a8-e094-41c9-9499-59fe3650ae6e
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: 0731d3a8-e094-41c9-9499-59fe3650ae6e
+- name: 🇯🇵JP - udptoos.com
+  password: 9d7a5883-c944-4169-9079-186b0b92f6bc
+  port: 40055
+  server: jp5.catzl.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🇸🇬SG - udptoos.com #8'
+  password: bd824dfb-d4bf-4fab-813d-3093608c2815
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: bd824dfb-d4bf-4fab-813d-3093608c2815
+- name: 🇹🇼TW - udptoos.com
+  password: 9d7a5883-c944-4169-9079-186b0b92f6bc
+  port: 40072
+  server: tw2.catzl.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🇸🇬SG - udptoos.com #9'
+  password: 9a198016-fdb7-4510-acca-e2c68c1083e5
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: 9a198016-fdb7-4510-acca-e2c68c1083e5
+- auth: 28775f0a-8027-4b33-9962-15634199b3a3
+  name: '🇸🇬SG - udptoos.com #10'
+  obfs: salamander
+  obfs-password: Y0hOpQA0X4EMz6fO
+  password: 28775f0a-8027-4b33-9962-15634199b3a3
+  port: 30625
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: hysteria2
+  udp: true
+- auth: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
+  name: '🇸🇬SG - udptoos.com #11'
+  obfs: salamander
+  obfs-password: Y0hOpQA0X4EMz6fO
+  password: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
+  port: 30625
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: hysteria2
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR - udptoos.com
   network: tcp
   port: 8444
   reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
+    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
+  server: 129.151.239.170
   servername: tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: 88e2f72e-954f-41ec-8948-5089dff38d1c
-- client-fingerprint: safari
+  uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
+- auth: ca9df148-e636-47fe-9af6-fe8fe3eec197
+  name: '🇸🇬SG - udptoos.com #12'
+  obfs: salamander
+  obfs-password: Y0hOpQA0X4EMz6fO
+  password: ca9df148-e636-47fe-9af6-fe8fe3eec197
+  port: 30625
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: hysteria2
+  udp: true
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇲🇽MX - udptoos.com
   network: tcp
@@ -306,10 +380,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 9d4e62b2-b2fd-46bf-b63b-e129edd1524d
-- client-fingerprint: chrome
+  uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '🇸🇬SG - udptoos.com #3'
+  name: '🇸🇬SG - udptoos.com #13'
   network: tcp
   port: 8444
   reality-opts:
@@ -319,23 +393,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 9d4e62b2-b2fd-46bf-b63b-e129edd1524d
-- client-fingerprint: edge
+  uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '🇫🇷FR - udptoos.com #2'
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
-  server: 129.151.239.170
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f6dd07ff-5c19-415b-bbad-7b6450527b82
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇸🇬SG - udptoos.com #4'
+  name: '🇸🇬SG - udptoos.com #14'
   network: tcp
   port: 8444
   reality-opts:
@@ -345,8 +406,8 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: f6dd07ff-5c19-415b-bbad-7b6450527b82
-- client-fingerprint: edge
+  uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
+- client-fingerprint: ios
   flow: xtls-rprx-vision
   name: '🇲🇽MX - udptoos.com #2'
   network: tcp
@@ -358,8 +419,8 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: f6dd07ff-5c19-415b-bbad-7b6450527b82
-- client-fingerprint: safari
+  uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '🇲🇽MX - udptoos.com #3'
   network: tcp
@@ -371,8 +432,21 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 88e2f72e-954f-41ec-8948-5089dff38d1c
-- client-fingerprint: ios
+  uuid: 28775f0a-8027-4b33-9962-15634199b3a3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇫🇷FR - udptoos.com #2'
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
+  server: 129.151.239.170
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28775f0a-8027-4b33-9962-15634199b3a3
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '🇫🇷FR - udptoos.com #3'
   network: tcp
@@ -384,891 +458,73 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 88e2f72e-954f-41ec-8948-5089dff38d1c
-- client-fingerprint: chrome
+  uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '🇲🇽MX - udptoos.com #4'
+  name: '🇸🇬SG - udptoos.com #15'
   network: tcp
-  port: 8443
+  port: 8444
   reality-opts:
-    public-key: LiSrIOq9pojF5iZc2c660LUAESwEWbxzt1YR96xz4k4
-  server: 139.177.103.135
+    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+  server: 140.245.109.76
   servername: tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '🇰🇷KR - udptoos.com #3'
-  port: 5000
-  reality-opts:
-    public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
-    short-id: a1b2c3d4
-  server: 31.77.183.88
-  servername: max.ru
+  uuid: 28775f0a-8027-4b33-9962-15634199b3a3
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE - udptoos.com
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
+  ws-opts:
+    headers:
+      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- cipher: chacha20-ietf
+  name: '🇭🇰HK - udptoos.com #2'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 37949-LD4JNZAf.download.microsoft.com
+    mode: http
+  port: '8406'
+  server: cn12.somethingstranges.com
+  type: ss
+  udp: true
+- name: 🇨🇦CA - udptoos.com
+  network: ws
+  port: 443
+  server: 172.67.198.236
+  servername: 2-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-- client-fingerprint: firefox
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 2-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇰🇷KR - udptoos.com #4'
-  port: 5001
+  name: 🇰🇷KR - udptoos.com
+  network: raw
+  port: '10000'
   reality-opts:
-    public-key: D-G2rTpSUTAF6Rj0C6Gxnk-uzsaGzM6MSbJX3jCyBBk
-    short-id: a1b2c3d4
-  server: 31.77.183.88
-  servername: max.ru
-  skip-cert-verify: true
+    public-key: kdlgIBl7R_1DIWtJIrOqYwt65nedPCbz6XoomdpQIXM
+    short-id: ''
+  server: 221.155.195.197
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-- name: '🇷🇺RU - udptoos.com #3'
-  network: ws
-  port: 14443
-  server: mws.tunnelgate.org
-  servername: mws.tunnelgate.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  ws-opts:
-    headers:
-      Host: mws.tunnelgate.org
-    path: /ru
-- name: '🇨🇦CA - udptoos.com #3'
-  network: ws
-  port: '80'
-  server: 172.66.138.120
-  type: vless
-  udp: true
-  uuid: b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d
-  ws-opts:
-    headers:
-      Host: cfnew.schzyc.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: ''
+  uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03
   xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #4'
-  network: ws
-  port: '2096'
-  server: 172.64.151.254
-  servername: oyue.rainfall0705.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
-  ws-opts:
-    headers:
-      Host: oyue.rainfall0705.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #5'
-  network: ws
-  port: '443'
-  server: 172.67.76.18
-  servername: magic2vpn.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 130add98-f232-406d-8bab-a6b61293db07
-  ws-opts:
-    headers:
-      Host: magic2vpn.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /proxyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇰DK - udptoos.com
-  network: ws
-  port: '8443'
-  server: 77.37.97.204
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇦UA - udptoos.com
-  network: ws
-  port: '8443'
-  server: 213.111.149.58
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇧🇪BE - udptoos.com
-  network: ws
-  port: '443'
-  server: 188.190.26.243
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇦🇲AM - udptoos.com
-  network: ws
-  port: '443'
-  server: 2.56.207.67
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇮🇱IL - udptoos.com
-  network: ws
-  port: '8443'
-  server: 64.176.170.68
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇮🇱IL - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 192.71.27.237
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇿CZ - udptoos.com
-  network: ws
-  port: '443'
-  server: 193.124.57.19
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇭🇺HU - udptoos.com
-  network: ws
-  port: '443'
-  server: 38.180.109.174
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇭🇺HU - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 38.180.108.148
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇿🇦ZA - udptoos.com
-  network: ws
-  port: '443'
-  server: 139.84.230.41
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇹🇼TW - udptoos.com
-  network: ws
-  port: '443'
-  server: 154.40.60.193
-  servername: magic2vpn.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 130add98-f232-406d-8bab-a6b61293db07
-  ws-opts:
-    headers:
-      Host: magic2vpn.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /proxyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇰🇬KG - udptoos.com
-  network: ws
-  port: '8443'
-  server: 188.240.213.98
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇹🇷TR - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 138.124.107.35
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇷🇸RS - udptoos.com
-  network: ws
-  port: '443'
-  server: 89.46.236.118
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇨🇾CY - udptoos.com
-  network: ws
-  port: '8880'
-  server: 154.92.9.2
-  type: vless
-  udp: true
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  ws-opts:
-    headers:
-      Host: old-violet-a5ce.29-440.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /pyip=Telegram🇨🇳 @WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇲🇽MX - udptoos.com #5'
-  network: ws
-  port: '443'
-  server: 216.238.86.91
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇧🇷BR - udptoos.com
-  network: ws
-  port: '8443'
-  server: 216.238.110.198
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇧🇾BY - udptoos.com
-  network: ws
-  port: '443'
-  server: 191.44.32.253
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇪SE - udptoos.com
-  network: ws
-  port: '443'
-  server: 5.175.236.53
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇳🇴NO - udptoos.com
-  network: ws
-  port: '8443'
-  server: 194.5.98.105
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇳🇴NO - udptoos.com #2'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 194.110.207.146
-  servername: kibi-institut.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c3d8e77-82ca-48d5-9981-dfce97b20ab1
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇿CZ - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 194.182.80.100
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇲🇩MD - udptoos.com
-  network: ws
-  port: '443'
-  server: 193.36.38.222
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇲🇩MD - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 193.36.38.17
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇸🇬SG - udptoos.com #5'
-  network: ws
-  port: '443'
-  server: 43.174.195.1
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇷🇺RU - udptoos.com #4'
-  network: ws
-  port: '8443'
-  server: 178.253.45.198
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: random
-  name: 🇨🇱CL - udptoos.com
-  network: ws
-  port: '443'
-  server: 64.176.12.48
-  servername: kv.074167.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇫🇷FR - udptoos.com #4'
-  network: ws
-  port: '443'
-  server: 207.180.218.132
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇵🇱PL - udptoos.com
-  network: ws
-  port: '8443'
-  server: 80.211.250.20
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇹🇭TH - udptoos.com
-  network: ws
-  port: '443'
-  server: 45.150.131.246
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇦🇱AL - udptoos.com
-  network: ws
-  port: '443'
-  server: 89.125.139.115
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇮🇪IE - udptoos.com
-  network: ws
-  port: '8443'
-  server: 194.87.245.205
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇳🇱NL - udptoos.com #8'
-  network: ws
-  port: '8443'
-  server: 89.125.146.39
-  servername: cf3.schzyc.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /proxyip=ProxyIP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇸🇪SE - udptoos.com #2'
-  network: ws
-  port: '2053'
-  server: 80.78.24.239
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: random
-  name: '🇩🇰DK - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 193.181.212.80
-  servername: kv.074167.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇧🇾BY - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 185.179.82.246
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇱🇹LT - udptoos.com
-  network: ws
-  port: '8443'
-  server: 194.135.83.166
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇷🇴RO - udptoos.com #9'
-  network: ws
-  port: '8443'
-  server: 185.39.30.18
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇲🇩MD - udptoos.com #3'
-  network: ws
-  port: '443'
-  server: 81.180.92.55
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /
-  xudp: true
-- name: '🇺🇸US - udptoos.com #4'
-  network: ws
-  port: '8880'
-  server: 198.71.190.2
-  type: vless
-  udp: true
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  ws-opts:
-    headers:
-      Host: old-violet-a5ce.29-440.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /pyip=Telegram🇨🇳 @WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇲🇾MY - udptoos.com
-  network: ws
-  port: '8443'
-  server: 149.118.158.90
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇫🇮FI - udptoos.com #3'
-  network: ws
-  port: '2083'
-  server: 144.31.119.82
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇵🇱PL - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 193.42.36.84
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇬🇧GB - udptoos.com
-  network: ws
-  port: '80'
-  server: 91.193.58.145
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /pyip=telegram-wangcai2🇨🇳
-  xudp: true
-- name: '🇬🇧GB - udptoos.com #2'
-  network: ws
-  port: '80'
-  server: 91.193.58.74
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /pyip=Telegram-WangCai2🇨🇳
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇹🇼TW - udptoos.com #2'
-  network: ws
-  port: '8443'
-  server: 78.105.183.11
-  servername: magic2vpn.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 130add98-f232-406d-8bab-a6b61293db07
-  ws-opts:
-    headers:
-      Host: magic2vpn.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /proxyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇳🇱NL - udptoos.com #9'
-  network: ws
-  port: '8443'
-  server: 188.164.248.123
-  servername: vp21.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp21.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /
