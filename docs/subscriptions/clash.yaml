@@ -1,9 +1,21 @@
 proxies:
 - cipher: aes-256-cfb
+  name: 🇨🇦CA - udptoos.com
+  password: amazonskr05
+  port: 443
+  server: 3.96.124.46
+  type: ss
+- cipher: aes-256-cfb
   name: 🇨🇳CN - udptoos.com
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.138
+  server: 121.46.230.233
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇹🇭TH - udptoos.com
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
   type: ss
 - cipher: aes-256-cfb
   name: '🇨🇳CN - udptoos.com #2'
@@ -11,6 +23,24 @@ proxies:
   port: 65443
   server: 121.46.230.232
   type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧GB - udptoos.com
+  password: amazonskr05
+  port: 443
+  server: 18.132.203.206
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: '🇨🇳CN - udptoos.com #3'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: 🇳🇱NL - udptoos.com
   port: 9002
   server: 84.17.47.125
@@ -64,132 +94,143 @@ proxies:
   udp: true
 - name: 🇷🇴RO - udptoos.com
   port: 9002
-  server: 193.176.84.30
+  server: 193.176.84.33
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '🇷🇴RO - udptoos.com #2'
   port: 9002
-  server: 193.176.84.35
+  server: 193.176.84.25
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '🇷🇴RO - udptoos.com #3'
   port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #4'
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #5'
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #6'
-  port: 9002
   server: 193.176.84.20
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇷🇴RO - udptoos.com #7'
-  password: None
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #8'
-  password: None
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #9'
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #10'
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #11'
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇸🇬SG - udptoos.com
-  password: +igdJIkJgF39Q5wXddAP9Rlj667jG6pucZ3pIhq3CyY=
-  port: '56927'
-  server: 140.245.99.244
-  type: ss
-  udp: true
-- name: 🇵🇹PT - udptoos.com
-  password: None
-  port: 443
-  server: 149.22.86.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '🇵🇹PT - udptoos.com #2'
-  password: None
-  port: 443
-  server: 149.22.86.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 🇺🇸US - udptoos.com
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '🇺🇸US - udptoos.com #2'
+  password: null
   port: 12344
   server: 154.21.89.32
   type: http
-- client-fingerprint: firefox
+  username: null
+- name: '🇳🇱NL - udptoos.com #8'
+  password: 'null'
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '🇺🇸US - udptoos.com #3'
+  port: 25252
+  server: 52.168.83.190
+  type: http
+- name: '🇺🇸US - udptoos.com #4'
+  password: null
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇭🇰HK - udptoos.com
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU - udptoos.com
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-    short-id: ''
-  server: de48.tranzit-net.ru
-  servername: d.tranzit-net.ru
+    public-key: AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI
+    short-id: beff3ff061a64cfd
+  server: 94.228.166.247
+  servername: fi-one.quiet-rogue.site
   tls: true
   type: vless
   udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+  uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇮FI - udptoos.com
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: v5gYvnzEnIBByr3VdAeEYMNgQ3XoUKYpHKRl09spFWU
+    short-id: 5dea88
+  server: 87.58.153.39
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 785923c4-0b40-43b4-8506-523e31578d21
+  xudp: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    path:
+    - /
+  name: '🇳🇱NL - udptoos.com #9'
+  network: http
+  port: '2091'
+  server: login-home-news-nwc.mobileahmad.ir
+  type: vless
+  udp: true
+  uuid: 05f1007e-9ed8-4808-b081-65163a196959
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇱🇻LV - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
+    short-id: dd3ff38418d29d22
+  server: 195.123.210.168
+  servername: eu-west.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  port: '50160'
+  server: 152-69-231-175.liao.kdns.fr
+  skip-cert-verify: false
+  sni: 152-69-231-175.liao.kdns.fr
+  type: hysteria2
+  up: ''
 - alpn:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🇸🇬SG - udptoos.com #2'
-  password: 22654943-6142-4fdb-8722-ea9fefe9c4dc
+  name: 🇸🇬SG - udptoos.com
+  password: bd824dfb-d4bf-4fab-813d-3093608c2815
   port: 58441
   reduce-rtt: false
   request-timeout: 0
@@ -198,18 +239,12 @@ proxies:
   sni: singapore.ruixing.fun
   type: tuic
   udp-relay-mode: native
-  uuid: 22654943-6142-4fdb-8722-ea9fefe9c4dc
-- name: '🇺🇸US - udptoos.com #2'
-  password: 9d7a5883-c944-4169-9079-186b0b92f6bc
-  port: 40022
-  server: us2.catzl.top
-  type: anytls
-  udp: true
+  uuid: bd824dfb-d4bf-4fab-813d-3093608c2815
 - alpn:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🇸🇬SG - udptoos.com #3'
+  name: '🇸🇬SG - udptoos.com #2'
   password: 860d3c09-1226-4560-9c5c-da09647af060
   port: 58441
   reduce-rtt: false
@@ -224,7 +259,37 @@ proxies:
   - h3
   congestion-controller: bbr
   disable-sni: false
+  name: '🇸🇬SG - udptoos.com #3'
+  password: 22654943-6142-4fdb-8722-ea9fefe9c4dc
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: 22654943-6142-4fdb-8722-ea9fefe9c4dc
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
   name: '🇸🇬SG - udptoos.com #4'
+  password: 4cda0f74-e5d6-45ff-ad98-d2686eb1ec26
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: 4cda0f74-e5d6-45ff-ad98-d2686eb1ec26
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🇸🇬SG - udptoos.com #5'
   password: 068f8ba4-310f-400d-8832-9ec1645cd766
   port: 58441
   reduce-rtt: false
@@ -239,7 +304,22 @@ proxies:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🇸🇬SG - udptoos.com #5'
+  name: '🇸🇬SG - udptoos.com #6'
+  password: 0731d3a8-e094-41c9-9499-59fe3650ae6e
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: 0731d3a8-e094-41c9-9499-59fe3650ae6e
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🇸🇬SG - udptoos.com #7'
   password: c5031c3d-bc5a-47fd-9ab2-636c307eec59
   port: 58441
   reduce-rtt: false
@@ -254,7 +334,22 @@ proxies:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🇸🇬SG - udptoos.com #6'
+  name: '🇸🇬SG - udptoos.com #8'
+  password: 95eba93a-e7d7-4030-a085-9ce5c05e3318
+  port: 58441
+  reduce-rtt: false
+  request-timeout: 0
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: tuic
+  udp-relay-mode: native
+  uuid: 95eba93a-e7d7-4030-a085-9ce5c05e3318
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🇸🇬SG - udptoos.com #9'
   password: 633b661b-272e-457d-85ad-fb0175caa675
   port: 58441
   reduce-rtt: false
@@ -265,110 +360,20 @@ proxies:
   type: tuic
   udp-relay-mode: native
   uuid: 633b661b-272e-457d-85ad-fb0175caa675
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '🇸🇬SG - udptoos.com #7'
-  password: 0731d3a8-e094-41c9-9499-59fe3650ae6e
-  port: 58441
-  reduce-rtt: false
-  request-timeout: 0
-  server: singapore.ruixing.fun
-  skip-cert-verify: false
-  sni: singapore.ruixing.fun
-  type: tuic
-  udp-relay-mode: native
-  uuid: 0731d3a8-e094-41c9-9499-59fe3650ae6e
-- name: 🇯🇵JP - udptoos.com
-  password: 9d7a5883-c944-4169-9079-186b0b92f6bc
-  port: 40055
-  server: jp5.catzl.top
-  type: anytls
-  udp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '🇸🇬SG - udptoos.com #8'
-  password: bd824dfb-d4bf-4fab-813d-3093608c2815
-  port: 58441
-  reduce-rtt: false
-  request-timeout: 0
-  server: singapore.ruixing.fun
-  skip-cert-verify: false
-  sni: singapore.ruixing.fun
-  type: tuic
-  udp-relay-mode: native
-  uuid: bd824dfb-d4bf-4fab-813d-3093608c2815
-- name: 🇹🇼TW - udptoos.com
-  password: 9d7a5883-c944-4169-9079-186b0b92f6bc
-  port: 40072
-  server: tw2.catzl.top
-  type: anytls
-  udp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '🇸🇬SG - udptoos.com #9'
-  password: 9a198016-fdb7-4510-acca-e2c68c1083e5
-  port: 58441
-  reduce-rtt: false
-  request-timeout: 0
-  server: singapore.ruixing.fun
-  skip-cert-verify: false
-  sni: singapore.ruixing.fun
-  type: tuic
-  udp-relay-mode: native
-  uuid: 9a198016-fdb7-4510-acca-e2c68c1083e5
-- auth: 28775f0a-8027-4b33-9962-15634199b3a3
-  name: '🇸🇬SG - udptoos.com #10'
-  obfs: salamander
-  obfs-password: Y0hOpQA0X4EMz6fO
-  password: 28775f0a-8027-4b33-9962-15634199b3a3
-  port: 30625
-  server: singapore.ruixing.fun
-  skip-cert-verify: false
-  sni: singapore.ruixing.fun
-  type: hysteria2
-  udp: true
-- auth: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
-  name: '🇸🇬SG - udptoos.com #11'
-  obfs: salamander
-  obfs-password: Y0hOpQA0X4EMz6fO
-  password: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
-  port: 30625
-  server: singapore.ruixing.fun
-  skip-cert-verify: false
-  sni: singapore.ruixing.fun
-  type: hysteria2
-  udp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇫🇷FR - udptoos.com
+  name: '🇸🇬SG - udptoos.com #10'
   network: tcp
   port: 8444
   reality-opts:
-    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
-  server: 129.151.239.170
+    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+  server: 140.245.109.76
   servername: tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
-- auth: ca9df148-e636-47fe-9af6-fe8fe3eec197
-  name: '🇸🇬SG - udptoos.com #12'
-  obfs: salamander
-  obfs-password: Y0hOpQA0X4EMz6fO
-  password: ca9df148-e636-47fe-9af6-fe8fe3eec197
-  port: 30625
-  server: singapore.ruixing.fun
-  skip-cert-verify: false
-  sni: singapore.ruixing.fun
-  type: hysteria2
-  udp: true
-- client-fingerprint: edge
+  uuid: 28775f0a-8027-4b33-9962-15634199b3a3
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇲🇽MX - udptoos.com
   network: tcp
@@ -380,60 +385,21 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
-- client-fingerprint: ios
+  uuid: 6f2dd601-8ca8-4e68-90a8-64b988ae95b4
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '🇸🇬SG - udptoos.com #13'
+  name: 🇫🇷FR - udptoos.com
   network: tcp
   port: 8444
   reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '🇸🇬SG - udptoos.com #14'
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '🇲🇽MX - udptoos.com #2'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: LiSrIOq9pojF5iZc2c660LUAESwEWbxzt1YR96xz4k4
-  server: 139.177.103.135
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇲🇽MX - udptoos.com #3'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: LiSrIOq9pojF5iZc2c660LUAESwEWbxzt1YR96xz4k4
-  server: 139.177.103.135
+    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
+  server: 129.151.239.170
   servername: tesla.com
   tls: true
   type: vless
   udp: true
   uuid: 28775f0a-8027-4b33-9962-15634199b3a3
-- client-fingerprint: chrome
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: '🇫🇷FR - udptoos.com #2'
   network: tcp
@@ -445,8 +411,82 @@ proxies:
   tls: true
   type: vless
   udp: true
+  uuid: 6f2dd601-8ca8-4e68-90a8-64b988ae95b4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇸🇬SG - udptoos.com #11'
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+  server: 140.245.109.76
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '🇸🇬SG - udptoos.com #12'
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+  server: 140.245.109.76
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f2dd601-8ca8-4e68-90a8-64b988ae95b4
+- auth: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+  name: '🇸🇬SG - udptoos.com #13'
+  obfs: salamander
+  obfs-password: Y0hOpQA0X4EMz6fO
+  password: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+  port: 30625
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: hysteria2
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇲🇽MX - udptoos.com #2'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: LiSrIOq9pojF5iZc2c660LUAESwEWbxzt1YR96xz4k4
+  server: 139.177.103.135
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
   uuid: 28775f0a-8027-4b33-9962-15634199b3a3
-- client-fingerprint: chrome
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '🇲🇽MX - udptoos.com #3'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: LiSrIOq9pojF5iZc2c660LUAESwEWbxzt1YR96xz4k4
+  server: 139.177.103.135
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+- auth: 6f2dd601-8ca8-4e68-90a8-64b988ae95b4
+  name: '🇸🇬SG - udptoos.com #14'
+  obfs: salamander
+  obfs-password: Y0hOpQA0X4EMz6fO
+  password: 6f2dd601-8ca8-4e68-90a8-64b988ae95b4
+  port: 30625
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: hysteria2
+  udp: true
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   name: '🇫🇷FR - udptoos.com #3'
   network: tcp
@@ -458,52 +498,38 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
+  uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+- auth: 28775f0a-8027-4b33-9962-15634199b3a3
   name: '🇸🇬SG - udptoos.com #15'
-  network: tcp
-  port: 8444
+  obfs: salamander
+  obfs-password: Y0hOpQA0X4EMz6fO
+  password: 28775f0a-8027-4b33-9962-15634199b3a3
+  port: 30625
+  server: singapore.ruixing.fun
+  skip-cert-verify: false
+  sni: singapore.ruixing.fun
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: '🇰🇷KR - udptoos.com #2'
+  network: grpc
+  port: 10047
   reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
-  udp: true
-  uuid: 28775f0a-8027-4b33-9962-15634199b3a3
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE - udptoos.com
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
-  ws-opts:
-    headers:
-      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- cipher: chacha20-ietf
-  name: '🇭🇰HK - udptoos.com #2'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 37949-LD4JNZAf.download.microsoft.com
-    mode: http
-  port: '8406'
-  server: cn12.somethingstranges.com
-  type: ss
-  udp: true
-- name: 🇨🇦CA - udptoos.com
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+- name: '🇨🇦CA - udptoos.com #2'
   network: ws
   port: 443
   server: 172.67.198.236
-  servername: 2-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
+  servername: 1-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
@@ -511,20 +537,133 @@ proxies:
   uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
   ws-opts:
     headers:
-      Host: 2-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
+      Host: 1-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
     path: /8qMLgNapWf6SBxo8fhQlVPYO
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR - udptoos.com
-  network: raw
-  port: '10000'
-  reality-opts:
-    public-key: kdlgIBl7R_1DIWtJIrOqYwt65nedPCbz6XoomdpQIXM
-    short-id: ''
-  server: 221.155.195.197
-  servername: apple.com
+- name: '🇨🇦CA - udptoos.com #3'
+  network: ws
+  port: 443
+  server: 104.21.27.240
+  servername: 3-m20.20260721-9dc5-4f76-ad18-12cd86bca954.ccwu.cc
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 3-m20.20260721-9dc5-4f76-ad18-12cd86bca954.ccwu.cc
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- name: '🇨🇦CA - udptoos.com #4'
+  network: ws
+  port: 443
+  server: 172.67.148.254
+  servername: 7-m20.d3579eb3-e5cb-497b-82f8-c353614250e0.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 7-m20.d3579eb3-e5cb-497b-82f8-c353614250e0.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- name: '🇨🇦CA - udptoos.com #5'
+  network: ws
+  port: 443
+  server: 172.67.148.254
+  servername: 6-m20.d3579eb3-e5cb-497b-82f8-c353614250e0.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 6-m20.d3579eb3-e5cb-497b-82f8-c353614250e0.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- name: '🇨🇦CA - udptoos.com #6'
+  network: ws
+  port: 443
+  server: 172.67.139.129
+  servername: 8-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 8-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- name: '🇨🇦CA - udptoos.com #7'
+  network: ws
+  port: 443
+  server: 172.67.205.153
+  servername: 4-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 4-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- name: '🇨🇦CA - udptoos.com #8'
+  network: ws
+  port: 443
+  server: 172.67.198.236
+  servername: 0-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 0-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- name: '🇨🇦CA - udptoos.com #9'
+  network: ws
+  port: 443
+  server: 172.67.205.153
+  servername: 6-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 6-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇵🇱PL - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: zSUGAaQT4fl4OGIGQjUkU4gVWvyexICHgLE-bM2GUV4
+    short-id: 8d7ec053417caa53
+  server: 81.90.17.173
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
+  xudp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '🇵🇱PL - udptoos.com #2'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: zSUGAaQT4fl4OGIGQjUkU4gVWvyexICHgLE-bM2GUV4
+    short-id: 8d7ec053417caa53
+  server: vs-pl6.vibesignal.space
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
   xudp: true
