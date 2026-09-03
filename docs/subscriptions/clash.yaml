@@ -1,85 +1,38 @@
 proxies:
-- name: 🇳🇱NL - udptoos.com
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #2'
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #3'
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #4'
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #5'
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO - udptoos.com
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #2'
-  password: None
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #3'
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE - udptoos.com
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
+- cipher: aes-256-cfb
+  name: 🇨🇳CN - udptoos.com
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
+- name: 🇷🇺RU - udptoos.com
+  password: uowQGj5hGoMerPtQE2sZV-ETleLUgimbKf3q8TWfijQ
+  port: 34444
+  server: give.internet-card.sbs
+  sni: wata.internet-card.sbs
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
-    grpc-service-name: update
+    grpc-service-name: movie
   name: 🇭🇰HK - udptoos.com
   network: grpc
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: movie
-  name: '🇭🇰HK - udptoos.com #2'
-  network: grpc
-  port: '10128'
+  port: 10128
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
@@ -89,7 +42,22 @@ proxies:
   type: vless
   udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: '🇭🇰HK - udptoos.com #2'
+  network: grpc
+  port: 10130
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -107,70 +75,99 @@ proxies:
   udp: true
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
   xudp: true
-- name: 🇮🇪IE - udptoos.com
-  password: None
-  port: 443
-  server: 149.88.96.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇭TH - udptoos.com
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Ksy3KVVIVHpdE9Hpw7M55sFuQo1uw-1zCqiCBbFbbTY
-    short-id: 2a
-  server: lgtttxe5.87544899.xyz
-  servername: career.thaiairways.com
-  tls: true
-  type: vless
-  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG - udptoos.com
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: k7hxoilujF3OuiyJpxpVbRJ-XdOxJ2giDeqDTvghgXw
-    short-id: c72dc3a7e1da
-  server: do2sg3fgfqwds7gb.87544899.xyz
-  servername: bod.changiairport.com
-  tls: true
-  type: vless
-  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
 - client-fingerprint: chrome
   encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇸🇬SG - udptoos.com
+  network: grpc
+  port: '10036'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: '🇭🇰HK - udptoos.com #4'
+  network: grpc
+  port: '10129'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: '🇭🇰HK - udptoos.com #5'
+  network: grpc
+  packet-encoding: xudp
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: '🇭🇰HK - udptoos.com #6'
+  network: grpc
+  packet-encoding: xudp
+  port: 10129
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇷🇺RU - udptoos.com
+  name: '🇷🇺RU - udptoos.com #2'
   network: tcp
   port: 443
   reality-opts:
     public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
     short-id: 4da5d1853f04af6d
-  server: rrr.windconnect.pro
+  server: 31.76.71.140
   servername: rrr.windconnect.pro
   tls: true
   type: vless
-  udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-  xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇭🇰HK - udptoos.com #4'
+  encryption: none
+  name: 🇳🇱NL - udptoos.com
   network: tcp
-  port: 443
+  port: '8080'
   reality-opts:
-    public-key: UXuPOHhPEL-Fd7wcNYSqEhKG-7d7LKEZr2QqTYy1rFc
-    short-id: e7988d
-  server: hkhl1f6.87544899.xyz
-  servername: travelinluxe.discoverhongkong.com
+    public-key: a31ZnQOsnWUJq5bSLVWIeuGJZFPE52NidulBT5CV_z4
+    short-id: f40ef36067
+  server: meli-netbot-join.team-pluss.com
+  servername: the.world.of.the.champions.retrovip.net
   tls: true
   type: vless
-  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+  udp: true
+  uuid: 52b7a871-1455-4a6e-9e9c-78a0a1e43f86
+  xudp: true
