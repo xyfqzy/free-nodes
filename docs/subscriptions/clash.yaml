@@ -3,93 +3,36 @@ proxies:
   name: 🇨🇳CN - udptoos.com
   password: 7eadc6dbe2ae
   port: 65443
+  server: 121.46.230.233
+  type: ss
+- cipher: aes-256-cfb
+  name: '🇨🇳CN - udptoos.com #2'
+  password: 7eadc6dbe2ae
+  port: 65443
   server: 121.46.230.137
   type: ss
-- cipher: aes-256-cfb
-  name: 🇮🇪IE - udptoos.com
-  password: amazonskr05
-  port: 443
-  server: 3.252.205.48
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇦CA - udptoos.com
-  password: amazonskr05
-  port: 443
-  server: 15.223.182.66
-  type: ss
 - name: 🇳🇱NL - udptoos.com
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #2'
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇳🇱NL - udptoos.com #3'
+- name: '🇳🇱NL - udptoos.com #2'
   port: 9002
   server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #4'
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #5'
-  port: 9002
-  server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 🇷🇴RO - udptoos.com
   port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #2'
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #3'
-  port: 9002
   server: 193.176.84.24
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇷🇴RO - udptoos.com #4'
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #5'
-  password: None
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #6'
+- name: '🇷🇴RO - udptoos.com #2'
   password: None
   port: 9002
   server: 193.176.84.23
@@ -97,201 +40,55 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '🇷🇴RO - udptoos.com #7'
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #8'
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #9'
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-001.fastervpn.world
+- alpn:
+  - h3
+  name: 🇷🇺RU - udptoos.com
+  password: niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY
+  port: 24444
+  server: give.internet-card.sbs
+  sni: bel7bel.internet-card.sbs
   tls: false
   type: hysteria2
-  up: ''
-- name: 🇫🇷FR - udptoos.com
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  port: 443
-  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪DE - udptoos.com
+  port: 20088
+  server: 5.83.129.153
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-- name: '🇷🇴RO - udptoos.com #10'
-  password: 'null'
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '🇷🇴RO - udptoos.com #11'
-  password: None
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US - udptoos.com
-  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-  port: 8443
-  server: 422fc6a4-tk59c0-tll9n7-1l0qa.isp.cdnkuaishou.com
-  sni: 422fc6a4-tk59c0-tll9n7-1l0qa.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-- name: '🇺🇸US - udptoos.com #2'
-  password: 39275498-a48c-11ee-b03a-f23c913c8d2b
-  port: 8443
-  server: dacb426e-tk59c0-tl2lpx-1ofy2.isp.cdnkuaishou.com
-  sni: dacb426e-tk59c0-tl2lpx-1ofy2.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: 39275498-a48c-11ee-b03a-f23c913c8d2b
-- name: '🇷🇴RO - udptoos.com #12'
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
+  sni: apple.com
+  type: hysteria
   udp: true
-- cipher: aes-256-cfb
-  name: '🇮🇪IE - udptoos.com #2'
-  password: amazonskr05
-  port: 443
-  server: 3.250.40.89
-  type: ss
-  udp: true
-- name: 🇷🇸RS - udptoos.com
-  port: 6669
-  server: 178.217.12.30
-  type: http
-- name: 🇩🇪DE - udptoos.com
-  password: null
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- cipher: aes-256-cfb
-  name: '🇨🇦CA - udptoos.com #2'
-  password: amazonskr05
-  port: 443
-  server: 3.96.202.83
-  type: ss
-  udp: true
-- name: '🇳🇱NL - udptoos.com #6'
-  port: 443
-  server: 185.140.209.235
-  skip-cert-verify: true
-  sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
-  tls: true
-  type: http
-- name: '🇳🇱NL - udptoos.com #7'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH - udptoos.com
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '🇫🇷FR - udptoos.com #2'
-  port: 443
-  server: 103.82.101.43
-  skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
-  tls: true
-  type: http
-- name: '🇳🇱NL - udptoos.com #8'
-  port: 443
-  server: 185.246.153.28
-  skip-cert-verify: true
-  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
-  tls: true
-  type: http
-- name: '🇳🇱NL - udptoos.com #9'
-  password: 'null'
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '🇺🇸US - udptoos.com #3'
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  tls: true
-  type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-- name: '🇬🇧GB - udptoos.com #2'
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇹🇭TH - udptoos.com
-  port: 31280
-  server: 202.28.194.139
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇵🇱PL - udptoos.com
+  up: '500'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇳🇱NL - udptoos.com #3'
   network: tcp
-  port: '27516'
+  port: '443'
   reality-opts:
-    public-key: YYXAgMxWrqeSWpRqILvNRpjA4VFE_j9b3R0tYv0ULHI
-    short-id: ''
-  server: 82.40.62.197
-  servername: amp-api-edge.apps.apple.com
+    public-key: Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg
+    short-id: cf41f778
+  server: 84.32.177.6
+  servername: apiv5.jarvesitw.ru
   tls: true
   type: vless
   udp: true
-  uuid: 1d7e8526-f566-4f16-aec4-566eb2caecea
+  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🇳🇱NL - udptoos.com #10'
-  obfs: ''
-  obfs-password: ''
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: '8443'
-  server: 46.229.243.146
-  skip-cert-verify: false
-  sni: grape-turbo-fr.roxa.org
-  type: hysteria2
-  up: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇷🇺RU - udptoos.com #2'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
+    short-id: bbe46bd8f6b96839
+  server: 144.31.50.236
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
+  xudp: true
