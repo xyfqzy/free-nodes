@@ -1,5 +1,11 @@
 proxies:
 - cipher: aes-256-cfb
+  name: 🇫🇷FR - udptoos.com
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  type: ss
+- cipher: aes-256-cfb
   name: 🇨🇳CN - udptoos.com
   password: 7eadc6dbe2ae
   port: 65443
@@ -9,68 +15,101 @@ proxies:
   name: '🇨🇳CN - udptoos.com #2'
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.137
+  server: 121.46.230.138
   type: ss
 - name: 🇳🇱NL - udptoos.com
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #2'
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #3'
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇳🇱NL - udptoos.com #2'
+- name: '🇳🇱NL - udptoos.com #4'
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: '🇳🇱NL - udptoos.com #5'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #6'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #7'
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 🇷🇴RO - udptoos.com
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇷🇴RO - udptoos.com #2'
   port: 9002
   server: 193.176.84.24
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇷🇴RO - udptoos.com #2'
-  password: None
+- name: '🇷🇴RO - udptoos.com #3'
   port: 9002
-  server: 193.176.84.23
+  server: 193.176.84.20
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: 🇯🇵JP - udptoos.com
+  password: null
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
 - alpn:
-  - h3
-  name: 🇷🇺RU - udptoos.com
-  password: niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY
-  port: 24444
-  server: give.internet-card.sbs
-  sni: bel7bel.internet-card.sbs
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪DE - udptoos.com
-  port: 20088
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
-- client-fingerprint: firefox
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '🇳🇱NL - udptoos.com #3'
+  name: 🇩🇪DE - udptoos.com
   network: tcp
   port: '443'
   reality-opts:
-    public-key: Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg
-    short-id: cf41f778
-  server: 84.32.177.6
-  servername: apiv5.jarvesitw.ru
+    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
+    short-id: b0ffeec3
+  server: 88.216.190.205
+  servername: apiv91.jarvesitw.ru
   tls: true
   type: vless
   udp: true
@@ -79,16 +118,60 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇷🇺RU - udptoos.com #2'
+  name: '🇩🇪DE - udptoos.com #2'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
-    short-id: bbe46bd8f6b96839
-  server: 144.31.50.236
-  servername: yandex.ru
+    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
+    short-id: b0ffeec3
+  server: sv9.jarvesitw.ru
+  servername: apiv91.jarvesitw.ru
   tls: true
   type: vless
   udp: true
-  uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
+  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
   xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '🇩🇪DE - udptoos.com #3'
+  network: ws
+  port: '16648'
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b5f7ad86-9e40-4684-98f9-83f8136a1054
+  ws-opts:
+    headers:
+      Host: eeee7339c9f412913069ff64b12fb71f.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '🇩🇪DE - udptoos.com #4'
+  network: ws
+  port: '16626'
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
+  ws-opts:
+    headers:
+      Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: '🇯🇵JP - udptoos.com #2'
+  obfs: ''
+  obfs-password: ''
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: '20562'
+  server: msjp.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  up: ''
