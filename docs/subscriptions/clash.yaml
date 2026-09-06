@@ -1,11 +1,314 @@
 proxies:
-- name: 🇳🇱NL - udptoos.com
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
+- encryption: none
+  name: 🇩🇪DE - udptoos.com
+  network: ws
+  port: '2087'
+  server: 163.8.195.241
+  type: vless
   udp: true
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    headers:
+      Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /29c8fed7ca22
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+  xudp: true
+- encryption: none
+  name: '🇩🇪DE - udptoos.com #2'
+  network: ws
+  port: '2087'
+  server: 163.8.195.241
+  servername: /?--v2rayNplus--v2rayNplus--v2rayNplus--
+  type: vless
+  udp: true
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /29c8fed7ca22
+  xudp: true
+- encryption: none
+  name: 🇬🇧GB - udptoos.com
+  network: ws
+  port: '2087'
+  server: 188.220.67.245
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
+- encryption: none
+  name: '🇬🇧GB - udptoos.com #2'
+  network: ws
+  port: '2087'
+  server: 188.220.67.245
+  servername: 188.220.67.245
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
+- encryption: none
+  name: 🇵🇱PL - udptoos.com
+  network: ws
+  port: '2087'
+  server: 178.95.170.83
+  servername: Telegram-Leviko_v2ray
+  type: vless
+  udp: true
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /4bc027a44532
+  xudp: true
+- encryption: none
+  name: '🇵🇱PL - udptoos.com #2'
+  network: ws
+  port: '2087'
+  server: 178.95.170.83
+  servername: 178.95.170.83
+  type: vless
+  udp: true
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /4bc027a44532
+  xudp: true
+- name: 🇺🇸US - udptoos.com
+  password: ''
+  port: '7070'
+  server: 20.83.154.79
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  name: 🇹🇭TH - udptoos.com
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 103.169.67.34
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇨🇦CA - udptoos.com
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.15.230
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /assignment
+- name: '🇺🇸US - udptoos.com #2'
+  password: test123
+  port: '1080'
+  server: 104.168.249.36
+  skip-cert-verify: true
+  type: socks5
+  username: test123
+- name: 🇳🇱NL - udptoos.com
+  password: test123
+  port: '1080'
+  server: 185.145.99.41
+  skip-cert-verify: true
+  type: socks5
+  username: test123
+- name: 🇫🇮FI - udptoos.com
+  password: ''
+  port: '1080'
+  server: 83.147.216.208
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- down: ''
+  fingerprint: ''
+  name: '🇷🇺RU - udptoos.com #2'
+  obfs: ''
+  obfs-password: ''
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  port: '443'
+  server: news.gazette.help
+  skip-cert-verify: false
+  sni: news.gazette.help
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #2'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.188.109
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 🇮🇪IE - udptoos.com
+  password: amazonskr05
+  port: '443'
+  server: 52.214.208.36
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇷🇺RU - udptoos.com #3'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇨🇳CN - udptoos.com
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.137
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '🇨🇳CN - udptoos.com #2'
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.232
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '🇨🇳CN - udptoos.com #3'
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.138
+  type: ss
+  udp: true
+- name: '🇩🇪DE - udptoos.com #3'
+  password: 1018b25c-6722-4692-849a-ed2d54c88605
+  port: 40063
+  server: de3.catzl.top
+  type: anytls
+  udp: true
+- name: 🇮🇹IT - udptoos.com
+  password: 1018b25c-6722-4692-849a-ed2d54c88605
+  port: 40091
+  server: it1.nbjc.top
+  type: anytls
+  udp: true
+- name: '🇺🇸US - udptoos.com #3'
+  password: 1018b25c-6722-4692-849a-ed2d54c88605
+  port: 40022
+  server: us2.catzl.top
+  type: anytls
+  udp: true
+- name: 🇰🇷KR - udptoos.com
+  password: 1018b25c-6722-4692-849a-ed2d54c88605
+  port: 40041
+  server: kr1.catzl.top
+  type: anytls
+  udp: true
+- name: 🇹🇼TW - udptoos.com
+  password: 1018b25c-6722-4692-849a-ed2d54c88605
+  port: 40072
+  server: tw2.catzl.top
+  type: anytls
+  udp: true
+- name: '🇹🇼TW - udptoos.com #2'
+  password: 1018b25c-6722-4692-849a-ed2d54c88605
+  port: 40071
+  server: tw1.catzl.top
+  type: anytls
+  udp: true
+- name: '🇮🇹IT - udptoos.com #2'
+  password: 1018b25c-6722-4692-849a-ed2d54c88605
+  port: 40092
+  server: it2.nbjc.top
+  type: anytls
+  udp: true
+- name: '🇹🇼TW - udptoos.com #3'
+  password: 1018b25c-6722-4692-849a-ed2d54c88605
+  port: 40073
+  server: tw3.catzl.top
+  type: anytls
+  udp: true
+- name: '🇰🇷KR - udptoos.com #2'
+  password: 1018b25c-6722-4692-849a-ed2d54c88605
+  port: 40042
+  server: kr2.catzl.top
+  type: anytls
+  udp: true
+- name: 🇯🇵JP - udptoos.com
+  password: 1018b25c-6722-4692-849a-ed2d54c88605
+  port: 40055
+  server: jp5.catzl.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇩🇪DE - udptoos.com #4'
+  network: xhttp
+  port: '443'
+  server: 167.233.219.201
+  servername: fsn1.nordlinkcloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+  xhttp-opts:
+    mode: auto
+    path: /api/v3/stream/
+  xudp: true
 - name: '🇳🇱NL - udptoos.com #2'
   password: None
   port: 9002
@@ -15,216 +318,199 @@ proxies:
   type: http
   udp: true
 - name: '🇳🇱NL - udptoos.com #3'
+  password: None
   port: 9002
-  server: 84.17.47.150
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '🇳🇱NL - udptoos.com #4'
   port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #5'
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #6'
-  port: 9002
   server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇳🇱NL - udptoos.com #7'
+- name: '🇳🇱NL - udptoos.com #5'
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - udptoos.com
+- name: '🇺🇸US - udptoos.com #4'
   port: 9002
-  server: 193.176.84.30
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇷🇴RO - udptoos.com #2'
-  port: 9002
-  server: 193.176.84.17
+- name: 🇨🇭CH - udptoos.com
+  password: null
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #3'
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #4'
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #5'
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #6'
-  password: None
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #7'
-  password: None
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #8'
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #9'
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #10'
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: movie
-  name: 🇭🇰HK - udptoos.com
-  network: grpc
-  port: '10136'
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk6-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-  xudp: true
-- name: 🇬🇧GB - udptoos.com
+  username: null
+- name: 🇫🇷FR - udptoos.com
   port: 443
-  server: 212.102.63.31
+  server: 103.82.101.43
+  skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+  tls: true
+  type: http
+- name: '🇯🇵JP - udptoos.com #2'
+  port: 443
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+- name: 🇨🇿CZ - udptoos.com
+  password: ''
+  port: 443
+  server: 185.216.35.66
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: rc4-md5
-  name: '🇭🇰HK - udptoos.com #2'
-  obfs: tls1.2_ticket_auth
-  obfs-param: 62936143.douyin.com
-  password: di15PV
-  port: 2202
-  protocol: auth_aes128_md5
-  protocol-param: 36143:GWgpVE
-  server: api.meituan88.com
-  type: ssr
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇮🇷IR - udptoos.com
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: bridge2.kolhoz.fuck-rkn.xyz
-  servername: jobinvest.ru
+  udp: true
+  username: ''
+- name: '🇺🇸US - udptoos.com #5'
+  password: ''
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
-  tfo: false
   tls: true
-  type: vless
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
-- name: 🇷🇺RU - udptoos.com
+  type: http
+  udp: true
+  username: ''
+- name: 🇧🇪BE - udptoos.com
+  port: 443
+  server: 146.70.176.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '🇺🇸US - udptoos.com #6'
+  password: null
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇺🇸US - udptoos.com #7'
+  password: null
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇺🇸US - udptoos.com #8'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇺🇸US - udptoos.com #9'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #6'
+  port: 5050
+  server: 72.56.72.131
+  type: http
+- name: '🇷🇺RU - udptoos.com #4'
   port: 3139
   server: 94.19.93.170
   type: http
-- name: 🇩🇪DE - udptoos.com
+- name: '🇨🇦CA - udptoos.com #3'
+  network: ws
   port: 443
-  server: 149.36.50.129
+  server: 172.67.177.227
+  servername: 4-m16.cHiAN-mai-7.kdnS.fr
   skip-cert-verify: true
   tls: true
-  type: http
-- name: 🇰🇷KR - udptoos.com
-  password: Og%3D%3D
-  port: '1090'
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  username: Og%3D%3D
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 4-m16.ChIAn-mai-7.kDnS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #4'
+  network: ws
+  port: '443'
+  server: 172.67.149.248
+  servername: IMG-edGe-m16-3.hUAnGSHANg.PP.uA
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: IMG-edGe-m16-3.hUAnGSHANg.PP.uA
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #5'
+  network: ws
+  port: '8443'
+  server: 104.17.73.206
+  servername: 8.sahanwickramasinghe.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 542fd687-5160-4f80-9223-56678567dd29
+  ws-opts:
+    headers:
+      Host: 8.sahanwickramasinghe.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇮🇷IR - udptoos.com #2'
-  network: raw
+  name: '🇩🇪DE - udptoos.com #5'
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: bridge2.kolhoz.fuck-rkn.xyz
-  servername: jobinvest.ru
+    public-key: k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw
+    short-id: 4a1b0c7d
+  server: 91.233.8.31
+  servername: tnt-cloud.ru
   tls: true
   type: vless
   udp: true
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+  uuid: 2feda6f7-8baa-4591-a851-1e2037a58572
   xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🇫🇷FR - udptoos.com
-  port: 443
+  name: 🇸🇬SG - udptoos.com
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 31.77.61.214
-  servername: jobinvest.ru
-  skip-cert-verify: true
+    public-key: l_AILVmgCSrYUlKhoiFc6NYY-zjXE6FTGEDaG1MECQY
+    short-id: 635295c55ea6eda1
+  server: 163.128.99.165
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇫🇷FR - udptoos.com #2'
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 31.77.61.89
-  servername: jobinvest.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+  uuid: 66d0024b-307a-4714-86f7-07d141a244bf
+  xudp: true
+- cipher: aes-256-cfb
+  name: '🇨🇳CN - udptoos.com #4'
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
