@@ -1,91 +1,22 @@
 proxies:
-- name: 🇭🇰HK - udptoos.com
+- name: 🇹🇼TW - udptoos.com
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- fingerprint: ''
+  name: 🇭🇰HK - udptoos.com
   password: dCwrni
-  port: 7008
+  port: '7008'
   server: api.meituan88.com
   skip-cert-verify: true
   sni: globalnetworktraffic.com
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇵🇱PL - udptoos.com
-  network: tcp
-  port: 8118
-  reality-opts:
-    public-key: LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM
-    short-id: ''
-  server: plll.banibus.ir
-  servername: play.googleapis.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8b54a46a-e66b-48cc-bf5a-88f0855a3598
-  xudp: true
-- name: 🇬🇧GB - udptoos.com
-  password: null
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇮🇳IN - udptoos.com
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: MR3--Lgrp1O67QJBp3okuRIBKJih--0DZ3RHnhDqvGM
-    short-id: 8b95d689
-  server: in.passby.cc
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 70484e43-6be2-495f-b57b-c46588385fee
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇮🇳IN - udptoos.com #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8R-7bpbOWYQ5V1X1BpxgAJtSjTOhi-akfZ_nEevnRV0
-    short-id: c429ccdb
-  server: in.passby.cc
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 70484e43-6be2-495f-b57b-c46588385fee
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇮🇳IN - udptoos.com #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8R-7bpbOWYQ5V1X1BpxgAJtSjTOhi-akfZ_nEevnRV0
-    short-id: c429ccdb
-  server: in.passby.cc
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc83457d-627f-4610-b761-a71e5e35d4ad
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇮🇳IN - udptoos.com #4'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: MR3--Lgrp1O67QJBp3okuRIBKJih--0DZ3RHnhDqvGM
-    short-id: 8b95d689
-  server: in.passby.cc
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc83457d-627f-4610-b761-a71e5e35d4ad
+  username: dCwrni
 - client-fingerprint: chrome
   encryption: none
   name: '🇭🇰HK - udptoos.com #2'
@@ -101,3 +32,45 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇭🇰HK - udptoos.com #3'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: 130.12.102.125
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇭🇰HK - udptoos.com #4'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: 130.12.102.26
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇭🇰HK - udptoos.com #5'
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
+  servername: localhost
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
