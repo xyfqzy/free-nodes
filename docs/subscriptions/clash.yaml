@@ -1,17 +1,290 @@
 proxies:
-- client-fingerprint: safari
-  encryption: none
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇵🇱PL - udptoos.com
+  name: 🇭🇰HK - udptoos.com
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3L7i89N5sfDRSYIB4bkzv00xrxsPVonxW0gl_bRjpSA
+    short-id: 637b170c
+  server: 64.90.29.53
+  servername: cdn.usefathom.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: bbbad538-910a-8972-278a-718093dc9980
+- alpn:
+  - h3
+  auth: XrgOXIVkpI
+  name: 🇯🇵JP - udptoos.com
+  obfs: salamander
+  obfs-password: Jzy@1234...
+  password: XrgOXIVkpI
+  port: 54325
+  server: jpsui.jzy88.top
+  skip-cert-verify: true
+  sni: jpsui.jzy88.top
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇨🇳CN - udptoos.com
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+- name: 🇺🇸US - udptoos.com
+  password: ''
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- cipher: aes-256-cfb
+  name: '🇨🇳CN - udptoos.com #2'
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+  udp: true
+- name: 🇹🇭TH - udptoos.com
+  password: null
+  port: 31280
+  server: 202.28.194.139
+  type: http
+  username: null
+- name: '🇨🇳CN - udptoos.com #3'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44052
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #4'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44001
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #5'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44062
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #6'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44002
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #7'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44055
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #8'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44053
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #9'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44005
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #10'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44057
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #11'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44060
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #12'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44058
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #13'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44054
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #14'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44064
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #15'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44006
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #16'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44029
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #17'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44000
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #18'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44007
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #19'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44009
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #20'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44063
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #21'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44012
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- name: '🇨🇳CN - udptoos.com #22'
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44065
+  server: 62.234.223.235
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🌐ZZ - udptoos.com
+  port: 11437
+  reality-opts:
+    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+    short-id: 7de83d0e31eb75ef
+  server: fi.horlutr.ir
+  servername: amp-api-edge.apps.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+- client-fingerprint: chrome
+  name: 🇹🇷TR - udptoos.com
+  port: 443
+  reality-opts:
+    public-key: MgyA2FY0p2q_VOwoL9T1Z3rzpKEcGjfN61QliGcyHA8
+    short-id: ca41ef1263c02279
+  server: 45.74.158.180
+  servername: refersion.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42994234-1689-48bc-8d01-cfb16e7b017a
+- client-fingerprint: chrome
+  name: 🇨🇦CA - udptoos.com
+  network: ws
+  port: '443'
+  server: 104.21.91.102
+  servername: 4-M16.aYUtTHAya2031.kdnS.fR
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 4-M16.aYUtTHAya2031.kdnS.fR
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #2'
+  network: ws
+  port: '443'
+  server: 104.21.37.195
+  servername: 3-M19.fGh.cCwU.cC
+  tls: true
+  type: vless
+  udp: true
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  ws-opts:
+    headers:
+      Host: 3-m19.fGH.ccWU.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /CjBjB9sn5pCvaSwScc
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇺🇸US - udptoos.com #2'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
-    short-id: fa3ea655619a3e78
-  server: 82.118.22.161
+    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
+    short-id: 55ab5559e3a6d10a
+  server: 5.34.178.120
   servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
+  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
   xudp: true
