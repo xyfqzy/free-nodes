@@ -3,230 +3,34 @@ proxies:
   name: 🇨🇳CN - udptoos.com
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.137
+  server: 121.46.230.233
   type: ss
-- alpn:
-  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: 2.26.178.129
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #2'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: 2.26.178.138
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #3'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: 2.26.178.152
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- alpn:
-  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #4'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: 2.26.178.166
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇹🇷TR - udptoos.com
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: 9PxwbCMskvn1WA7ieKvvgJ3tvYU-u0r9wms__WU8URU
-    short-id: 0bd70fc8a4034691
-  server: tur.zavqeron.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8db3a1ab-f739-41f2-ae46-4fb72d9134f8
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #5'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: p6fXMWvrlT5tkuvZCuiTZtvFf4bpsxdnApMVunKfGmQ
-    short-id: 4f6cee018ff16792
-  server: 104.194.134.126
-  servername: cdn.dodostatic.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8c0e295-0036-4aeb-8263-f6c2ee3060fe
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇹🇷TR - udptoos.com #2'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: MgyA2FY0p2q_VOwoL9T1Z3rzpKEcGjfN61QliGcyHA8
-    short-id: ca41ef1263c02279
-  server: 45.74.158.180
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 42994234-1689-48bc-8d01-cfb16e7b017a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #6'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: brightharbor.download
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🌐ZZ - udptoos.com
-  network: tcp
-  port: '11437'
-  reality-opts:
-    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-    short-id: 7de83d0e31eb75ef
-  server: fi.horlutr.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE - udptoos.com
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb
-  ws-opts:
-    headers:
-      Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP - udptoos.com
-  network: raw
-  port: '50159'
-  reality-opts:
-    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
-    short-id: 091e1c5db8451757
-  server: 154.31.114.248
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇨SC - udptoos.com
-  network: ws
-  password: humanity
-  port: '443'
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #7'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: brightharbor.download
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #8'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: brightharbor.download
-  servername: brightharbor.download
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
+- cipher: aes-256-cfb
+  name: 🇮🇪IE - udptoos.com
+  password: amazonskr05
+  port: 443
+  server: 54.171.218.140
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧GB - udptoos.com
+  password: amazonskr05
+  port: 443
+  server: 35.179.104.218
+  type: ss
 - client-fingerprint: chrome
   name: 🇭🇰HK - udptoos.com
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.125
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  name: '🇭🇰HK - udptoos.com #2'
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -238,35 +42,105 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇳🇴NO - udptoos.com
+  name: 🇷🇺RU - udptoos.com
   network: tcp
   port: '443'
   reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 151.242.168.207
-  servername: kibi-institut.de
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 113.30.154.2
+  servername: sellflow.org
   tls: true
   type: vless
   udp: true
-  uuid: 1cbeb6e4-06c0-421b-9baa-8af782d6e6cc
+  uuid: db9da8fb-c528-42ec-9b9e-e578cf934c04
   xudp: true
 - client-fingerprint: chrome
-  name: '🌐ZZ - udptoos.com #2'
-  port: 11437
+  encryption: none
+  name: '🇭🇰HK - udptoos.com #3'
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-    short-id: 7de83d0e31eb75ef
-  server: fi.horlutr.ir
-  servername: amp-api-edge.apps.apple.com
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: 130.12.102.26
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL - udptoos.com
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 9dw9Bova6GFJHi8taK2JK3EnSC8MiAgYh9oY4Dog73w
+    short-id: bb54c0d4985504cd
+  server: 107.189.25.18
+  servername: cdn.dodostatic.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00f53158-c278-4d64-ae98-a60c5fe09ffa
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇭🇰HK - udptoos.com #4'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: freshjuniper.download
+  servername: freshjuniper.download
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇭🇰HK - udptoos.com #5'
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
+  servername: freshjuniper.download
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: chrome
-  name: '🇭🇰HK - udptoos.com #2'
+  name: '🇭🇰HK - udptoos.com #6'
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
+  servername: localhost
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  name: 🇹🇷TR - udptoos.com
+  port: 443
+  reality-opts:
+    public-key: MgyA2FY0p2q_VOwoL9T1Z3rzpKEcGjfN61QliGcyHA8
+    short-id: ca41ef1263c02279
+  server: 45.74.158.180
+  servername: refersion.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42994234-1689-48bc-8d01-cfb16e7b017a
+- client-fingerprint: chrome
+  name: '🇭🇰HK - udptoos.com #7'
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
