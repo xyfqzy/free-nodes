@@ -1,114 +1,116 @@
 proxies:
-- name: 🇭🇰HK - udptoos.com
-  port: 1080
-  server: 47.76.175.249
-  type: socks5
-- auth: z4zi7wYc7s
-  name: 🇰🇷KR - udptoos.com
-  password: z4zi7wYc7s
-  port: 45534
-  server: 158.180.88.172
+- down: ''
+  fingerprint: ''
+  name: 🇬🇧GB - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: vpn-uk-001.fastervpn.world
   skip-cert-verify: true
-  sni: go.microsoft.com
+  sni: whatsapp.com
   type: hysteria2
-- name: 🇧🇪BE - udptoos.com
-  port: 443
-  server: 146.70.176.242
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '🇬🇧GB - udptoos.com #2'
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: vpn-uk-001.fastervpn.world
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL - udptoos.com
-  port: 443
-  server: 103.97.88.154
-  skip-cert-verify: true
-  sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
-  tls: true
-  type: http
-- name: 🇬🇧GB - udptoos.com
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE - udptoos.com
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇬🇧GB - udptoos.com #2'
-  password: null
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇸RS - udptoos.com
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- auth: 633bc3be486b646190661ac2387c150a
-  name: 🇦🇺AU - udptoos.com
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  password: 633bc3be486b646190661ac2387c150a
-  port: 443
-  server: 152.67.115.203
-  skip-cert-verify: true
-  sni: www.bing.com
+  sni: google.com
   type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: '4433'
+  server: de1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '🇬🇧GB - udptoos.com #3'
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: vpn-uk-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vk.com
+  type: hysteria2
+  up: ''
+- name: 🇺🇸US - udptoos.com
+  password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+  port: 40022
+  server: us2.catzl.top
+  type: anytls
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇵🇱PL - udptoos.com
-  network: raw
-  port: '20002'
+- name: 🇹🇼TW - udptoos.com
+  password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+  port: 40071
+  server: tw1.catzl.top
+  type: anytls
+  udp: true
+- name: 🇰🇷KR - udptoos.com
+  password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+  port: 40041
+  server: kr1.catzl.top
+  type: anytls
+  udp: true
+- name: '🇰🇷KR - udptoos.com #2'
+  password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+  port: 40042
+  server: kr2.catzl.top
+  type: anytls
+  udp: true
+- name: 🇯🇵JP - udptoos.com
+  password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+  port: 40055
+  server: jp5.catzl.top
+  type: anytls
+  udp: true
+- client-fingerprint: edge
+  name: 🇷🇺RU - udptoos.com
+  network: xhttp
+  port: 443
   reality-opts:
-    public-key: _ilhBTibNauMOEUqylnlBAUTYiqHHtmEDXkx18SHCR4
-    short-id: ''
-  server: 185.141.227.155
-  servername: pool.dataroute.biz
+    public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
+    short-id: 8ba6e72ee60667f6
+  server: 161.104.38.98
+  servername: donatov.net
   tls: true
   type: vless
   udp: true
-  uuid: 2b3e8750-b944-42fc-b36e-ec2c64b48a98
-  xudp: true
-- client-fingerprint: chrome
-  name: 🌐ZZ - udptoos.com
-  port: 11437
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  xhttp-opts:
+    host: donatov.net
+    path: /assets
+- client-fingerprint: edge
+  name: '🇷🇺RU - udptoos.com #2'
+  network: xhttp
+  port: 443
   reality-opts:
-    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-    short-id: 7de83d0e31eb75ef
-  server: fi.horlutr.ir
-  servername: amp-api-edge.apps.apple.com
-  skip-cert-verify: true
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  server: 135.106.142.209
+  servername: alfastat.ru
   tls: true
   type: vless
   udp: true
-  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  xhttp-opts:
+    host: alfastat.ru
+    path: /assets
 - client-fingerprint: chrome
   name: 🇨🇦CA - udptoos.com
-  network: ws
-  port: '2053'
-  server: 172.65.90.42
-  servername: loc.wzs.gv.uy
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: loc.wzs.gv.uy
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCwYbAQUETFQDVxkGBVQXHBpdVhcXERcHDA5bUA==
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #2'
   network: ws
   port: '443'
   server: 104.21.36.81
@@ -120,73 +122,57 @@ proxies:
   ws-opts:
     headers:
       Host: 4-M16.ChIANG-RaI2036.kdnS.fR
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
   xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #2'
+  network: ws
+  port: '443'
+  server: 104.21.71.47
+  servername: 0-M16.CHIaN-mai-x.kDnS.FR
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 0-M16.CHIaN-mai-x.kDnS.FR
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '🇳🇱NL - udptoos.com #2'
+  name: 🇱🇺LU - udptoos.com
   network: tcp
   port: '443'
   reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: a7b2c9d4
-  server: 109.121.44.71
-  servername: www.amd.com
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.eu
   tls: true
   type: vless
   udp: true
-  uuid: 03446511-2806-4fc0-b02f-f10d2d3a33c6
+  uuid: a903a468-ce63-4f3b-a4de-332eb91cc2f0
   xudp: true
-- client-fingerprint: random
-  name: '🇵🇱PL - udptoos.com #2'
+- client-fingerprint: edge
+  name: '🇨🇦CA - udptoos.com #3'
   network: ws
-  port: '8443'
-  server: 150.251.113.76
-  servername: kv.074167.xyz
+  port: '443'
+  server: cfd.url0.top
+  servername: tl.520783.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   ws-opts:
     headers:
-      Host: kv.074167.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇳🇱NL - udptoos.com #3'
-  network: ws
-  port: '8443'
-  server: 89.125.146.39
-  servername: cf3.schzyc.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /proxyip=ProxyIP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US - udptoos.com
-  network: ws
-  port: '34237'
-  server: 129.146.134.26
-  servername: cf3.schzyc.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /proxyip=ProxyIP.CMLiussss.net
+      Host: tl.520783.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /assets/dist/app-update-payload.dat
   xudp: true
