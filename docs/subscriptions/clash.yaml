@@ -1,178 +1,22 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- cipher: aes-256-cfb
+  name: 🇮🇪IE - udptoos.com
+  password: amazonskr05
   port: '443'
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: whatsapp.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🇬🇧GB - udptoos.com #2'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: google.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: '4433'
-  server: de1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: de1.xiaoliyu.cyou
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🇬🇧GB - udptoos.com #3'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vk.com
-  type: hysteria2
-  up: ''
-- name: 🇺🇸US - udptoos.com
-  password: 5f57473d-6054-436f-a86e-1b7104f5efc3
-  port: 40022
-  server: us2.catzl.top
-  type: anytls
+  server: 34.244.71.63
+  type: ss
   udp: true
-- name: 🇹🇼TW - udptoos.com
-  password: 5f57473d-6054-436f-a86e-1b7104f5efc3
-  port: 40071
-  server: tw1.catzl.top
-  type: anytls
-  udp: true
-- name: 🇰🇷KR - udptoos.com
-  password: 5f57473d-6054-436f-a86e-1b7104f5efc3
-  port: 40041
-  server: kr1.catzl.top
-  type: anytls
-  udp: true
-- name: '🇰🇷KR - udptoos.com #2'
-  password: 5f57473d-6054-436f-a86e-1b7104f5efc3
-  port: 40042
-  server: kr2.catzl.top
-  type: anytls
-  udp: true
-- name: 🇯🇵JP - udptoos.com
-  password: 5f57473d-6054-436f-a86e-1b7104f5efc3
-  port: 40055
-  server: jp5.catzl.top
-  type: anytls
-  udp: true
-- client-fingerprint: edge
-  name: 🇷🇺RU - udptoos.com
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
-    short-id: 8ba6e72ee60667f6
-  server: 161.104.38.98
-  servername: donatov.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  xhttp-opts:
-    host: donatov.net
-    path: /assets
-- client-fingerprint: edge
-  name: '🇷🇺RU - udptoos.com #2'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
-    short-id: 0066a7326f06d426
-  server: 135.106.142.209
-  servername: alfastat.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  xhttp-opts:
-    host: alfastat.ru
-    path: /assets
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
   name: 🇨🇦CA - udptoos.com
-  network: ws
+  password: amazonskr05
   port: '443'
-  server: 104.21.36.81
-  servername: 4-M16.ChIANG-RaI2036.kdnS.fR
-  tls: true
-  type: vless
+  server: 15.223.195.102
+  type: ss
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 4-M16.ChIANG-RaI2036.kdnS.fR
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
   name: '🇨🇦CA - udptoos.com #2'
-  network: ws
+  password: amazonskr05
   port: '443'
-  server: 104.21.71.47
-  servername: 0-M16.CHIaN-mai-x.kDnS.FR
-  tls: true
-  type: vless
+  server: 35.183.244.25
+  type: ss
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-M16.CHIaN-mai-x.kDnS.FR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇱🇺LU - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-    short-id: ''
-  server: 193.239.179.15
-  servername: worldoftanks.eu
-  tls: true
-  type: vless
-  udp: true
-  uuid: a903a468-ce63-4f3b-a4de-332eb91cc2f0
-  xudp: true
-- client-fingerprint: edge
-  name: '🇨🇦CA - udptoos.com #3'
-  network: ws
-  port: '443'
-  server: cfd.url0.top
-  servername: tl.520783.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  ws-opts:
-    headers:
-      Host: tl.520783.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /assets/dist/app-update-payload.dat
-  xudp: true
