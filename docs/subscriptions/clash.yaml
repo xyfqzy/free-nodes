@@ -1,126 +1,24 @@
 proxies:
 - alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US - udptoos.com
-  network: ws
-  password: humanity
-  port: '443'
-  server: 216.24.57.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
-- alpn:
   - h2
   - http/1.1
-  client-fingerprint: chrome
-  name: 🇨🇦CA - udptoos.com
-  network: ws
-  password: humanity
-  port: '443'
-  server: 162.159.136.234
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- client-fingerprint: firefox
+  client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇮FI - udptoos.com
-  network: tcp
+  name: 🇳🇱NL - udptoos.com
+  network: xhttp
   port: '443'
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: 0a4b7c3d
-  server: 5.61.91.206
-  servername: www.amd.com
+  server: 91.84.115.34
+  servername: ned-01.letsgodance.site
   tls: true
   type: vless
   udp: true
-  uuid: bd99da97-265e-0021-82cc-4ec009fe9ce2
+  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
+  xhttp-opts:
+    host: ned-01.letsgodance.site
+    path: /xh
   xudp: true
 - client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #2'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /assignment
-- down: ''
-  fingerprint: ''
-  name: 🇰🇷KR - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: maintell
-  port: '2053'
-  server: 152.70.237.123
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  up: ''
-- alterId: 0
-  cipher: auto
-  name: '🇨🇦CA - udptoos.com #2'
-  network: ws
-  port: 443
-  server: ip6-br5.vp1000.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d9bcf9dd-690c-49b6-8897-46959572bd18
-  ws-opts:
-    headers:
-      Host: br.vp1000.net
-    path: /pulicpDisney
-- auth: 1cc5d198-4929-4a21-8ee8-311f81b03497
-  name: 🇯🇵JP - udptoos.com
-  obfs: salamander
-  obfs-password: uqmgFZmVNHNYGxaH
-  password: 1cc5d198-4929-4a21-8ee8-311f81b03497
-  port: 39999
-  server: jjz.jjznodenode.top
-  skip-cert-verify: false
-  sni: jjz.jjznodenode.top
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #3'
-  network: ws
-  port: '443'
-  server: 172.67.206.64
-  servername: 3-M16.ayUTthAYa2032.kdNs.FR
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 3-M16.ayUTthAYa2032.kdNs.FR
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #4'
+  name: 🇨🇦CA - udptoos.com
   network: ws
   port: '443'
   server: 172.67.169.35
@@ -132,23 +30,39 @@ proxies:
   ws-opts:
     headers:
       Host: 7-M16.pAttAYa-8.kdnS.fR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇫🇮FI - udptoos.com #2'
-  network: tcp
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #2'
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: 6a2b5c9d
-  server: 5.61.91.206
-  servername: cdn-up.perecbass.ru
+  server: 104.21.71.47
+  servername: 0-M16.CHIaN-mai-x.kDnS.FR
   tls: true
   type: vless
   udp: true
-  uuid: d427a02f-e0ea-0021-9cfb-66c1866ca3ce
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 0-M16.CHIaN-mai-x.kDnS.FR
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: sL-WH6OA3-ed-5vxu5wWuTmQ-8Y4Fbfpx24kkgu3s1M
+    short-id: 17b3b79c
+  server: 77.90.52.36
+  servername: de5.wequ.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
   xudp: true
