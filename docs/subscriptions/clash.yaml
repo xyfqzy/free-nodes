@@ -1,66 +1,127 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇨🇦CA - udptoos.com
-  network: ws
-  port: '443'
-  server: 104.21.71.47
-  servername: 0-M16.CHIaN-mai-x.kDnS.FR
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR - udptoos.com
+  password: c58d16e593d44f42
+  port: 11001
+  server: 158.173.221.214
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR - udptoos.com
+  password: 1234!@#$
+  port: 1774
+  server: 49.254.204.134
+  type: ss
+- name: 🇨🇳CN - udptoos.com
+  port: 1080
+  server: 103.210.161.8
+  skip-cert-verify: false
+  type: socks5
+- name: '🇨🇳CN - udptoos.com #2'
+  password: ''
+  port: 8094
+  server: 110.80.25.76
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-M16.CHIaN-mai-x.kDnS.FR
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
+  type: http
+  username: ''
 - client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 172.67.145.113
-  servername: 6-M16.AYUTThaYA2028.KdNs.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 6-M16.AYUTThaYA2028.KdNs.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: TunService
-  name: 🇺🇦UA - udptoos.com
-  network: grpc
-  port: '8443'
+  encryption: none
+  name: 🌐ZZ - udptoos.com
+  network: tcp
+  port: '11437'
   reality-opts:
-    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
-    short-id: ''
-  server: 104.245.242.8
-  servername: download.nvidia.com
+    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+    short-id: 7de83d0e31eb75ef
+  server: fi.horlutr.ir
+  servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
   xudp: true
-- client-fingerprint: chrome
-  name: '🇺🇦UA - udptoos.com #2'
-  network: xhttp
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE - udptoos.com
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
-    short-id: ''
-  server: 104.245.242.8
-  servername: download.nvidia.com
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: 8ffa160e608bf539
+  server: 193.58.121.189
+  servername: de.pinkmoon.pro
   tls: true
   type: vless
   udp: true
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  xhttp-opts: {}
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
   xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇩🇪DE - udptoos.com #2'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: 8ffa160e608bf539
+  server: 212.80.7.141
+  servername: de.pinkmoon.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇩🇪DE - udptoos.com #3'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: 8ffa160e608bf539
+  server: 94.156.179.46
+  servername: de.pinkmoon.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+  xudp: true
+- encryption: none
+  name: 🇳🇱NL - udptoos.com
+  network: ws
+  port: '80'
+  server: 94.237.6.214
+  type: vless
+  udp: true
+  uuid: c600d298-2d16-4e5d-b760-2b405ef1ab03
+  ws-opts:
+    headers:
+      Host: 94.237.6.214
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /pgcfws-r4
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇯🇵JP - udptoos.com
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+  password: 20b7100438be713dc89876906214c5b1
+  port: '443'
+  server: 8.209.217.129
+  skip-cert-verify: true
+  sni: 8.209.217.129
+  type: hysteria2
+  up: ''
+- auth: 0bffb8e71bca29788862f986caae97b3
+  name: '🇯🇵JP - udptoos.com #2'
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+  password: 0bffb8e71bca29788862f986caae97b3
+  port: 443
+  server: 8.211.175.129
+  skip-cert-verify: true
+  sni: 8.211.175.129
+  type: hysteria2
+  udp: true
