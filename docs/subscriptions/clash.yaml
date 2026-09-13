@@ -1,41 +1,6 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇳🇱NL - udptoos.com
-  network: xhttp
-  port: '443'
-  server: 91.84.115.34
-  servername: ned-01.letsgodance.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
-  xhttp-opts:
-    host: ned-01.letsgodance.site
-    path: /xh
-  xudp: true
 - client-fingerprint: chrome
   name: 🇨🇦CA - udptoos.com
-  network: ws
-  port: '443'
-  server: 172.67.169.35
-  servername: 7-M16.pAttAYa-8.kdnS.fR
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 7-M16.pAttAYa-8.kdnS.fR
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #2'
   network: ws
   port: '443'
   server: 104.21.71.47
@@ -47,22 +12,55 @@ proxies:
   ws-opts:
     headers:
       Host: 0-M16.CHIaN-mai-x.kDnS.FR
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
   xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE - udptoos.com
-  network: tcp
+  name: '🇨🇦CA - udptoos.com #2'
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: sL-WH6OA3-ed-5vxu5wWuTmQ-8Y4Fbfpx24kkgu3s1M
-    short-id: 17b3b79c
-  server: 77.90.52.36
-  servername: de5.wequ.host
+  server: 172.67.145.113
+  servername: 6-M16.AYUTThaYA2028.KdNs.fr
   tls: true
   type: vless
   udp: true
-  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 6-M16.AYUTThaYA2028.KdNs.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 🇺🇦UA - udptoos.com
+  network: grpc
+  port: '8443'
+  reality-opts:
+    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
+    short-id: ''
+  server: 104.245.242.8
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇺🇦UA - udptoos.com #2'
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
+    short-id: ''
+  server: 104.245.242.8
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  xhttp-opts: {}
   xudp: true
