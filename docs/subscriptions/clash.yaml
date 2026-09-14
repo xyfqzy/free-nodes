@@ -5,25 +5,156 @@ proxies:
   port: 11001
   server: 158.173.221.214
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR - udptoos.com
-  password: 1234!@#$
-  port: 1774
-  server: 49.254.204.134
-  type: ss
 - name: 🇨🇳CN - udptoos.com
   port: 1080
   server: 103.210.161.8
   skip-cert-verify: false
   type: socks5
-- name: '🇨🇳CN - udptoos.com #2'
-  password: ''
-  port: 8094
-  server: 110.80.25.76
+- name: 🇺🇸US - udptoos.com
+  password: None
+  port: 9002
+  server: 138.199.35.205
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
+  username: null
+- name: '🇺🇸US - udptoos.com #2'
+  password: None
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: 8ffa160e608bf539
+  server: 94.156.179.46
+  servername: de.pinkmoon.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇩🇪DE - udptoos.com #2'
+  network: tcp
+  port: 6443
+  reality-opts:
+    public-key: HHz-2xJzux-wn53uLOnSpdjds9rnRZEI7sr6z5hYnis
+    short-id: '79245360'
+  server: 31.76.54.56
+  servername: www.samsung.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d7cad038-0c3f-4cce-8f8a-36464aaf66c0
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
+    short-id: 00a61d55a07de885
+  server: 150.40.127.28
+  servername: nl.convert-flow.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a22ca95-bd99-4c6b-a799-f8f73930ea05
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇮FI - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
+    short-id: 00a61d55a07de885
+  server: 144.31.90.75
+  servername: fl.convert-flow.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a22ca95-bd99-4c6b-a799-f8f73930ea05
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Bj9X3UJ2D5Q14wfBOwTz3s09SkFRVgMKTcn93s6kNHo
+    short-id: 8c0d541cdfe5e68d
+  server: p4mhflzkouf53uhb82b2.tulfexa.ir
+  servername: sheets.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a67126c-b9c4-4e78-b96e-eabd4002ab0c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇸🇪SE - udptoos.com #2'
+  network: tcp
+  port: '18555'
+  reality-opts:
+    public-key: aFbCyrLOre-V3ORpBjqenGfDt62Ng_i1sSq-DmZHVgc
+    short-id: 89e0494514ec
+  server: 193.25.216.175
+  servername: www.oracle.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15553b23-a621-4dfd-995e-2fe28d124526
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇸🇪SE - udptoos.com #3'
+  network: tcp
+  port: '24443'
+  reality-opts:
+    public-key: uUI9qoHBKhlrPy4BRJSQQygc4jstmLKLrhRI6jqhYxw
+    short-id: 8df4211d612176a5
+  server: se.chick-team.ru
+  servername: se.chick-team.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15553b23-a621-4dfd-995e-2fe28d124526
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: dDsLb439UEeGxb-z0NjPGbUR9LvyLZs_SQZNAWKCoHY
+    short-id: a7ecea927dfcdb35
+  server: app-ss-57.shopping-spb.com
+  servername: assets-ss-57.shopping-spb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a71ad164-3b29-4dbe-aa66-24d095ca7b6d
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: 🌐ZZ - udptoos.com
@@ -39,89 +170,195 @@ proxies:
   udp: true
   uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
   xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE - udptoos.com
+  name: '🇺🇸US - udptoos.com #3'
   network: tcp
-  port: '443'
+  port: '52977'
   reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: 8ffa160e608bf539
-  server: 193.58.121.189
-  servername: de.pinkmoon.pro
+    public-key: X-DQShHbh23E3SeJjZzC-WStkChJU0lxgktpGalzjw4
+    short-id: 0fb9c965
+  server: 198.200.42.129
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+  uuid: 2f6f1856-5466-4078-b1f0-d3f977211ada
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇩🇪DE - udptoos.com #2'
+  name: '🇺🇸US - udptoos.com #4'
   network: tcp
-  port: '443'
+  port: 40444
   reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: 8ffa160e608bf539
-  server: 212.80.7.141
-  servername: de.pinkmoon.pro
+    public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+    short-id: b3f2a1c9
+  server: 5.253.38.67
+  servername: www.lovelive-anime.jp
   tls: true
   type: vless
   udp: true
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
+  uuid: 7f2defc4-9d59-404d-87b1-86e3a3ea0730
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇩🇪DE - udptoos.com #3'
+  name: '🇺🇸US - udptoos.com #5'
   network: tcp
-  port: '443'
+  port: 40444
   reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: 8ffa160e608bf539
-  server: 94.156.179.46
-  servername: de.pinkmoon.pro
+    public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+    short-id: b3f2a1c9
+  server: 5.253.38.67
+  servername: www.lovelive-anime.jp
   tls: true
   type: vless
   udp: true
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  xudp: true
-- encryption: none
-  name: 🇳🇱NL - udptoos.com
+  uuid: e9c123df-6ce2-4b3c-abd9-6c2afb83cd94
+- client-fingerprint: chrome
+  name: 🇨🇦CA - udptoos.com
   network: ws
-  port: '80'
-  server: 94.237.6.214
+  port: '443'
+  server: 172.67.145.113
+  servername: 6-M16.AYUTThaYA2028.KdNs.fr
+  tls: true
   type: vless
   udp: true
-  uuid: c600d298-2d16-4e5d-b760-2b405ef1ab03
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 94.237.6.214
+      Host: 6-M16.AYUTThaYA2028.KdNs.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #2'
+  network: ws
+  port: '443'
+  server: 104.21.36.81
+  servername: 4-M16.ChIANG-RaI2036.kdnS.fR
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 4-M16.ChIANG-RaI2036.kdnS.fR
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #3'
+  network: ws
+  port: '443'
+  server: 104.21.16.18
+  servername: api-gateway-1.f00f.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  ws-opts:
+    headers:
+      Host: api-gateway-1.f00f.ccwu.cc
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /pgcfws-r4
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #4'
+  network: ws
+  port: '443'
+  server: 172.67.182.152
+  servername: 5-m9.hat-yai.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  ws-opts:
+    headers:
+      Host: 5-m9.hat-yai.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #5'
+  network: ws
+  port: '443'
+  server: 172.67.198.209
+  servername: 5-m9.56e2241d-b6f5-4eb7-8ed9-c89e0e22d6b4.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  ws-opts:
+    headers:
+      Host: 5-m9.56e2241d-b6f5-4eb7-8ed9-c89e0e22d6b4.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #6'
+  network: ws
+  port: '443'
+  server: 104.21.91.102
+  servername: 4-M16.aYUtTHAya2031.kdnS.fR
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 4-M16.aYUtTHAya2031.kdnS.fR
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #7'
+  network: ws
+  port: '443'
+  server: 172.67.169.35
+  servername: 7-M16.pAttAYa-8.kdnS.fR
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-M16.pAttAYa-8.kdnS.fR
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #8'
+  network: ws
+  port: '443'
+  server: 172.67.136.68
+  servername: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
   xudp: true
 - down: ''
   fingerprint: ''
-  name: 🇯🇵JP - udptoos.com
-  obfs: salamander
-  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
-  password: 20b7100438be713dc89876906214c5b1
+  name: '🇷🇺RU - udptoos.com #2'
+  obfs: ''
+  obfs-password: ''
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: '443'
-  server: 8.209.217.129
+  server: 31.76.71.252
   skip-cert-verify: true
-  sni: 8.209.217.129
+  sni: gta.internet-card.sbs
   type: hysteria2
   up: ''
-- auth: 0bffb8e71bca29788862f986caae97b3
-  name: '🇯🇵JP - udptoos.com #2'
-  obfs: salamander
-  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
-  password: 0bffb8e71bca29788862f986caae97b3
-  port: 443
-  server: 8.211.175.129
-  skip-cert-verify: true
-  sni: 8.211.175.129
-  type: hysteria2
-  udp: true
