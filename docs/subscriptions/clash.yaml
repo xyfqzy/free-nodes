@@ -1,221 +1,62 @@
 proxies:
-- name: 🇬🇧GB - udptoos.com
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: 🇦🇪AE - udptoos.com
+  network: xhttp
   port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US - udptoos.com
-  network: tcp
-  port: '9443'
-  reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
-  server: 13.143.137.164
-  servername: plaincanvas.videoclothing.xyz
+  server: 188.72.103.4
+  servername: shop.tgcenterapp.ru
   tls: true
   type: vless
   udp: true
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  xudp: true
+  uuid: e43829fe-a157-46ff-a416-00cc97f91c64
+  xhttp-opts:
+    host: shop.tgcenterapp.ru
+    mode: packet-up
+    path: /api/cart/sync
+    seq-key: chunk
+    seq-placement: cookie
+    session-key: visitor_id
+    session-placement: path
+    uplink-data-placement: body
+    uplink-http-method: HEAD
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Cache-Status
+    x-padding-key: _ts
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
 - client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #2'
+  encryption: none
+  name: 🇨🇦CA - udptoos.com
   network: ws
-  port: 8443
-  server: news.zoom.us
-  servername: u.srilankangrill.online
-  skip-cert-verify: true
-  tfo: false
+  port: '443'
+  server: 172.67.155.252
+  servername: 2-m13.0ee25773-D3D3-479D-a8fF-3F51D1D20031.kDNs.fR
   tls: true
   type: vless
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
   ws-opts:
     headers:
-      Host: u.srilankangrill.online
-    path: /
-- name: 🇨🇳CN - udptoos.com
-  password: ''
-  port: 8094
-  server: 110.80.25.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷KR - udptoos.com
-  network: grpc
-  port: 10048
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: '🇺🇸US - udptoos.com #3'
-  network: grpc
-  port: 10238
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: us1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+      Host: 2-m13.0ee25773-D3d3-479D-a8ff-3F51d1D20031.kDnS.Fr
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /ED3ZQPu7lqyeDGD58KabZ
+  xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🇯🇵JP - udptoos.com
+  name: 🇺🇸US - udptoos.com
   port: 443
-  reality-opts:
-    public-key: SsqcoKQAh4wOwKVxQcS4QGb_8xiHJ_IgzsEoTsEPDj8
-    short-id: 41dd2ebdd7e0a61a
-  server: 103.76.85.156
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #4'
-  port: 443
-  reality-opts:
-    public-key: HR3BRJLZP0CBPG3r4aTXk0JhAzkyKoEW8WnW8xtHtCA
-    short-id: 0631f6666e3e7035
-  server: 38.244.20.149
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2e2d5e7-5d23-40d8-baad-088b9e26b9c2
-- name: '🇨🇳CN - udptoos.com #2'
-  port: 1080
-  server: 103.210.161.8
-  type: socks5
-  udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #5'
-  network: tcp
-  port: '443'
   reality-opts:
     public-key: EZgb6P-QQtBeVAWDh1vjvR5Qg1dRk2uYkUG1hMz-qnA
     short-id: 802db6d56acb5d79
   server: 38.244.20.41
   servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2869896f-424d-481a-bd68-f2fcae11b0c4
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #6'
-  port: 9443
-  reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
-  server: 13.143.137.164
-  servername: plaincanvas.videoclothing.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-- client-fingerprint: chrome
-  name: 🇨🇦CA - udptoos.com
-  network: ws
-  port: '443'
-  server: 172.67.206.64
-  servername: 3-M16.ayUTthAYa2032.kdNs.FR
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 3-M16.ayUTthAYa2032.kdNs.FR
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 172.67.169.35
-  servername: 7-M16.pAttAYa-8.kdnS.fR
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 7-M16.pAttAYa-8.kdnS.fR
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #3'
-  network: ws
-  port: '443'
-  server: 104.21.71.47
-  servername: 0-M16.CHIaN-mai-x.kDnS.FR
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-M16.CHIaN-mai-x.kDnS.FR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '🇯🇵JP - udptoos.com #2'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SsqcoKQAh4wOwKVxQcS4QGb_8xiHJ_IgzsEoTsEPDj8
-    short-id: 41dd2ebdd7e0a61a
-  server: 103.76.85.156
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
-  xudp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #7'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: HR3BRJLZP0CBPG3r4aTXk0JhAzkyKoEW8WnW8xtHtCA
-    short-id: 0631f6666e3e7035
-  server: 38.244.20.149
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2e2d5e7-5d23-40d8-baad-088b9e26b9c2
-  xudp: true
+  uuid: 2869896f-424d-481a-bd68-f2fcae11b0c4
