@@ -1,62 +1,221 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: ios
-  name: 🇦🇪AE - udptoos.com
-  network: xhttp
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR - udptoos.com
+  password: c58d16e593d44f42
+  port: 11001
+  server: 158.173.221.214
+  type: ss
+- name: 🇨🇳CN - udptoos.com
+  port: 1080
+  server: 103.210.161.8
+  skip-cert-verify: false
+  type: socks5
+- name: 🇮🇪IE - udptoos.com
   port: 443
-  server: 188.72.103.4
-  servername: shop.tgcenterapp.ru
+  server: 149.88.96.1
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: e43829fe-a157-46ff-a416-00cc97f91c64
-  xhttp-opts:
-    host: shop.tgcenterapp.ru
-    mode: packet-up
-    path: /api/cart/sync
-    seq-key: chunk
-    seq-placement: cookie
-    session-key: visitor_id
-    session-placement: path
-    uplink-data-placement: body
-    uplink-http-method: HEAD
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Cache-Status
-    x-padding-key: _ts
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
+  type: http
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦CA - udptoos.com
-  network: ws
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB - udptoos.com
+  network: tcp
   port: '443'
-  server: 172.67.155.252
-  servername: 2-m13.0ee25773-D3D3-479D-a8fF-3F51D1D20031.kDNs.fR
+  reality-opts:
+    public-key: U_E3xSI6QY_Mj-3zjkB4esvMj0aVvYH6W6oHOR50XBs
+    short-id: a61d99e920140145
+  server: 46.33.8.20
+  servername: filesconvert.org
   tls: true
   type: vless
   udp: true
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  ws-opts:
-    headers:
-      Host: 2-m13.0ee25773-D3d3-479D-a8ff-3F51d1D20031.kDnS.Fr
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /ED3ZQPu7lqyeDGD58KabZ
+  uuid: 6806dc9a-8f5c-4981-b64d-3527b9522b62
   xudp: true
-- client-fingerprint: safari
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US - udptoos.com
-  port: 443
+  name: '🇬🇧GB - udptoos.com #2'
+  network: tcp
+  port: '61592'
   reality-opts:
-    public-key: EZgb6P-QQtBeVAWDh1vjvR5Qg1dRk2uYkUG1hMz-qnA
-    short-id: 802db6d56acb5d79
-  server: 38.244.20.41
-  servername: www.apple.com
+    public-key: jnu0rNHECTe_v7H9Fmgg0iUSepHz4QQQRPW0XpX5URs
+    short-id: 1359c9bf9f7442e5
+  server: 51.194.251.114
+  servername: store.storeimages.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🌐ZZ - udptoos.com
+  network: tcp
+  port: '11437'
+  reality-opts:
+    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+    short-id: 7de83d0e31eb75ef
+  server: fi.horlutr.ir
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+  xudp: true
+- auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  name: 🇯🇵JP - udptoos.com
+  password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  port: 8443
+  server: hyfnjp03.459292.xyz
+  skip-cert-verify: true
+  sni: localhost
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇬🇧GB - udptoos.com #3'
+  port: 61592
+  reality-opts:
+    public-key: jnu0rNHECTe_v7H9Fmgg0iUSepHz4QQQRPW0XpX5URs
+    short-id: 1359c9bf9f7442e5
+  server: 51.194.251.114
+  servername: store.storeimages.cdn-apple.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 2869896f-424d-481a-bd68-f2fcae11b0c4
+  uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: N8tPKh6gTyc6L5GOmBn_3wIy707a-5QYB0FrF2HigUc
+    short-id: ''
+  server: 217.60.98.56
+  servername: west.blackbigdog.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 069ba4cf-e8af-4561-b11e-18bd07b0dbd3
+  xudp: true
+- name: 🇷🇴RO - udptoos.com
+  password: ''
+  port: '9002'
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '🇷🇴RO - udptoos.com #2'
+  port: 9002
+  server: 193.176.84.22
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: '🇷🇴RO - udptoos.com #3'
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US - udptoos.com
+  port: 9443
+  reality-opts:
+    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
+    short-id: e336c9a786fae301
+  server: 13.143.137.164
+  servername: plaincanvas.videoclothing.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+- client-fingerprint: chrome
+  name: 🇨🇦CA - udptoos.com
+  network: ws
+  port: '443'
+  server: 172.67.145.113
+  servername: 6-M16.AYUTThaYA2028.KdNs.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 6-M16.AYUTThaYA2028.KdNs.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #2'
+  network: ws
+  port: '443'
+  server: 104.21.36.81
+  servername: 4-M16.ChIANG-RaI2036.kdnS.fR
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 4-M16.ChIANG-RaI2036.kdnS.fR
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇨🇦CA - udptoos.com #3'
+  network: ws
+  port: '443'
+  server: 104.21.63.171
+  servername: 7-m19.sOUTh-aFrica-CHAnNEl.CCWu.CC
+  tls: true
+  type: vless
+  udp: true
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  ws-opts:
+    headers:
+      Host: 7-M19.SoutH-afRIcA-chaNnEl.CCwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /CjBjB9sn5pCvaSwScc
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇺🇸US - udptoos.com #2'
+  network: ws
+  port: '443'
+  server: us15.zuoai.cf
+  servername: xi.tbv.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /proxyip=us.xiabibi.cf
+  xudp: true
+- auth: 0bffb8e71bca29788862f986caae97b3
+  name: '🇯🇵JP - udptoos.com #2'
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+  password: 0bffb8e71bca29788862f986caae97b3
+  port: 443
+  server: 8.211.175.129
+  skip-cert-verify: true
+  sni: 8.211.175.129
+  type: hysteria2
+  udp: true
