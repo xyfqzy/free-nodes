@@ -1,135 +1,34 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   name: 🇫🇷FR - udptoos.com
-  password: c58d16e593d44f42
-  port: 11001
-  server: 158.173.221.214
-  type: ss
-- name: 🇩🇪DE - udptoos.com
-  password: None
+  password: amazonskr05
   port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  server: 15.237.218.241
+  type: ss
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦CA - udptoos.com
-  network: ws
+  name: '🇫🇷FR - udptoos.com #2'
+  network: tcp
+  port: '2065'
+  reality-opts:
+    public-key: Z1Ni4Mf6JhWIqHA0Dm8o3wzVUshi1kcvEwmhgdHbaiw
+    short-id: 5aff625b0c5e16a7
+  server: 46.8.224.214
+  servername: www.homedepot.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: db16ca51-d1e1-4588-88e2-06ef336474c2
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
   port: '443'
-  server: vf670.cc.cd
-  servername: somersby.pt.vf670.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b9ccc8-9a79-4c54-90a6-6b3c85a6f9ae
-  ws-opts:
-    headers:
-      Host: somersby.pt.vf670.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /sg-cntb
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 172.67.206.64
-  servername: 3-M16.ayUTthAYa2032.kdNs.FR
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 3-M16.ayUTthAYa2032.kdNs.FR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #3'
-  network: ws
-  port: '443'
-  server: 172.67.169.35
-  servername: 7-M16.pAttAYa-8.kdnS.fR
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 7-M16.pAttAYa-8.kdnS.fR
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #4'
-  network: ws
-  port: '443'
-  server: 104.21.4.201
-  servername: m16-3.cHiANG-maI2034.kDns.Fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: m16-3.cHiANG-maI2034.kDns.Fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #5'
-  network: ws
-  port: '443'
-  server: lxcl.pages.dev
-  servername: lxcl.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3f2c2a0c-53ea-4bb4-8869-38f52d875d33
-  ws-opts:
-    headers:
-      Host: lxcl.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: random
-  name: 🇵🇱PL - udptoos.com
-  network: ws
-  port: '8443'
-  server: 150.251.113.76
-  servername: kv.074167.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: random
-  name: 🇩🇰DK - udptoos.com
-  network: ws
-  port: '443'
-  server: 193.181.212.80
-  servername: kv.074167.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /
-  xudp: true
+  server: fast.news.gazette.help
+  skip-cert-verify: true
+  sni: cz.h2.cleanersaz.help
+  type: hysteria2
+  up: ''
