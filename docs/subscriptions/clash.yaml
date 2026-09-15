@@ -1,10 +1,68 @@
 proxies:
-- name: 🇸🇬SG - udptoos.com
-  password: ''
-  port: 9443
-  server: 149.88.99.209
+- client-fingerprint: chrome
+  name: 🇯🇵JP - udptoos.com
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 202.144.192.76
+  servername: tesla.com
+  tls: true
+  type: vless
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- name: 🇺🇸US - udptoos.com
+  port: 1092
+  server: 104.225.239.193
+  type: http
+- name: '🇺🇸US - udptoos.com #2'
+  password: null
+  port: 9002
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
+  username: null
+- name: '🇺🇸US - udptoos.com #3'
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '🇺🇸US - udptoos.com #4'
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
+    short-id: e336c9a786fae301
+  server: 13.143.137.164
+  servername: plaincanvas.videoclothing.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🌐ZZ - udptoos.com
+  network: tcp
+  port: '11437'
+  reality-opts:
+    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+    short-id: 7de83d0e31eb75ef
+  server: fi.horlutr.ir
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+  xudp: true
