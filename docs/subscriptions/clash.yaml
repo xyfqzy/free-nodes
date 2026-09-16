@@ -1,4 +1,101 @@
 proxies:
+- name: 🇳🇱NL - udptoos.com
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #2'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇰🇷KR - udptoos.com
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  port: 50160
+  server: 152-69-231-175.liao.kdns.fr
+  sni: 152-69-231-175.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- client-fingerprint: qq
+  name: 🇦🇪AE - udptoos.com
+  network: xhttp
+  port: 443
+  server: 188.72.103.3
+  servername: cdnapiv2.streamru10.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01a21e01-6098-4c3b-a6fd-1a04d64d0c7f
+  xhttp-opts:
+    mode: packet-up
+    path: /api/v75/uptodown/
+    seq-key: part_index
+    seq-placement: cookie
+    session-key: stream_auth
+    session-placement: cookie
+    uplink-data-placement: body
+    uplink-http-method: GET
+    x-padding-bytes: 96-1040
+    x-padding-header: X-Media-Token
+    x-padding-key: _t
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- name: 🇺🇸US - udptoos.com
+  password: None
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇺🇸US - udptoos.com #2'
+  password: ''
+  port: '9002'
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇬🇧GB - udptoos.com
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇺🇸US - udptoos.com #3'
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇺🇸US - udptoos.com #4'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sni: 138.199.35.198
+  tls: true
+  type: http
+  username: 'null'
+- name: '🇺🇸US - udptoos.com #5'
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: chrome
   name: 🇯🇵JP - udptoos.com
   network: tcp
@@ -11,26 +108,25 @@ proxies:
   tls: true
   type: vless
   uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- name: 🇺🇸US - udptoos.com
+- name: '🇺🇸US - udptoos.com #6'
   port: 1092
   server: 104.225.239.193
   type: http
-- name: '🇺🇸US - udptoos.com #2'
-  password: null
-  port: 9002
-  server: 138.199.35.213
+- name: 🇨🇦CA - udptoos.com
+  network: ws
+  port: 443
+  server: 172.67.169.35
+  servername: 7-M16.pAttAYa-8.kdnS.fR
   skip-cert-verify: true
+  tfo: false
   tls: true
-  type: http
-  username: null
-- name: '🇺🇸US - udptoos.com #3'
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-M16.pAttAYa-8.kdnS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -38,7 +134,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '🇺🇸US - udptoos.com #4'
+  name: '🇺🇸US - udptoos.com #7'
   network: tcp
   port: 9443
   reality-opts:
@@ -51,18 +147,18 @@ proxies:
   udp: true
   uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🌐ZZ - udptoos.com
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇮🇷IR - udptoos.com
   network: tcp
-  port: '11437'
+  port: '443'
   reality-opts:
-    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-    short-id: 7de83d0e31eb75ef
-  server: fi.horlutr.ir
-  servername: amp-api-edge.apps.apple.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 212.16.92.111
+  servername: jobinvest.ru
   tls: true
   type: vless
   udp: true
-  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
   xudp: true
