@@ -1,123 +1,95 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇸🇬SG - udptoos.com
+  password: vs2Qe/esGk5HrEHzHYYVz9TuJBN8GtYftFEXDQ7m/ik=
+  port: 56927
+  server: 138.2.94.87
+  type: ss
+- auth: 9452bb1ca5043e7f7b70430911afb034
   name: 🇺🇸US - udptoos.com
-  password: amazonskr05
+  password: 9452bb1ca5043e7f7b70430911afb034
   port: 443
-  server: 3.144.113.215
-  type: ss
-- cipher: aes-256-cfb
-  name: '🇺🇸US - udptoos.com #2'
-  password: amazonskr05
-  port: 443
-  server: 18.191.174.144
-  type: ss
-- name: 🇨🇳CN - udptoos.com
-  port: 1080
-  server: 103.210.161.8
-  skip-cert-verify: false
-  type: socks5
-- cipher: aes-256-cfb
-  name: 🇩🇪DE - udptoos.com
-  password: amazonskr05
-  port: 443
-  server: 3.75.89.244
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇦🇪AE - udptoos.com
-  network: xhttp
-  port: 443
-  server: 188.72.103.4
-  servername: x1.astrav2.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6972e3b-2140-4368-8c0f-19a7afa201ce
-  xhttp-opts:
-    host: x1.astrav2.online
-    mode: packet-up
-    path: /static/js/app-8d2f/
-    seq-key: part_index
-    seq-placement: cookie
-    session-key: token
-    session-placement: header
-    uplink-data-placement: body
-    uplink-http-method: GET
-    x-padding-bytes: 96-1040
-    x-padding-header: X-Media-Token
-    x-padding-key: _t
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-- name: '🇺🇸US - udptoos.com #3'
-  port: 1092
-  server: 104.244.95.184
-  type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL - udptoos.com
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CxjnGHCI3HXN2RAXwytela7jXyOGDCBqzMAqTfm60D0
-    short-id: 4ed920401771c4ab
-  server: 146.103.100.242
-  servername: dzen.ru
+  server: 108.59.244.158
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a7c35c0c-e8b6-49a4-9d2c-1acee63fe2d6
-- client-fingerprint: chrome
-  name: 🇨🇦CA - udptoos.com
-  network: ws
+  sni: 5post-gate.x5.ru
+  type: hysteria2
+  udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪DE - udptoos.com
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL - udptoos.com
+  network: xhttp
   port: '443'
-  server: 172.67.136.68
-  servername: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
+  server: 178.208.64.57
+  servername: nl2.lebedvpn.cc
   tls: true
   type: vless
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  uuid: 0c6d8604-b7af-46b4-8382-5c90bf232471
+  xhttp-opts:
+    host: nl2.lebedvpn.cc
+    mode: stream-up
+    path: /004f70ca233b
   xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 172.67.145.113
-  servername: 6-M16.AYUTThaYA2028.KdNs.fr
-  tls: true
-  type: vless
+- name: 🇯🇵JP - udptoos.com
+  password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
+  port: 443
+  server: rb.yunshu.life
+  type: anytls
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 6-M16.AYUTThaYA2028.KdNs.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #3'
-  network: ws
-  port: '443'
-  server: 104.21.71.47
-  servername: 0-M16.CHIaN-mai-x.kDnS.FR
-  tls: true
-  type: vless
+- name: '🇺🇸US - udptoos.com #2'
+  password: dc32fa69-c317-41f0-878f-20a1a311584f
+  port: 40022
+  server: us2.catzl.top
+  type: anytls
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-M16.CHIaN-mai-x.kDnS.FR
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
+- name: '🇺🇸US - udptoos.com #3'
+  password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
+  port: 443
+  server: mg4.yunshu.life
+  type: anytls
+  udp: true
+- name: '🇯🇵JP - udptoos.com #2'
+  password: dc32fa69-c317-41f0-878f-20a1a311584f
+  port: 40055
+  server: jp5.catzl.top
+  type: anytls
+  udp: true
+- name: '🇩🇪DE - udptoos.com #2'
+  password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
+  port: 443
+  server: dg.yunshu.life
+  type: anytls
+  udp: true
+- name: '🇺🇸US - udptoos.com #4'
+  password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
+  port: 443
+  server: mg.l3v1.my
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 🇹🇼TW - udptoos.com
+  password: dc32fa69-c317-41f0-878f-20a1a311584f
+  port: 40071
+  server: tw1.catzl.top
+  type: anytls
+  udp: true
+- name: '🇯🇵JP - udptoos.com #3'
+  password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+  port: 17968
+  server: jjz.jjznodenode.top
+  type: anytls
+  udp: true
