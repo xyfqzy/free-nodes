@@ -1,12 +1,97 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇩🇪DE - udptoos.com
+  password: amazonskr05
+  port: 443
+  server: 3.75.89.244
+  type: ss
+  udp: true
+- name: 🇳🇱NL - udptoos.com
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #2'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇰🇷KR - udptoos.com
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  port: 50160
+  server: 152-69-231-175.liao.kdns.fr
+  sni: 152-69-231-175.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇦🇪AE - udptoos.com
+  network: xhttp
+  port: 443
+  server: 188.72.103.4
+  servername: x1.astrav2.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 746280a0-2d7a-445f-8434-dc260ddaedbf
+  xhttp-opts:
+    host: x1.astrav2.online
+    mode: packet-up
+    path: /static/js/app-8d2f/
+    seq-key: part_index
+    seq-placement: cookie
+    session-key: token
+    session-placement: header
+    uplink-data-placement: body
+    uplink-http-method: GET
+    x-padding-bytes: 96-1040
+    x-padding-header: X-Media-Token
+    x-padding-key: _t
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇮FI - udptoos.com
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  server: 138.124.80.245
+  servername: sstats.vk-portal.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
+  xhttp-opts:
+    mode: auto
+    path: /assets/v2/pkg
+  xudp: true
+- name: 🇷🇴RO - udptoos.com
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪DE - udptoos.com
+  name: 🇯🇵JP - udptoos.com
   network: ws
-  port: 23351
-  server: 185.217.108.229
+  port: 8443
+  server: 151.145.67.90
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -15,319 +100,227 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /help?ed=2560
+    path: /city/playlist/out.php?ed=2560
 - name: 🇺🇸US - udptoos.com
-  port: 1092
-  server: 104.244.95.184
+  password: None
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
   type: http
+  username: null
 - name: '🇺🇸US - udptoos.com #2'
-  password: ''
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇺🇸US - udptoos.com #3'
+  password: None
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇫🇷FR - udptoos.com
   port: 443
-  server: 149.88.21.129
+  server: 103.82.101.43
+  skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+  tls: true
+  type: http
+- name: '🇺🇸US - udptoos.com #4'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '🇺🇸US - udptoos.com #5'
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇺🇸US - udptoos.com #6'
+  password: ''
+  port: 9002
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
+- name: '🇳🇱NL - udptoos.com #3'
+  password: None
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇪🇸ES - udptoos.com
+  password: None
+  port: 443
+  server: 130.195.250.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇷🇴RO - udptoos.com #2'
+  password: None
+  port: 9002
+  server: 193.176.84.22
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇩🇪DE - udptoos.com #2'
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '🇷🇴RO - udptoos.com #3'
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇷🇺RU - udptoos.com
+  network: grpc
+  port: '9880'
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  server: 176.123.162.100
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  xudp: true
+- name: '🇷🇴RO - udptoos.com #4'
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: '🇷🇴RO - udptoos.com #5'
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: '🇷🇴RO - udptoos.com #6'
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: '🇷🇺RU - udptoos.com #2'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: '🇩🇪DE - udptoos.com #3'
+  password: amazonskr05
+  port: 443
+  server: 52.28.158.0
+  type: ss
+  udp: true
+- auth: f25f19f29ce3fb53a35bf1b35b452a43
+  name: 🇮🇱IL - udptoos.com
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  port: 50160
+  server: 129.159.156.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: '🇺🇸US - udptoos.com #7'
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇺🇸US - udptoos.com #8'
+  password: null
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇰DK - udptoos.com
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: se.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
+- auth: 5fa748137b6d822308eea4611f474ad5
+  name: '🇺🇸US - udptoos.com #9'
+  obfs: salamander
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+  password: 5fa748137b6d822308eea4611f474ad5
+  port: 443
+  server: 155.117.19.17
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: '🇺🇸US - udptoos.com #10'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: us2.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
+- name: '🇫🇮FI - udptoos.com #2'
+  password: ''
+  port: 1080
+  server: 83.147.216.208
+  type: socks5
+  udp: true
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷IR - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 212.16.92.112
+  servername: jobinvest.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+  xudp: true
 - cipher: aes-256-cfb
   country: 🇺🇸US
   delay: 624
-  name: '🇺🇸US - udptoos.com #3'
+  name: '🇺🇸US - udptoos.com #11'
   password: amazonskr05
   port: 443
   server: 18.191.174.144
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳CN - udptoos.com
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 42721
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK - udptoos.com
-  network: tcp
-  port: 25984
-  reality-opts:
-    public-key: 3pc5QvEW7DmfWF9NaByJeXmiyLKlnjuGRir_bJL9ryc
-    short-id: 620750bd
-  server: cdn-bbk.hulku.cn
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 807c72c1-72a6-4667-9b11-47e6be54196a
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #2'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 23639
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #3'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 56512
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #4'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 6740
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #5'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 29988
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #6'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 13599
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #7'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 51467
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #8'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 24308
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #9'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 50155
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #10'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 58490
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #11'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 25997
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #12'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 49642
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #13'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 57598
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #14'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 8135
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #15'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 37923
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳CN - udptoos.com #16'
-  password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
-  port: 8641
-  server: pop.defuzhuanfa.com
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🌐ZZ - udptoos.com
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 555c9ebb-d8cc-4731-8d46-8d9e3fd0e93c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🌐ZZ - udptoos.com #2'
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 20872e77-ab26-4ce6-9f3b-7691e80990d8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🌐ZZ - udptoos.com #3'
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b84e54e-7f09-4a7c-91d4-7660dac7047c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🌐ZZ - udptoos.com #4'
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7eb44724-d792-4133-90ef-0bc0f55fec20
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🌐ZZ - udptoos.com #5'
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0020d562-2a44-4462-8d79-de0cdb5599bc
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🌐ZZ - udptoos.com #6'
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ea00d02-1e73-48bf-8708-ed35b5639559
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🌐ZZ - udptoos.com #7'
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4eac567e-8ed4-453e-975b-89763b6beb0a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇭🇰HK - udptoos.com #2'
-  network: tcp
-  port: 25984
-  reality-opts:
-    public-key: 3pc5QvEW7DmfWF9NaByJeXmiyLKlnjuGRir_bJL9ryc
-    short-id: 620750bd
-  server: cdn-bbk.hulku.cn
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: aeb8f7f9-0117-48b0-a6a4-d3af0a007130
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🌐ZZ - udptoos.com #8'
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3f9fd6f8-8128-40ed-9064-61560f463d1c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🌐ZZ - udptoos.com #9'
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e0909ea6-58fc-4391-b3cc-ce7ebacf66c1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🌐ZZ - udptoos.com #10'
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fea25dbd-b9d6-4f87-b9cd-af8a44c64e43
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🌐ZZ - udptoos.com #11'
-  network: tcp
-  port: 32001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-  server: sie824.node2.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7160d49-67c4-4c6f-89c7-d8c3e9a9290a
