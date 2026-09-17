@@ -1,10 +1,27 @@
 proxies:
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇸🇬SG - udptoos.com
-  password: vs2Qe/esGk5HrEHzHYYVz9TuJBN8GtYftFEXDQ7m/ik=
-  port: 56927
-  server: 138.2.94.87
-  type: ss
+- name: 🇳🇱NL - udptoos.com
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #2'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- auth: 19f72087-4591-4d72-930b-2697078ec2be
+  name: 🇩🇰DK - udptoos.com
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: se.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
 - auth: 9452bb1ca5043e7f7b70430911afb034
   name: 🇺🇸US - udptoos.com
   password: 9452bb1ca5043e7f7b70430911afb034
@@ -14,11 +31,23 @@ proxies:
   sni: 5post-gate.x5.ru
   type: hysteria2
   udp: true
+- name: '🇺🇸US - udptoos.com #2'
+  port: 1092
+  server: 104.244.95.184
+  type: http
+- name: 🇩🇪DE - udptoos.com
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   down: '1000'
-  name: 🇩🇪DE - udptoos.com
+  name: '🇩🇪DE - udptoos.com #2'
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -26,11 +55,20 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '500'
+- name: 🇸🇬SG - udptoos.com
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - alpn:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: 🇳🇱NL - udptoos.com
+  name: '🇳🇱NL - udptoos.com #3'
   network: xhttp
   port: '443'
   server: 178.208.64.57
@@ -44,52 +82,75 @@ proxies:
     mode: stream-up
     path: /004f70ca233b
   xudp: true
-- name: 🇯🇵JP - udptoos.com
-  password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
-  port: 443
-  server: rb.yunshu.life
-  type: anytls
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇨🇦CA - udptoos.com
+  network: ws
+  port: '443'
+  server: 172.67.165.32
+  servername: 8.CS2-2-1.KDnS.fR
+  tls: true
+  type: vless
   udp: true
-- name: '🇺🇸US - udptoos.com #2'
-  password: dc32fa69-c317-41f0-878f-20a1a311584f
-  port: 40022
-  server: us2.catzl.top
-  type: anytls
+  uuid: 31b6c552-ca2e-4f73-bce9-c7ba72737a74
+  ws-opts:
+    headers:
+      Host: 8.CS2-2-1.kDnS.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /bxlbR8OSatc0IBpW1S65K
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #2'
+  network: ws
+  port: '443'
+  server: 172.67.206.64
+  servername: 3-M16.ayUTthAYa2032.kdNs.FR
+  tls: true
+  type: vless
   udp: true
-- name: '🇺🇸US - udptoos.com #3'
-  password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
-  port: 443
-  server: mg4.yunshu.life
-  type: anytls
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 3-M16.ayUTthAYa2032.kdNs.FR
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #3'
+  network: ws
+  port: '443'
+  server: 104.21.11.38
+  servername: 2.cs2-2-1.kdNs.fR
+  tls: true
+  type: vless
   udp: true
-- name: '🇯🇵JP - udptoos.com #2'
-  password: dc32fa69-c317-41f0-878f-20a1a311584f
-  port: 40055
-  server: jp5.catzl.top
-  type: anytls
+  uuid: 31b6c552-ca2e-4f73-bce9-c7ba72737a74
+  ws-opts:
+    headers:
+      Host: 2.cS2-2-1.kdNS.Fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /bxlbR8OSatc0IBpW1S65K
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #4'
+  network: ws
+  port: '443'
+  server: web-tomcat.pages.dev
+  servername: web-tomcat.pages.dev
+  tls: true
+  type: vless
   udp: true
-- name: '🇩🇪DE - udptoos.com #2'
-  password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
-  port: 443
-  server: dg.yunshu.life
-  type: anytls
-  udp: true
-- name: '🇺🇸US - udptoos.com #4'
-  password: 4a4a34d3-8934-4404-ac35-5317b3ff7169
-  port: 443
-  server: mg.l3v1.my
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 🇹🇼TW - udptoos.com
-  password: dc32fa69-c317-41f0-878f-20a1a311584f
-  port: 40071
-  server: tw1.catzl.top
-  type: anytls
-  udp: true
-- name: '🇯🇵JP - udptoos.com #3'
-  password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
-  port: 17968
-  server: jjz.jjznodenode.top
-  type: anytls
-  udp: true
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  ws-opts:
+    headers:
+      Host: web-tomcat.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /
+  xudp: true
