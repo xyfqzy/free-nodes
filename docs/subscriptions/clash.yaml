@@ -2,47 +2,45 @@ proxies:
 - name: 🇳🇱NL - udptoos.com
   password: None
   port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #2'
-  password: None
-  port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- auth: 19f72087-4591-4d72-930b-2697078ec2be
-  name: 🇩🇰DK - udptoos.com
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: se.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
-- auth: 9452bb1ca5043e7f7b70430911afb034
-  name: 🇺🇸US - udptoos.com
-  password: 9452bb1ca5043e7f7b70430911afb034
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇨🇦CA - udptoos.com
+  network: ws
   port: 443
-  server: 108.59.244.158
+  server: 104.21.11.38
+  servername: 2.cs2-2-1.kdNs.fR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31b6c552-ca2e-4f73-bce9-c7ba72737a74
+  ws-opts:
+    headers:
+      Host: 2.cS2-2-1.kdNS.Fr
+    path: /bxlbR8OSatc0IBpW1S65K
+- name: 🇺🇸US - udptoos.com
+  port: 9002
+  server: 138.199.35.208
   skip-cert-verify: true
-  sni: 5post-gate.x5.ru
-  type: hysteria2
+  tls: true
+  type: http
   udp: true
 - name: '🇺🇸US - udptoos.com #2'
   port: 1092
   server: 104.244.95.184
   type: http
 - name: 🇩🇪DE - udptoos.com
-  password: None
-  port: 443
-  server: 149.36.50.129
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 2052
+  server: fl1.xiaoliyu.us
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  sni: fl1.xiaoliyu.us
+  type: hysteria2
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -55,102 +53,93 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '500'
-- name: 🇸🇬SG - udptoos.com
-  password: ''
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - alpn:
   - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: '🇳🇱NL - udptoos.com #3'
-  network: xhttp
-  port: '443'
-  server: 178.208.64.57
-  servername: nl2.lebedvpn.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0c6d8604-b7af-46b4-8382-5c90bf232471
-  xhttp-opts:
-    host: nl2.lebedvpn.cc
-    mode: stream-up
-    path: /004f70ca233b
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇨🇦CA - udptoos.com
-  network: ws
-  port: '443'
-  server: 172.67.165.32
-  servername: 8.CS2-2-1.KDnS.fR
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31b6c552-ca2e-4f73-bce9-c7ba72737a74
-  ws-opts:
-    headers:
-      Host: 8.CS2-2-1.kDnS.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
-    path: /bxlbR8OSatc0IBpW1S65K
-  xudp: true
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: '🇩🇪DE - udptoos.com #3'
+  obfs: ''
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
 - client-fingerprint: chrome
   name: '🇨🇦CA - udptoos.com #2'
   network: ws
+  password: humanity
   port: '443'
-  server: 172.67.206.64
-  servername: 3-M16.ayUTthAYa2032.kdNs.FR
-  tls: true
-  type: vless
+  server: 188.114.97.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 3-M16.ayUTthAYa2032.kdNs.FR
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
   name: '🇨🇦CA - udptoos.com #3'
   network: ws
+  password: humanity
   port: '443'
-  server: 104.21.11.38
-  servername: 2.cs2-2-1.kdNs.fR
+  server: 104.18.152.210
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇹🇷TR - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: GFREEsH4rFLnXKDLKXk0iTZNP5_d1zfKTj8DUE0L6RE
+    short-id: d7397feef49deef9
+  server: 206.1.97.61
+  servername: Miro.com
   tls: true
   type: vless
   udp: true
-  uuid: 31b6c552-ca2e-4f73-bce9-c7ba72737a74
-  ws-opts:
-    headers:
-      Host: 2.cS2-2-1.kdNS.Fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /bxlbR8OSatc0IBpW1S65K
+  uuid: 103f65b2-c4a7-4afc-aa00-dd67b6904036
   xudp: true
 - client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #4'
-  network: ws
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU - udptoos.com
+  network: tcp
   port: '443'
-  server: web-tomcat.pages.dev
-  servername: web-tomcat.pages.dev
+  reality-opts:
+    public-key: XBx1PANE_LKfrCRVCsu1LDwd2kywg7iDHW9tYEf2SQ0
+    short-id: ''
+  server: n2.fiprotected.com
+  servername: cdn2.fiprotected.com
   tls: true
   type: vless
   udp: true
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  ws-opts:
-    headers:
-      Host: web-tomcat.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /
+  uuid: 3d53970b-419b-4a27-87b5-e9c99bb02eca
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇵🇱PL - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
+    short-id: ''
+  server: 2.27.244.177
+  servername: polacondr.ggisopi.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
   xudp: true
