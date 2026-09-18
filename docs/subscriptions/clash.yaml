@@ -1,181 +1,22 @@
 proxies:
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 🇳🇱NL - udptoos.com
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 29900
-  server: 178.18.147.66
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- name: 🇸🇬SG - udptoos.com
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  port: 2052
-  server: sg1.xiaoliyu.us
-  skip-cert-verify: true
-  sni: sg1.xiaoliyu.us
-  type: hysteria2
-- name: 🇱🇾LY - udptoos.com
-  port: 8520
-  server: 102.23.220.66
-  type: http
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: 🇩🇪DE - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: f89c89df-905c-4df3-ab07-4f1a37a81005
-  port: 443
-  server: api.fastline-labs.com
-  skip-cert-verify: false
-  sni: api.fastline-labs.com
-  type: hysteria2
-  up: ''
-- name: 🇧🇷BR - udptoos.com
-  port: 5151
-  server: 187.72.72.209
-  type: http
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: '🇩🇪DE - udptoos.com #2'
-  obfs: ''
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: '🇩🇪DE - udptoos.com #3'
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US - udptoos.com
-  network: ws
-  port: '443'
-  server: gvuis865-production.up.railway.app
-  servername: gvuis865-production.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b415598-729e-6e6b-6ee4-9b77dee29878
-  ws-opts:
-    headers:
-      Host: gvuis865-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /ws/7b415598-729e-6e6b-6ee4-9b77dee29878
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: TunService
-  name: 🇵🇱PL - udptoos.com
-  network: grpc
-  port: '33743'
-  reality-opts:
-    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
-    short-id: ''
-  server: 185.223.57.10
-  servername: www.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  xudp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #2'
-  network: xhttp
-  port: '443'
-  server: 199.232.79.166
-  servername: cdn.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6d3bccbe-6f6e-40d8-a708-2b12b4f942d3
-  xhttp-opts:
-    host: telegram-uonvpn.global.ssl.fastly.net
-    mode: auto
-    path: /@UonVPN---@UonVPN-*-@UonVPN--*-@UonVPN--**-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN-*--@UonVPN
-    x-padding-bytes: 100-1000
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇯🇵JP - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  port: '27102'
-  server: jp1.xiaoliyu.us
-  skip-cert-verify: true
-  sni: jp1.xiaoliyu.us
-  type: hysteria2
-  up: ''
-- name: '🇩🇪DE - udptoos.com #4'
-  password: ''
-  port: '1080'
-  server: 135.125.232.151
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- auth: 755d3d04-234a-435b-8371-99d4c912e891
-  name: '🇯🇵JP - udptoos.com #2'
-  obfs: salamander
-  obfs-password: CJzHgzdjH1M1kt25
-  password: 755d3d04-234a-435b-8371-99d4c912e891
-  port: 40000
-  server: jjz.jjznodenode.top
-  skip-cert-verify: false
-  sni: jjz.jjznodenode.top
-  type: hysteria2
-  udp: true
-- cipher: aes-256-cfb
-  name: '🇺🇸US - udptoos.com #3'
-  password: amazonskr05
-  port: 443
-  server: 3.141.200.225
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: '🇩🇪DE - udptoos.com #5'
-  password: rsZGSjFXUyi6kX8P6glg15+TdK0zdtKVBjkHYeZdJ58=
-  port: '59924'
-  server: 130.61.82.183
-  type: ss
-  udp: true
-- client-fingerprint: chrome
   name: 🇨🇦CA - udptoos.com
   network: ws
   port: '443'
-  server: 104.21.71.47
-  servername: 0-M16.CHIaN-mai-x.kDnS.FR
+  server: 104.21.62.195
+  servername: 7.qq1-0.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  uuid: cb53f904-c979-454f-bf43-621990008148
   ws-opts:
     headers:
-      Host: 0-M16.CHIaN-mai-x.kDnS.FR
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      Host: 7.qq1-0.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /LNbYtR09FXg1AmmjhdiHvR8v
   xudp: true
 - client-fingerprint: chrome
   name: '🇨🇦CA - udptoos.com #2'
@@ -190,7 +31,7 @@ proxies:
   ws-opts:
     headers:
       Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
   xudp: true
