@@ -1,68 +1,6 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
-    short-id: 7c8e3d4a9b1f26d3
-  server: hhhorp.plus-hit.ru
-  servername: hhhorp.plus-hit.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 84a794a5-2420-4ca7-8e08-8d21571f36f3
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦CA - udptoos.com
-  network: ws
-  port: '443'
-  server: 172.67.133.188
-  servername: 5-M23.e9BC44F2-Fe6D-4B28-b604-2C29B8be1c3e.Kdns.Fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a2ae83c-0327-4703-a847-535a972bc636
-  ws-opts:
-    headers:
-      Host: 5-M23.e9BC44F2-Fe6D-4B28-b604-2C29B8be1c3e.Kdns.Fr
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /kXHZ0iPM96r8UDUAsTH2scSHpeWN
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇧🇪BE - udptoos.com
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: v6QpErcVOVKIYLm53R3bAP8zIKCFr4HAJWW0VwBKtws
-    short-id: 31f187650d9530bb
-  server: 34.38.82.200
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 6d341f6e-7b9d-4ae3-999b-00333de7bdfb
-- client-fingerprint: chrome
-  name: '🇧🇪BE - udptoos.com #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: i_UbRo65YEpOFuKkNVa0GEMl7xLDx9B1nmeyeNWyJQs
-    short-id: 68e97022627fa882
-  server: 35.195.122.169
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: e3fb56fe-bdbc-4f0e-b1ed-de2f7c85f254
 - auth: github.com/Alvin9999-newpac/fanqiang
-  name: '🇳🇱NL - udptoos.com #2'
+  name: 🇳🇱NL - udptoos.com
   password: github.com/Alvin9999-newpac/fanqiang
   port: 29900
   server: 178.18.147.66
@@ -70,38 +8,25 @@ proxies:
   sni: www.microsoft.com
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  name: 🇶🇦QA - udptoos.com
-  network: tcp
+- name: 🇨🇦CA - udptoos.com
+  network: ws
   port: 443
-  reality-opts:
-    public-key: tT6wEOh8ASizQYNRb51QdDlxAksSJbEaBnbQBajc6SQ
-    short-id: c5426331173ca15c
-  server: 34.18.212.19
-  servername: www.cloudflare.com
+  server: 104.21.71.47
+  servername: 0-M16.CHIaN-mai-x.kDnS.FR
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  uuid: b6f775c2-70fd-4247-8d12-82cac46fdd50
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 0-M16.CHIaN-mai-x.kDnS.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 🇱🇾LY - udptoos.com
   port: 8520
   server: 102.23.220.66
   type: http
-- client-fingerprint: chrome
-  name: '🇶🇦QA - udptoos.com #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZRWl48Ahw4vlnPSTMkNs6xcCEDd9Qq4AsChUp-mg7A4
-    short-id: 9c8748aa3f7d4219
-  server: 34.18.31.5
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: bd82d5e7-4395-40e1-b34e-2974eb0c8555
 - client-fingerprint: chrome
   name: 🇦🇺AU - udptoos.com
   network: tcp
@@ -130,95 +55,16 @@ proxies:
   type: hysteria
   up: '500'
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇮FI - udptoos.com
+  name: 🇫🇷FR - udptoos.com
   network: tcp
   port: '443'
   reality-opts:
-    public-key: 1U9eTADaumTYxiO9NifVHUv5mbMowU2NSjgc2rBdvHo
-    short-id: 7a0300af51a1c4cf
-  server: 87.58.147.66
-  servername: Miro.com
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+    short-id: ae682368818bd6c5
+  server: 34.155.10.226
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: ba6b7300-be34-43ef-a883-eee182dfb2d6
-  xudp: true
-- encryption: none
-  name: '🇨🇦CA - udptoos.com #2'
-  network: ws
-  port: '8880'
-  server: www.baipiao.eu.org
-  type: vless
-  udp: true
-  uuid: ea29d6f1-3567-4d45-b8c2-e42f162caef4
-  ws-opts:
-    headers:
-      Host: mute-dawn-f27b.375.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- auth: 755d3d04-234a-435b-8371-99d4c912e891
-  name: 🇯🇵JP - udptoos.com
-  obfs: salamander
-  obfs-password: uqmgFZmVNHNYGxaH
-  password: 755d3d04-234a-435b-8371-99d4c912e891
-  port: 39999
-  server: jjz.jjznodenode.top
-  skip-cert-verify: false
-  sni: jjz.jjznodenode.top
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #3'
-  network: ws
-  port: '443'
-  server: 104.21.78.105
-  servername: 6-m17.KUWaiT.kdNs.fR
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  ws-opts:
-    headers:
-      Host: 6-M17.kuwAit.kDns.Fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR - udptoos.com
-  network: ws
-  port: '443'
-  server: 110.10.178.240
-  servername: mia11.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  ws-opts:
-    headers:
-      Host: mia11.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /TG:@MiaChatChannel
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇰🇷KR - udptoos.com #2'
-  network: ws
-  port: '8443'
-  server: 119.28.162.39
-  servername: mia11.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  ws-opts:
-    headers:
-      Host: mia11.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /TG:@MiaChatChannel
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
   xudp: true
