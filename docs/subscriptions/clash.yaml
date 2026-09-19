@@ -1,70 +1,8 @@
 proxies:
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 🇳🇱NL - udptoos.com
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 29900
-  server: 178.18.147.66
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- name: 🇨🇦CA - udptoos.com
-  network: ws
-  port: 443
-  server: 104.21.71.47
-  servername: 0-M16.CHIaN-mai-x.kDnS.FR
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-M16.CHIaN-mai-x.kDnS.FR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 🇱🇾LY - udptoos.com
-  port: 8520
-  server: 102.23.220.66
-  type: http
-- client-fingerprint: chrome
-  name: 🇦🇺AU - udptoos.com
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
-    short-id: d725f0dd8cce210f
-  server: 34.87.244.111
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪DE - udptoos.com
-  obfs: ''
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
   name: 🇫🇷FR - udptoos.com
-  network: tcp
+  password: amazonskr05
   port: '443'
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-    short-id: ae682368818bd6c5
-  server: 34.155.10.226
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
+  server: 15.237.210.147
+  type: ss
   udp: true
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
-  xudp: true
