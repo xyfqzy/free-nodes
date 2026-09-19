@@ -2,7 +2,78 @@ proxies:
 - cipher: aes-256-cfb
   name: 🇫🇷FR - udptoos.com
   password: amazonskr05
-  port: '443'
+  port: 443
   server: 15.237.210.147
   type: ss
+- auth: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
+  name: 🇨🇭CH - udptoos.com
+  password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
+  port: 8443
+  server: 82.38.64.229
+  skip-cert-verify: true
+  sni: hopp-swizland-new.mysynology.net
+  type: hysteria2
+- auth: 192776da-1743-4724-b342-96dafa2eb54e
+  name: 🇸🇪SE - udptoos.com
+  password: 192776da-1743-4724-b342-96dafa2eb54e
+  port: 443
+  server: se2.belka.network
+  skip-cert-verify: true
+  sni: se2.belka.network
+  type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪DE - udptoos.com
+  obfs: ''
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: '🇩🇪DE - udptoos.com #2'
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇱🇹LT - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: XZEwCogwNYSmUTxAvanoSdYCslQJAJcKBewa6-_pWS4
+    short-id: 89c919a1
+  server: lt-vno-3.blook.network
+  servername: lt-vno-3.blook.network
+  tls: true
+  type: vless
   udp: true
+  uuid: e230740a-aa30-461a-8bf3-9c8cab6332f7
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  name: 🌐ZZ - udptoos.com
+  network: tcp
+  port: '8080'
+  reality-opts:
+    public-key: 3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY
+    short-id: ''
+  server: comte.farxmode.ir
+  servername: play-apps-features.googleusercontent.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23ddda0f-6333-493a-839d-f9c8e561f7e4
+  xudp: true
