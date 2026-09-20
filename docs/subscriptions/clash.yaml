@@ -1,12 +1,4 @@
 proxies:
-- name: 🇷🇺RU - udptoos.com
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-  udp: true
 - fingerprint: ''
   name: 🇹🇼TW - udptoos.com
   password: 9sK2mP8xQ7vL3nZ6
@@ -17,47 +9,47 @@ proxies:
   type: anytls
   udp: true
   username: 9sK2mP8xQ7vL3nZ6
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪DE - udptoos.com
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- cipher: aes-256-cfb
-  name: '🇩🇪DE - udptoos.com #2'
-  password: amazonskr05
-  port: '443'
-  server: 35.159.113.215
-  type: ss
-  udp: true
-- auth: 1cc5d198-4929-4a21-8ee8-311f81b03497
-  name: 🇯🇵JP - udptoos.com
-  obfs: salamander
-  obfs-password: uqmgFZmVNHNYGxaH
-  password: 1cc5d198-4929-4a21-8ee8-311f81b03497
-  port: 39999
-  server: jjz.jjznodenode.top
-  skip-cert-verify: false
-  sni: jjz.jjznodenode.top
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇯🇵JP - udptoos.com #2'
+  name: 🇭🇰HK - udptoos.com
   network: tcp
-  port: 30000
+  port: 443
   reality-opts:
-    public-key: Sa-1Yb-Xzwu7BOPL--8Fx0kKvdjJ8bLnR4ISMsR4oRc
-    short-id: a8
-  server: aws-jp.webprovider.top
-  servername: icloud.com
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: ea6b43
+  server: hk4.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
   tls: true
   type: vless
   udp: true
-  uuid: 3180f311-16fb-445c-b129-4d946940c21a
+  uuid: 1d6c2ce7-7b05-40cb-8779-bb1ade0899ce
+- auth: fcc91034-a05d-4da1-ab38-422b21987ff9
+  name: 🇺🇸US - udptoos.com
+  password: fcc91034-a05d-4da1-ab38-422b21987ff9
+  port: 50848
+  server: 108.181.5.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- auth: fcc91034-a05d-4da1-ab38-422b21987ff9
+  name: '🇭🇰HK - udptoos.com #2'
+  password: fcc91034-a05d-4da1-ab38-422b21987ff9
+  port: 51689
+  server: 82.152.160.245
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 🇯🇵JP - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: '20561'
+  server: msjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  up: ''
