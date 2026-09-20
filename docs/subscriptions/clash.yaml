@@ -1,13 +1,63 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU - udptoos.com
-  obfs: ''
-  obfs-password: ''
+- name: 🇷🇺RU - udptoos.com
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: '443'
+  port: 443
   server: msk.frkn.org
-  skip-cert-verify: false
-  sni: ''
+  skip-cert-verify: true
+  tls: false
   type: hysteria2
-  up: ''
+  udp: true
+- fingerprint: ''
+  name: 🇹🇼TW - udptoos.com
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: 6ivh.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+  username: 9sK2mP8xQ7vL3nZ6
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪DE - udptoos.com
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- cipher: aes-256-cfb
+  name: '🇩🇪DE - udptoos.com #2'
+  password: amazonskr05
+  port: '443'
+  server: 35.159.113.215
+  type: ss
+  udp: true
+- auth: 1cc5d198-4929-4a21-8ee8-311f81b03497
+  name: 🇯🇵JP - udptoos.com
+  obfs: salamander
+  obfs-password: uqmgFZmVNHNYGxaH
+  password: 1cc5d198-4929-4a21-8ee8-311f81b03497
+  port: 39999
+  server: jjz.jjznodenode.top
+  skip-cert-verify: false
+  sni: jjz.jjznodenode.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇯🇵JP - udptoos.com #2'
+  network: tcp
+  port: 30000
+  reality-opts:
+    public-key: Sa-1Yb-Xzwu7BOPL--8Fx0kKvdjJ8bLnR4ISMsR4oRc
+    short-id: a8
+  server: aws-jp.webprovider.top
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3180f311-16fb-445c-b129-4d946940c21a
