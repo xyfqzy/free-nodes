@@ -1,197 +1,200 @@
 proxies:
-- name: 🇳🇱NL - udptoos.com
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #2'
-  password: None
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #3'
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #4'
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #5'
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #6'
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #7'
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO - udptoos.com
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #2'
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #3'
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #4'
-  password: None
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #5'
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇷🇴RO - udptoos.com #6'
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 🇺🇸US - udptoos.com
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
-  username: 'null'
-- name: '🇺🇸US - udptoos.com #2'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
+    short-id: 59eee550a1014198
+  server: de10.delivery-4f1c.com
+  servername: de10.delivery-4f1c.com
   tls: true
-  type: http
+  type: vless
   udp: true
-- delay: 1136
-  name: '🇷🇴RO - udptoos.com #7'
-  password: None
-  port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  name: '🇺🇸US - udptoos.com #2'
+  network: tcp
+  port: '2087'
+  reality-opts:
+    public-key: TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs
+    short-id: 407f4d9be75efc56
+  server: 31.77.7.122
+  servername: www.nokia.com
   tls: true
-  type: http
+  type: vless
   udp: true
-- delay: 1488
-  name: '🇷🇴RO - udptoos.com #8'
-  password: 'null'
-  port: 9002
-  server: 193.176.84.35
+  uuid: 36cd557b-2b3d-46d3-8071-c77dd9cf7623
+  xudp: true
+- alpn:
+  - h3
+  auth: 319ed24b1c7203aa
+  name: 🇪🇪EE - udptoos.com
+  password: 319ed24b1c7203aa
+  port: 8443
+  server: tishina-axe.dedyn.io
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- delay: 1251
-  name: '🇷🇴RO - udptoos.com #9'
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1319
-  name: '🇷🇴RO - udptoos.com #10'
-  password: 'null'
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- delay: 1061
-  name: '🇷🇴RO - udptoos.com #11'
-  port: 9002
-  server: 193.176.84.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 784
-  name: '🇺🇸US - udptoos.com #3'
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1661
-  name: '🇺🇸US - udptoos.com #4'
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1369
-  name: '🇺🇸US - udptoos.com #5'
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1585
-  name: 🇸🇬SG - udptoos.com
+  sni: tishina-axe.dedyn.io
+  type: hysteria2
+- name: 🇨🇦CA - udptoos.com
+  network: ws
   port: 443
-  server: 154.26.139.24
+  server: 104.21.91.102
+  servername: 4-M16.aYUtTHAya2031.kdnS.fR
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 4-M16.aYUtTHAya2031.kdnS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- auth: 633bc3be486b646190661ac2387c150a
+  name: 🇦🇺AU - udptoos.com
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  password: 633bc3be486b646190661ac2387c150a
+  port: 443
+  server: 152.67.115.203
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- auth: 192776da-1743-4724-b342-96dafa2eb54e
+  name: 🇸🇪SE - udptoos.com
+  password: 192776da-1743-4724-b342-96dafa2eb54e
+  port: 443
+  server: se2.belka.network
+  skip-cert-verify: true
+  sni: se2.belka.network
+  type: hysteria2
+- name: '🇦🇺AU - udptoos.com #2'
+  password: None
+  port: 443
+  server: 159.13.44.228
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 🇰🇷KR - udptoos.com
-  password: ''
-  port: '1090'
-  server: 121.169.46.116
+  username: null
+- client-fingerprint: chrome
+  name: '🇦🇺AU - udptoos.com #3'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+    short-id: d725f0dd8cce210f
+  server: 34.87.244.111
+  servername: www.cloudflare.com
   skip-cert-verify: true
-  type: socks5
-  username: T2clM0QlM0Q6
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: '🇩🇪DE - udptoos.com #2'
+  obfs: ''
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #2'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 188.114.97.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /assignment
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇮🇲IM - udptoos.com
+  network: tcp
+  port: '9022'
+  server: star.starnick2030.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: google.android.location.SyncService
+  name: 🇫🇮FI - udptoos.com
+  network: grpc
+  port: '3454'
+  reality-opts:
+    public-key: Bz2EFAfox-uD9nn8qAVKy86A1kDKO2OpYQhMO4fCrCg
+    short-id: 159b4efc
+  server: 2.26.9.243
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5adaf80e-2347-481f-84cb-46109d582c95
+  xudp: true
+- encryption: none
+  name: '🇨🇦CA - udptoos.com #3'
+  network: ws
+  port: '80'
+  server: 188.114.97.6
+  type: vless
+  udp: true
+  uuid: '@Cooonfig@Cooonfig@Cooonfig'
+  ws-opts:
+    headers:
+      Host: guji.azazilvpn.sbs.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇸🇪SE - udptoos.com #2'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: dAywk2CpVoA14GcQBWxgkamea0yaLkF6jUmy4--vHAU
+    short-id: fd
+  server: 185.231.103.20
+  servername: se.convexia.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89104901-966e-4c7e-8e83-99d8712c5417
+  xudp: true
