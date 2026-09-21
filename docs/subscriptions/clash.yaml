@@ -1,37 +1,139 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇮FI - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 1U9eTADaumTYxiO9NifVHUv5mbMowU2NSjgc2rBdvHo
-    short-id: 7a0300af51a1c4cf
-  server: 185.20.137.118
-  servername: Miro.com
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇸🇪SE - udptoos.com
+  network: ws
+  port: 443
+  server: 138.124.25.25
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 416cea75-4802-43b1-8f31-c7fa1e211a6a
-  xudp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /group/outbound/topics?ed=2560
 - client-fingerprint: chrome
-  encryption: none
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
   name: 🇳🇱NL - udptoos.com
-  network: tcp
-  port: '443'
+  network: ws
+  port: 2087
+  server: 72.56.71.215
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /archive/html?ed=2560
+- name: 🇬🇧GB - udptoos.com
+  password: null
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- encryption: none
+  name: 🇨🇦CA - udptoos.com
+  network: ws
+  port: '8880'
+  server: 172.67.209.127
+  type: vless
+  udp: true
+  uuid: 4e81922a-1c2e-41ee-bb4c-9095a0a363fe
+  ws-opts:
+    headers:
+      Host: gentle-cell-501a.273-d6b.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- name: 🇭🇰HK - udptoos.com
+  network: ws
+  port: 10088
+  server: cooper365.cloud
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9f9db0fb-135a-4141-8a0a-68eaf28f2da1
+  ws-opts:
+    headers:
+      Host: cooper365.cloud
+    path: /vless
+- name: 🇸🇬SG - udptoos.com
+  password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+  port: 17963
+  server: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: '🇸🇬SG - udptoos.com #2'
+  password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+  port: 17965
+  server: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: '🇸🇬SG - udptoos.com #3'
+  password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+  port: 17966
+  server: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: '🇸🇬SG - udptoos.com #4'
+  password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+  port: 17968
+  server: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: '🇸🇬SG - udptoos.com #5'
+  password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+  port: 17961
+  server: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: '🇸🇬SG - udptoos.com #6'
+  password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+  port: 17964
+  server: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: '🇸🇬SG - udptoos.com #7'
+  password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+  port: 17960
+  server: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: '🇸🇬SG - udptoos.com #8'
+  password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+  port: 17962
+  server: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc
+  name: 🇪🇸ES - udptoos.com
+  network: grpc
+  port: 443
   reality-opts:
-    public-key: k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ
-    short-id: 669d7ae5e1611511
-  server: 5.129.228.40
-  servername: static.yandex.net
+    public-key: S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw
+    short-id: 8319913f2e5f5711
+  server: es.cache-4d8a.com
+  servername: es.cache-4d8a.com
   tls: true
   type: vless
   udp: true
-  uuid: 88a247b9-3e0b-4c0e-ba88-61fc63a9c5d1
-  xudp: true
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
 - client-fingerprint: chrome
-  name: 🇸🇬SG - udptoos.com
+  name: '🇸🇬SG - udptoos.com #9'
   network: ws
   port: 443
   server: 103.195.188.206
@@ -49,22 +151,7 @@ proxies:
   name: 🇯🇵JP - udptoos.com
   network: ws
   port: 443
-  server: 154.19.187.190
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: '🇸🇬SG - udptoos.com #2'
-  network: ws
-  port: 443
-  server: 103.195.188.192
+  server: 35.72.179.15
   servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
@@ -77,6 +164,308 @@ proxies:
     path: /
 - client-fingerprint: chrome
   name: '🇯🇵JP - udptoos.com #2'
+  network: ws
+  port: 443
+  server: 161.33.29.51
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇬🇧GB - udptoos.com #2'
+  network: ws
+  port: 443
+  server: 104.128.190.209
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇰SK - udptoos.com
+  network: ws
+  port: 2053
+  server: 89.46.42.141
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇺HU - udptoos.com
+  network: ws
+  port: 443
+  server: 38.180.109.174
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇦UA - udptoos.com
+  network: ws
+  port: 443
+  server: 213.111.148.137
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇲🇽MX - udptoos.com
+  network: ws
+  port: 443
+  server: 216.238.79.164
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇾CY - udptoos.com
+  network: ws
+  port: 443
+  server: 213.111.177.107
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇯🇵JP - udptoos.com #3'
+  network: tcp
+  port: '19001'
+  reality-opts:
+    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+    short-id: ''
+  server: jpga01.jumperservice.com
+  servername: www.speedtest.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0709ba80-f353-4636-85ce-43b82990ac2d
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE - udptoos.com
+  network: tcp
+  port: '42892'
+  reality-opts:
+    public-key: GLKvvfUmBk3Y4fxmRCgvSaR73H2lE1eBGm2EwWPxtDY
+    short-id: a51c
+  server: 82.139.234.155
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53627d61-30b2-4333-9901-94cd457cbeaa
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇪🇪EE - udptoos.com
+  network: grpc
+  port: '8443'
+  reality-opts:
+    public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
+    short-id: 08
+  server: 89.106.88.6
+  servername: dest1.cdn-update.rutube.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇰🇷KR - udptoos.com
+  network: ws
+  port: 2083
+  server: 123.111.169.70
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇯🇵JP - udptoos.com #4'
+  network: ws
+  port: 443
+  server: 101.142.129.72
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇯🇵JP - udptoos.com #5'
+  network: ws
+  port: 2053
+  server: 103.31.77.108
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇮🇳IN - udptoos.com
+  network: ws
+  port: 443
+  server: 13.200.106.232
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇧🇾BY - udptoos.com
+  network: ws
+  port: 443
+  server: 185.179.82.201
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇧🇪BE - udptoos.com
+  network: ws
+  port: 443
+  server: 194.71.227.213
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪DE - udptoos.com #2'
+  network: ws
+  port: 443
+  server: 103.228.168.182
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇪🇸ES - udptoos.com #2'
+  network: ws
+  port: 443
+  server: 141.227.188.153
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇱🇺LU - udptoos.com
+  network: ws
+  port: 8443
+  server: 107.189.2.206
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇿CZ - udptoos.com
+  network: ws
+  port: 8443
+  server: 103.200.28.113
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇯🇵JP - udptoos.com #6'
   network: ws
   port: 443
   server: 45.202.254.133
@@ -106,7 +495,37 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪DE - udptoos.com
+  name: 🇳🇴NO - udptoos.com
+  network: ws
+  port: 443
+  server: 194.32.107.150
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇿UZ - udptoos.com
+  network: ws
+  port: 8443
+  server: 46.8.194.76
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪DE - udptoos.com #3'
   network: ws
   port: 443
   server: 144.31.217.95
@@ -121,7 +540,37 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 🇺🇿UZ - udptoos.com
+  name: '🇩🇪DE - udptoos.com #4'
+  network: ws
+  port: 8443
+  server: 103.126.50.196
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇲🇾MY - udptoos.com
+  network: ws
+  port: 443
+  server: 216.173.67.159
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇺🇿UZ - udptoos.com #2'
   network: ws
   port: 2053
   server: 46.8.194.76
@@ -136,10 +585,10 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: '🇩🇪DE - udptoos.com #2'
+  name: 🇮🇪IE - udptoos.com
   network: ws
-  port: 443
-  server: 109.176.202.20
+  port: 2096
+  server: 167.160.177.68
   servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
@@ -151,7 +600,37 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 🇸🇰SK - udptoos.com
+  name: 🇹🇷TR - udptoos.com
+  network: ws
+  port: 8443
+  server: 104.143.204.23
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇹🇷TR - udptoos.com #2'
+  network: ws
+  port: 443
+  server: 104.143.204.23
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇸🇰SK - udptoos.com #2'
   network: ws
   port: 2053
   server: 89.46.42.92
@@ -166,10 +645,55 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 🇺🇸US - udptoos.com
+  name: 🇮🇸IS - udptoos.com
+  network: ws
+  port: 443
+  server: 195.246.230.125
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇰DK - udptoos.com
+  network: ws
+  port: 443
+  server: 193.180.209.136
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇳🇴NO - udptoos.com #2'
   network: ws
   port: 8443
-  server: 104.194.84.188
+  server: 185.125.171.128
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇧🇷BR - udptoos.com
+  network: ws
+  port: 443
+  server: 157.151.4.93
   servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
