@@ -1,274 +1,237 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇯🇵JP - udptoos.com
-  network: ws
-  port: 443
-  server: 161.33.29.51
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- name: 🇪🇸ES - udptoos.com
-  password: None
-  port: 443
-  server: 130.195.250.34
+- name: 🇩🇪DE - udptoos.com
+  password: null
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇸🇪SE - udptoos.com
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- cipher: chacha20-ietf
-  name: 🇨🇦CA - udptoos.com
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1303
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: 32s9mpp3zb5wg2.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #2'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1327
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: xr9btkx2uwygfb.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #3'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1320
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: 4vnx5kqwk8mxsr.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #4'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1307
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: kxftjn8bz7upwj.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #5'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1321
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: 78v9m3qxh6eedn.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #6'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1326
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: k92vnke3356ns4.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #7'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1329
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: b82gubf8e7m3ar.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #8'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1310
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: a83jb3sztjnqd4.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #9'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1306
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: hqux7dvs9tftys.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #10'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1323
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: u76crzpegs5g2j.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #11'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1354
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: shx57c8k2zb9bj.node897828.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #12'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1356
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: waa3g8tqb78k85.node897828.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #13'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1335
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: gtjmbbnnre3qz4.server927871.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #14'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1353
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: m5j48wskvttd4j.node897828.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #15'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1352
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: fdemtyhemkjdc2.node897828.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #16'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1382
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: tb77hqsccm8cmv.server927871.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #17'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1381
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: ymbf4ec7zffrtv.server927871.com
-  type: ssr
-- auth: 1e6fed5b-5edc-4ddb-a268-79d7fae4365c
-  name: 🇬🇧GB - udptoos.com
-  password: 1e6fed5b-5edc-4ddb-a268-79d7fae4365c
-  port: 30443
-  server: 95.133.242.213
-  skip-cert-verify: true
-  sni: filesconvert.org
-  type: hysteria2
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #18'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1309
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: zquxqu4vxyxgue.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #19'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1304
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: neetb62ecrq2zg.cache872671.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '🇨🇦CA - udptoos.com #20'
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1387
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: xseu4n4dpxmn5y.server927871.com
-  type: ssr
-- auth: 1cc5d198-4929-4a21-8ee8-311f81b03497
-  name: 🇸🇬SG - udptoos.com
-  obfs: salamander
-  obfs-password: uqmgFZmVNHNYGxaH
-  password: 1cc5d198-4929-4a21-8ee8-311f81b03497
-  port: 39999
-  server: jjz.jjznodenode.top
-  skip-cert-verify: false
-  sni: jjz.jjznodenode.top
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: 🇫🇷FR - udptoos.com
-  network: grpc
-  port: '443'
-  server: assets-fra.pleiades.codes
-  servername: assets-fra.pleiades.codes
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US - udptoos.com
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇳🇱NL - udptoos.com
   network: ws
   port: 8443
-  server: 104.194.84.188
-  servername: shuma.ccwu.cc
+  server: 31.59.46.140
+  servername: cdn8848.776676.xyz
   skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /travel/intro?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇬🇧GB - udptoos.com
+  network: ws
+  port: 40649
+  server: 185.155.235.35
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /clip/tech/vod?ed=2560
+- name: 🇺🇸US - udptoos.com
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇺🇸US - udptoos.com #2'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '🇩🇪DE - udptoos.com #2'
+  port: 443
+  server: 185.44.107.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇯🇵JP - udptoos.com
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20561
+  server: msjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸US - udptoos.com #3'
+  network: ws
+  port: '443'
+  server: 151.101.56.6
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
+  ws-opts:
+    headers:
+      Host: c12.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸US - udptoos.com #4'
+  network: ws
+  port: '443'
+  server: a2.arshia-nova.ir
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
+  ws-opts:
+    headers:
+      Host: c12.com
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸US - udptoos.com #5'
+  network: ws
+  port: '443'
+  server: k2.cloud--vpn.site
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
+  ws-opts:
+    headers:
+      Host: c12.com
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: unsafe
+  encryption: none
+  name: 🇨🇦CA - udptoos.com
+  network: ws
+  port: '443'
+  server: 104.21.60.109
+  servername: cfvvv-ev1.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  ws-opts:
+    headers:
+      Host: cfvvv-ev1.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /MTMVPN---MTMVPN---MTMVPN---MTMVPN
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #2'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 162.159.136.234
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇮🇷IR - udptoos.com
+  network: tcp
+  port: '1070'
+  server: nlp1.hupcloud.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: da410df7-cde1-415c-a46e-87637e9748f9
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸US - udptoos.com #6'
+  network: ws
+  port: '443'
+  server: 151.101.56.7
+  servername: global.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
+  ws-opts:
+    headers:
+      Host: kayko.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    path: /
+  xudp: true
+- delay: 1977
+  name: 🇷🇴RO - udptoos.com
+  password: None
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 1977
+  name: '🇷🇴RO - udptoos.com #2'
+  password: 'null'
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  name: 🇸🇨SC - udptoos.com
+  network: ws
+  password: humanity
+  port: '443'
+  server: 45.130.125.158
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: '🇯🇵JP - udptoos.com #2'
+  network: ws
+  port: '443'
+  server: 45.202.254.133
+  servername: shuma.ccwu.cc
   tls: true
   type: vless
   udp: true
@@ -276,21 +239,41 @@ proxies:
   ws-opts:
     headers:
       Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: firefox
-  name: 🇦🇺AU - udptoos.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇰SK - udptoos.com
   network: ws
-  port: '443'
-  server: 202.166.187.132
-  servername: f.yoptybla.ru
+  port: '8443'
+  server: 5.35.103.185
+  servername: shuma.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 8be20011-59b1-4118-91ed-83e8e6b662cd
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   ws-opts:
     headers:
-      Host: f.yoptybla.ru
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /
+      Host: shuma.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇧🇷BR - udptoos.com
+  network: ws
+  port: '443'
+  server: 157.151.4.93
+  servername: shuma.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /fp=chrome
   xudp: true
