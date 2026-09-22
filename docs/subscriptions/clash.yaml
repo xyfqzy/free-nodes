@@ -1,25 +1,148 @@
 proxies:
-- name: 🇩🇰DK - udptoos.com
-  password: null
-  port: 9443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB - udptoos.com
+- name: 🇳🇱NL - udptoos.com
   password: null
   port: 443
-  server: 212.102.63.1
+  server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇱🇻LV - udptoos.com
+- name: 🇫🇮FI - udptoos.com
+  password: ''
+  port: 1080
+  server: 83.147.216.208
+  type: socks5
+  udp: true
+  username: ''
+- name: 🇵🇾PY - udptoos.com
+  port: 8080
+  server: 38.52.135.222
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇭CH - udptoos.com
+  network: xhttp
+  port: '8446'
+  reality-opts:
+    public-key: _UazRMiBq9RqMaVrHeLsvUuoBkGFo9Gm-A4ivuZ6ZS8
+    short-id: 6ba85179e30d4fc2
+  server: 82.38.139.24
+  servername: hetzner.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6f6ecc2-26af-4e2f-95a7-e7018819a716
+  xhttp-opts:
+    mode: stream-up
+    path: /
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: 8-16
+      max-connections: '0'
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇧🇬BG - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
+    short-id: f0eb800bd980b00b
+  server: sof.edgeptr.org
+  servername: www.lovelive-anime.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: 848ba9ec-4233-4407-b95d-3f423d3ce0ff
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇷IR - udptoos.com
+  password: ao5znrhEwVqoJy-l7AVvgw
+  port: '1080'
+  server: p1tun4.greewebservices.ir
+  type: ss
+  udp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: vless
+  name: 🇨🇿CZ - udptoos.com
+  network: grpc
+  port: '3090'
+  server: 153.76.185.147
+  type: vless
+  udp: true
+  uuid: c54f85fe-0e28-4c93-a53d-3ed47937ac46
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE - udptoos.com
+  network: tcp
+  port: '5432'
+  server: 2.26.53.224
+  tls: true
+  type: vless
+  udp: true
+  uuid: cc01f435-d561-4525-bf1f-7a9876d33207
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇰DK - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: GW-DWwk3vtXtXBEqQxY_Cf83JIisyyk34rUrtkMZ90g
+    short-id: ''
+  server: 130.49.188.4
+  servername: lk.s.dn.iki-servers.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c795bdd5-0460-42bd-927b-fbff154d2ab5
+  xudp: true
+- delay: 1977
+  name: 🇷🇴RO - udptoos.com
   password: None
-  port: 443
-  server: 109.248.147.66
+  port: 9002
+  server: 193.176.84.36
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+- delay: 1977
+  name: '🇷🇴RO - udptoos.com #2'
+  password: 'null'
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- delay: 1977
+  name: '🇷🇴RO - udptoos.com #3'
+  password: None
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 🇨🇦CA - udptoos.com
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.161
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
