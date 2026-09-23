@@ -1,197 +1,129 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇦🇺AU - udptoos.com
-  network: ws
-  port: 443
-  server: 202.166.187.132
-  servername: f.yoptybla.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8be20011-59b1-4118-91ed-83e8e6b662cd
-  ws-opts:
-    headers:
-      Host: f.yoptybla.ru
-    path: /
-- name: 🇺🇸US - udptoos.com
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  skip-cert-verify: false
-  type: socks5
-  username: test123
-- name: 🇮🇪IE - udptoos.com
-  password: None
-  port: 443
-  server: 149.88.96.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB - udptoos.com
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇨🇿CZ - udptoos.com
-  password: None
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇰DK - udptoos.com
-  password: None
-  port: 443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '🇬🇧GB - udptoos.com #2'
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇨🇭CH - udptoos.com
-  password: None
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - cipher: aes-256-cfb
   name: 🇯🇵JP - udptoos.com
   password: amazonskr05
   port: 443
-  server: 54.199.248.166
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '🇯🇵JP - udptoos.com #2'
-  password: amazonskr05
-  port: 443
   server: 18.179.111.96
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '🇯🇵JP - udptoos.com #3'
-  password: amazonskr05
+- auth: 02bd8b5a-170b-4a79-8e68-9cec710272c7
+  name: 🇸🇪SE - udptoos.com
+  password: 02bd8b5a-170b-4a79-8e68-9cec710272c7
   port: 443
-  server: 13.230.153.249
-  type: ss
+  server: se1.chromevpn.cc
+  sni: se1.chromevpn.cc
+  type: hysteria2
   udp: true
-- cipher: aes-256-cfb
-  name: '🇯🇵JP - udptoos.com #4'
-  password: amazonskr05
-  port: 443
-  server: 13.231.184.186
-  type: ss
-  udp: true
-- fingerprint: ''
-  name: 🇹🇼TW - udptoos.com
-  password: 9sK2mP8xQ7vL3nZ6
-  port: 443
-  server: 6ivh.pnuqcnp.cn
+- name: 🇭🇰HK - udptoos.com
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: hk2.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: images.ctfassets.net
+  type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪DE - udptoos.com
+  obfs: ''
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- name: 🇺🇸US - udptoos.com
+  password: d9d8d032-4dda-451b-93e3-00a57278eb51
+  port: 40022
+  server: us2.catzl.top
   type: anytls
   udp: true
-  username: 9sK2mP8xQ7vL3nZ6
-- cipher: aes-256-cfb
-  name: '🇺🇸US - udptoos.com #2'
-  password: amazonskr05
-  port: 443
-  server: 18.207.155.184
-  type: ss
+- name: 🇰🇷KR - udptoos.com
+  password: d9d8d032-4dda-451b-93e3-00a57278eb51
+  port: 40041
+  server: kr1.catzl.top
+  type: anytls
   udp: true
-- name: 🇩🇪DE - udptoos.com
-  password: null
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '🇬🇧GB - udptoos.com #3'
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇺🇸US - udptoos.com #3'
-  password: ''
-  port: '7070'
-  server: 20.83.154.79
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- encryption: none
+- name: 🇹🇼TW - udptoos.com
+  password: d9d8d032-4dda-451b-93e3-00a57278eb51
+  port: 40071
+  server: tw1.catzl.top
+  type: anytls
+  udp: true
+- name: '🇹🇼TW - udptoos.com #2'
+  password: d9d8d032-4dda-451b-93e3-00a57278eb51
+  port: 40073
+  server: tw3.catzl.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
   name: 🇨🇦CA - udptoos.com
   network: ws
-  port: '8880'
-  server: 104.21.15.212
-  type: vless
-  udp: true
-  uuid: 902fd911-ca5d-49a6-99ad-47372a266804
-  ws-opts:
-    headers:
-      Host: young-wildflower-6b6c.100-52d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇫🇮FI - udptoos.com
-  network: xhttp
-  port: '9443'
-  server: 31.76.226.100
-  servername: hub-ee-01.hanvpn.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-  xhttp-opts:
-    host: hub-ee-01.hanvpn.cc
-    mode: auto
-    path: /ee01-xhttp-8e47a/
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇹🇭TH - udptoos.com
   port: 443
-  reality-opts:
-    public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
-    short-id: 856c0a3cd1426a5c
-  server: 34.15.176.240
-  servername: www.cloudflare.com
-  skip-cert-verify: true
+  server: w1.lianjieni.com
+  servername: w1.lianjieni.com
   tls: true
   type: vless
   udp: true
-  uuid: 742dc674-a491-4a42-a551-b3ea6dd2f447
-- client-fingerprint: chrome
-  name: '🇨🇦CA - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 104.21.16.18
-  servername: api-gateway-1.f00f.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  uuid: a4a49f61-f5c0-4004-94ab-1419d83f9867
   ws-opts:
     headers:
-      Host: api-gateway-1.f00f.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+      Host: w1.lianjieni.com
+    path: /cdnws
+- name: '🇯🇵JP - udptoos.com #2'
+  password: d9d8d032-4dda-451b-93e3-00a57278eb51
+  port: 40055
+  server: jp5.catzl.top
+  type: anytls
+  udp: true
+- down: ''
+  fingerprint: 8b5ac8eb1c23f208cb6e92bd41407d32994b0668d3ba2b0cd56400dca8c0b843
+  name: '🇩🇪DE - udptoos.com #2'
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: v2rayyngvpn
+  port: '443'
+  server: 168.222.43.35
+  skip-cert-verify: false
+  sni: Play.google.com
+  type: hysteria2
+  up: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇩🇪DE - udptoos.com #3'
+  network: tcp
+  port: '57160'
+  reality-opts:
+    public-key: Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw
+    short-id: 77b5
+  server: 77.91.76.156
+  servername: funpay.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68ad9a6d-2463-4c31-92a7-31547b9d4783
   xudp: true
+- down: ''
+  fingerprint: ''
+  name: '🇩🇪DE - udptoos.com #4'
+  obfs: ''
+  obfs-password: ''
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: '443'
+  server: cze-02.node.lumixnet.com
+  skip-cert-verify: true
+  sni: cze-02.node.lumixnet.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇫🇮FI - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: a6cf39b3-0424-42a2-abf7-b426da69b1a4
+  port: '443'
+  server: de.i-love-russia.online
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
