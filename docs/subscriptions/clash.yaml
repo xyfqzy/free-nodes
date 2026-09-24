@@ -1,93 +1,46 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US - udptoos.com
+- auth: ce2f0798-38f9-4b59-ab23-cb1f26b90d27
+  name: 🇸🇬SG - udptoos.com
   obfs: salamander
-  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-  password: 5fa748137b6d822308eea4611f474ad5
-  port: '443'
-  server: 155.117.19.17
-  skip-cert-verify: true
-  sni: www.bing.com
+  obfs-password: CJzHgzdjH1M1kt25
+  password: ce2f0798-38f9-4b59-ab23-cb1f26b90d27
+  port: 40000
+  server: jjz.jjznodenode.top
+  skip-cert-verify: false
+  sni: jjz.jjznodenode.top
   type: hysteria2
-  up: ''
-- fingerprint: ''
-  name: 🇹🇼TW - udptoos.com
-  password: 9sK2mP8xQ7vL3nZ6
-  port: '443'
-  server: 6ivh.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
   udp: true
-  username: 9sK2mP8xQ7vL3nZ6
-- fingerprint: ''
-  name: '🇹🇼TW - udptoos.com #2'
-  password: 9sK2mP8xQ7vL3nZ6
-  port: '443'
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-  username: 9sK2mP8xQ7vL3nZ6
-- name: 🇬🇧GB - udptoos.com
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇨🇿CZ - udptoos.com
-  password: None
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇳🇱NL - udptoos.com
-  password: None
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '🇳🇱NL - udptoos.com #2'
-  port: 443
-  server: 149.36.51.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇦CA - udptoos.com
+- name: 🇺🇸US - udptoos.com
   network: ws
   port: '2095'
-  server: openai.com
+  server: www.temu.com
   type: vless
   udp: true
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
       Host: llm-api.sofurry.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /
   xudp: true
-- name: '🇳🇱NL - udptoos.com #3'
-  password: null
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL - udptoos.com
+  network: ws
+  port: '8443'
+  server: 154.194.0.7
+  servername: speed.dulacloud.store
   tls: true
-  type: http
-  username: null
-- name: '🇬🇧GB - udptoos.com #2'
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
