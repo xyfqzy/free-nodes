@@ -1,32 +1,148 @@
 proxies:
-- auth: ce2f0798-38f9-4b59-ab23-cb1f26b90d27
-  name: 🇸🇬SG - udptoos.com
+- name: 🇳🇱NL - udptoos.com
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #2'
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #3'
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #4'
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #5'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #6'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #7'
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO - udptoos.com
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- auth: 5fa748137b6d822308eea4611f474ad5
+  name: 🇺🇸US - udptoos.com
   obfs: salamander
-  obfs-password: CJzHgzdjH1M1kt25
-  password: ce2f0798-38f9-4b59-ab23-cb1f26b90d27
-  port: 40000
-  server: jjz.jjznodenode.top
-  skip-cert-verify: false
-  sni: jjz.jjznodenode.top
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+  password: 5fa748137b6d822308eea4611f474ad5
+  port: 443
+  server: 155.117.19.17
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
   udp: true
-- name: 🇺🇸US - udptoos.com
+- name: 🇯🇵JP - udptoos.com
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20561
+  server: msjp.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪DE - udptoos.com
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: '🇩🇪DE - udptoos.com #2'
+  obfs: ''
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇲🇹MT - udptoos.com
   network: ws
-  port: '2095'
-  server: www.temu.com
+  port: '8443'
+  server: 46.202.30.7
+  servername: speed.dulacloud.store
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: llm-api.sofurry.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇳🇱NL - udptoos.com
+  name: '🇳🇱NL - udptoos.com #8'
+  network: ws
+  port: '8443'
+  server: 188.42.88.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/67.0.3396.99 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇳🇱NL - udptoos.com #9'
   network: ws
   port: '8443'
   server: 154.194.0.7
@@ -40,7 +156,267 @@ proxies:
     headers:
       Host: speed.dulacloud.store
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇩🇪DE - udptoos.com #3'
+  network: ws
+  port: '8443'
+  server: 185.135.9.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB - udptoos.com
+  network: ws
+  port: '8443'
+  server: 5.10.215.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇳🇱NL - udptoos.com #10'
+  network: ws
+  port: '8443'
+  server: 185.7.240.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇳🇱NL - udptoos.com #11'
+  network: ws
+  port: '8443'
+  server: 185.207.199.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇪🇪EE - udptoos.com
+  network: ws
+  port: '8443'
+  server: 45.80.108.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇼CW - udptoos.com
+  network: ws
+  port: '8443'
+  server: 88.216.67.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇨🇼CW - udptoos.com #2'
+  network: ws
+  port: '8443'
+  server: 88.216.66.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇱🇹LT - udptoos.com
+  network: ws
+  port: '8443'
+  server: 89.116.250.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸US - udptoos.com #2'
+  network: ws
+  port: '8443'
+  server: 139.64.235.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇬🇧GB - udptoos.com #2'
+  network: ws
+  port: '8443'
+  server: 164.38.155.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇬🇧GB - udptoos.com #3'
+  network: ws
+  port: '8443'
+  server: 185.156.19.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸US - udptoos.com #3'
+  network: ws
+  port: '8443'
+  server: 80.93.202.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    max-early-data: 2560
+    path: /dula?Telegram-WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR - udptoos.com
+  network: ws
+  port: '8443'
+  server: 185.158.133.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: speed.dulacloud.store
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     max-early-data: 2560
     path: /dula?Telegram-WangCai2
   xudp: true
