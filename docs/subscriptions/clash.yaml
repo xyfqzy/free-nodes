@@ -1,20 +1,13 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇯🇵JP - udptoos.com
-  password: amazonskr05
-  port: 443
-  server: 54.199.248.166
-  type: ss
-- client-fingerprint: chrome
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 🇺🇸US - udptoos.com
-  network: tcp
   port: 443
   reality-opts:
-    public-key: yEpPLsSy8aCXkQ4wzc9t38gQACipc_k54upD9fJj5y4
-    short-id: 4679f07417e9feb4
-  server: 47.253.144.114
+    public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
+    short-id: befa80d97af98b74
+  server: 38.244.20.25
   servername: www.apple.com
   tls: true
   type: vless
-  uuid: a4c6bab6-bd83-4b72-8c78-99e96f40cde3
+  uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
