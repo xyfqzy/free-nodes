@@ -1,236 +1,72 @@
 proxies:
-- name: 🇩🇿DZ - udptoos.com
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 85.204.107.188
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: 🇺🇸US - udptoos.com
-  obfs: salamander
-  obfs-password: d2e3c1b8a16952ae9cf06dfc05b3588a
-  password: af24a0e4-f5a2-4b97-a678-992d45346147
-  port: 30865
-  server: 108.186.180.148
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- http-opts:
-    headers:
-      Host:
-      - bmi.ir
-    method: GET
-    path:
-    - /
-  name: '🇺🇸US - udptoos.com #2'
-  network: http
-  port: 11186
-  server: 161.35.187.182
-  tls: false
-  type: vless
-  udp: true
-  uuid: fd4b654f-9ae2-42c5-977b-6aa54e8e9a83
-- name: 🇨🇳CN - udptoos.com
-  password: Og==
-  port: '1080'
-  server: 103.210.161.8
-  skip-cert-verify: true
-  type: socks5
-  username: Og==
-- name: '🇨🇳CN - udptoos.com #2'
-  password: T2c9PTpPZz09
-  port: '1080'
-  server: 103.210.161.8
-  skip-cert-verify: true
-  type: socks5
-  username: T2c9PTpPZz09
 - name: 🇳🇱NL - udptoos.com
   password: None
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇱🇻LV - udptoos.com
-  password: ''
-  port: 443
-  server: 109.248.147.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇮🇹IT - udptoos.com
-  port: 443
-  server: 185.183.105.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE - udptoos.com
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '🇳🇱NL - udptoos.com #2'
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇬🇧GB - udptoos.com
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇵🇱PL - udptoos.com
-  password: None
+- name: 🇹🇼TW - udptoos.com
+  password: 9sK2mP8xQ7vL3nZ6
   port: 443
-  server: 37.120.156.18
+  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
   skip-cert-verify: true
+  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+  type: anytls
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇳🇱NL - udptoos.com #2'
+  network: tcp
+  port: '2063'
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+    short-id: ''
+  server: 31.77.13.19
+  servername: rusbid.de
   tls: true
-  type: http
-  username: null
-- name: '🇬🇧GB - udptoos.com #2'
-  password: None
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇰DK - udptoos.com
-  password: None
-  port: 9443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇸RS - udptoos.com
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇷HR - udptoos.com
-  port: 443
-  server: 154.47.29.174
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇬🇧GB - udptoos.com #3'
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇳🇱NL - udptoos.com #3'
-  port: 443
-  server: 149.36.51.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- http-opts:
+  type: vless
+  udp: true
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦CA - udptoos.com
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.147.22
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
     headers:
-      Host:
-      - az.khamenei.ir
-    method: GET
-    path:
-    - /
-  name: '🇺🇸US - udptoos.com #3'
-  network: http
-  port: 11186
-  server: 146.190.72.139
-  tls: false
-  type: vless
-  udp: true
-  uuid: fd4b654f-9ae2-42c5-977b-6aa54e8e9a83
-- name: 🇨🇭CH - udptoos.com
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '🇬🇧GB - udptoos.com #4'
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇹PT - udptoos.com
-  port: 443
-  server: 149.22.86.1
-  skip-cert-verify: true
-  tls: true
-  type: http
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #4'
-  network: tcp
+  name: 🇺🇸US - udptoos.com
+  network: ws
+  password: humanity
   port: '443'
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
-  server: c10s3.portablesubmarines.com
-  servername: portal.citygrainla.com
-  tls: true
-  type: vless
+  server: 216.24.57.1
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: 88882ac2-0f7c-4907-9605-b847f79ec9d3
-  xudp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 4S52pKhsJA4gK-_MLW8_R8TTeZsS4pH7ef6St-aKVBQ
-    short-id: ab1df8505f6e0072
-  server: 163.128.99.57
-  servername: www.apple.com
-  tls: true
-  type: vless
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /assignment
+- fingerprint: ''
+  name: 🌐ZZ - udptoos.com
+  password: 9e98496a-0036-4cc6-8302-3929c29ba772
+  port: '35791'
+  server: iijjp.mggl.wang
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: anytls
   udp: true
-  uuid: 1a049739-b873-4242-9a2b-239951eb2dd3
-  xudp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #5'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: GjzyBnCFWt9D3gtFsMKpvqcmUUYqPA3zNP0o3aNcNSg
-    short-id: e70046c27dae6aa7
-  server: 38.77.133.202
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a215f09-e1f1-46a6-8e2f-7fb096fa6b1f
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Z0sxSuzxnWYa5FNTZ-W4ImxQd674VG4KfmOBqlcudjU
-    short-id: 7c7ad24684
-  server: bgroup.hk1.ilovegairport.com
-  servername: ap-east-1.console.aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a92c5b96-c30a-4130-8cfa-63030349503a
-  xudp: true
+  username: 9e98496a-0036-4cc6-8302-3929c29ba772
