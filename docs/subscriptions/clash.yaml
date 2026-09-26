@@ -1,23 +1,24 @@
 proxies:
-- name: 🇳🇱NL - udptoos.com
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇹🇼TW - udptoos.com
-  password: 9sK2mP8xQ7vL3nZ6
+- cipher: aes-256-cfb
+  name: 🇺🇸US - udptoos.com
+  password: amazonskr05
   port: 443
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
-  type: anytls
+  server: 18.205.21.144
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇪SE - udptoos.com
+  password: amazonskr05
+  port: 443
+  server: 51.20.122.188
+  type: ss
+- name: 🇵🇾PY - udptoos.com
+  port: 8080
+  server: 38.52.135.222
+  type: http
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇳🇱NL - udptoos.com #2'
+  name: 🇳🇱NL - udptoos.com
   network: tcp
   port: '2063'
   reality-opts:
@@ -30,43 +31,66 @@ proxies:
   udp: true
   uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
   xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦CA - udptoos.com
-  network: ws
-  password: humanity
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU - udptoos.com
+  network: raw
   port: '443'
-  server: 104.17.147.22
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  reality-opts:
+    public-key: IBzFSziv_xISB-Q6X90PocTBde6jb4X6swEvdZQhqzk
+    short-id: d0aae44f
+  server: 45.11.27.86
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇺🇸US - udptoos.com
-  network: ws
-  password: humanity
-  port: '443'
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /assignment
-- fingerprint: ''
-  name: 🌐ZZ - udptoos.com
-  password: 9e98496a-0036-4cc6-8302-3929c29ba772
-  port: '35791'
-  server: iijjp.mggl.wang
-  skip-cert-verify: true
-  sni: www.apple.com
+  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
+  xudp: true
+- name: 🇹🇼TW - udptoos.com
+  password: bd92ae36-1bd9-43f2-94ae-1e1bfaae1711
+  port: 40073
+  server: tw3.catzl.top
   type: anytls
   udp: true
-  username: 9e98496a-0036-4cc6-8302-3929c29ba772
+- name: 🇯🇵JP - udptoos.com
+  password: bd92ae36-1bd9-43f2-94ae-1e1bfaae1711
+  port: 40055
+  server: jp5.catzl.top
+  type: anytls
+  udp: true
+- name: '🇺🇸US - udptoos.com #2'
+  password: bd92ae36-1bd9-43f2-94ae-1e1bfaae1711
+  port: 40022
+  server: us2.catzl.top
+  type: anytls
+  udp: true
+- encryption: none
+  name: 🇨🇦CA - udptoos.com
+  network: ws
+  port: '2095'
+  server: 172.67.192.84
+  type: vless
+  udp: true
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  ws-opts:
+    headers:
+      Host: index.harmonica02.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /juvsrnmgdu8i0179k5
+  xudp: true
+- name: '🇺🇸US - udptoos.com #3'
+  network: ws
+  port: '8880'
+  server: 8.6.112.224
+  type: vless
+  udp: true
+  uuid: 78e6619e-e82a-cd8d-b482-0973d8498305
+  ws-opts:
+    headers:
+      Host: silent-pine-a674.jfadwkglaugul.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /sync
+  xudp: true
