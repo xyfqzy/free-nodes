@@ -1,46 +1,31 @@
 proxies:
-- name: 🇮🇪IE - udptoos.com
-  password: null
+- cipher: aes-256-cfb
+  name: 🇸🇪SE - udptoos.com
+  password: amazonskr05
   port: 443
-  server: 149.88.96.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇳🇱NL - udptoos.com
-  password: null
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- cipher: aes-128-gcm
-  name: 🇭🇰HK - udptoos.com
-  password: 61e50cc8-3ea7-45ba-a5e4-f4a54c5e89e9
-  port: 8444
-  server: 191.223.214.11
+  server: 51.20.122.188
   type: ss
+- name: 🇳🇱NL - udptoos.com
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- name: 🇭🇷HR - udptoos.com
+- fingerprint: ''
+  name: 🇹🇼TW - udptoos.com
+  password: 9sK2mP8xQ7vL3nZ6
   port: 443
-  server: 154.47.29.174
+  server: awefd2313fefarg23fr24.pnuqcnp.cn
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH - udptoos.com
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇭🇺HU - udptoos.com
-  password: None
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+  username: 9sK2mP8xQ7vL3nZ6
+- name: 🇦🇺AU - udptoos.com
   port: 443
-  server: 146.70.203.18
+  server: 159.13.44.228
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
