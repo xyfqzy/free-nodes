@@ -1,13 +1,69 @@
 proxies:
-- name: 🇳🇱NL - udptoos.com
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: 🇩🇪DE - udptoos.com
+  network: grpc
+  port: '443'
+  server: assets-de2.pleiades.codes
+  servername: assets-de2.pleiades.codes
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  xudp: true
+- down: null
+  name: 🇫🇷FR - udptoos.com
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: null
+- name: 🇺🇸US - udptoos.com
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: us3.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
+- name: 🇨🇭CH - udptoos.com
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: ch.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ch.xiaoliyu.cyou
+  type: hysteria2
+- name: '🇩🇪DE - udptoos.com #2'
   port: 9002
-  server: 84.17.47.147
+  server: 158.173.154.4
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇮🇩ID - udptoos.com
+- name: '🇫🇷FR - udptoos.com #2'
+  port: 4443
+  server: 83.172.143.53
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇭🇰HK - udptoos.com
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: xg1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xg1.mangshe.xyz
+  type: hysteria2
+- name: 🇪🇸ES - udptoos.com
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: xby.mangshe.xyz
+  skip-cert-verify: true
+  sni: xby.mangshe.xyz
+  type: hysteria2
+- name: '🇩🇪DE - udptoos.com #3'
   port: 443
-  server: 178.248.73.58
+  server: 176.94.74.21
   skip-cert-verify: true
   tls: true
   type: http
@@ -29,94 +85,77 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- name: 🇩🇪DE - udptoos.com
-  port: 9002
-  server: 158.173.154.1
+- auth: gf1:gfhysteria2024
+  name: '🇫🇷FR - udptoos.com #3'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 173.212.201.85
+  skip-cert-verify: true
+  sni: www.docker.com
+  type: hysteria2
+  udp: true
+- name: 🇯🇵JP - udptoos.com
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: rb.mangshe.xyz
+  skip-cert-verify: true
+  sni: rb.mangshe.xyz
+  type: hysteria2
+- name: 🇸🇬SG - udptoos.com
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: xjp2.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp2.mangshe.xyz
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: '🇩🇪DE - udptoos.com #4'
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- name: '🇺🇸US - udptoos.com #2'
+  port: 8443
+  server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-cfb
-  delay: 1217
-  name: 🇸🇪SE - udptoos.com
-  password: amazonskr05
-  port: 443
-  server: 13.62.228.76
-  type: ss
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇫🇷FR - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-fr-002.fastervpn.world
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇸🇬SG - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: f87376e17da040ed04c9665ce8972930
-  port: '50160'
-  server: 138.2.73.238
-  skip-cert-verify: true
-  sni: 138.2.73.238
-  type: hysteria2
-  up: ''
-- fingerprint: ''
-  name: 🇹🇼TW - udptoos.com
-  password: 9sK2mP8xQ7vL3nZ6
-  port: '443'
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-  username: 9sK2mP8xQ7vL3nZ6
-- cipher: aes-128-gcm
-  name: 🇭🇰HK - udptoos.com
-  password: 68beb319-3917-4ba1-99f7-bbc418743b54
-  port: 8444
-  server: 191.223.214.11
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇬🇧GB - udptoos.com
-  network: ws
-  port: '2096'
-  server: 91.193.58.45
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /free-server.techsonic.dev
-  xudp: true
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: '🇬🇧GB - udptoos.com #2'
-  network: ws
-  port: '2096'
-  server: 91.193.58.118
-  servername: free-server.techsonic.dev
+  name: '🇺🇸US - udptoos.com #3'
+  network: xhttp
+  port: '443'
+  server: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+  servername: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
   tls: true
   type: vless
   udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
-    path: /free-server.techsonic.dev
+  uuid: 9fa2fae0-141a-b983-ef0e-b3d5633f9592
+  xhttp-opts:
+    host: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/9fa2fae0-141a-b983-ef0e-b3d5633f9592
   xudp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '🇺🇸US - udptoos.com #4'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8i7j9_b2KyQC8iR-jEMGl-d2whPkeKt36mutUkZr9ng
+    short-id: 3477a74403cf4af9
+  server: 154.64.235.117
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
