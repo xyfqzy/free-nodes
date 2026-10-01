@@ -1,46 +1,37 @@
 proxies:
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇺🇸US - udptoos.com
-  password: dd176c44-fad2-467d-a44c-7837afe5c7b0
-  port: 34568
-  reduce-rtt: false
-  request-timeout: 0
-  server: 45.205.27.78
+- down: ''
+  fingerprint: ''
+  name: 🇱🇻LV - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: '9443'
+  server: 104.165.205.46
+  skip-cert-verify: false
+  sni: onecloudstream.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇫🇮FI - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  port: '443'
+  server: 144.31.212.253
+  skip-cert-verify: false
+  sni: vps155-edge.kermemehori.ru
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇦🇺AU - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: vpn-au-001.fastervpn.world
   skip-cert-verify: true
-  sni: localhost
-  type: tuic
-  udp-relay-mode: native
-  uuid: dd176c44-fad2-467d-a44c-7837afe5c7b0
-- name: 🇯🇵JP - udptoos.com
-  password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
-  port: 40054
-  server: jp4.catzl.top
-  type: anytls
-  udp: true
-- name: 🇩🇪DE - udptoos.com
-  password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
-  port: 40063
-  server: de3.catzl.top
-  type: anytls
-  udp: true
-- name: '🇺🇸US - udptoos.com #2'
-  password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
-  port: 40022
-  server: us2.catzl.top
-  type: anytls
-  udp: true
-- name: 🇹🇼TW - udptoos.com
-  password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
-  port: 40071
-  server: tw1.catzl.top
-  type: anytls
-  udp: true
-- name: '🇯🇵JP - udptoos.com #2'
-  password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
-  port: 40055
-  server: jp5.catzl.top
-  type: anytls
-  udp: true
+  sni: vpn-au-001.fastervpn.world
+  type: hysteria2
+  up: ''
