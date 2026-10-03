@@ -1,82 +1,45 @@
 proxies:
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - connectivitycheck.android.com
-    path:
-    - /
-  name: 🌐ZZ - udptoos.com
-  network: http
-  port: '20018'
-  server: tr-irancell4.xelfona.ir
-  type: vless
-  udp: true
-  uuid: 452f869f-7720-47c3-a175-b6673e31d3e8
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE - udptoos.com
-  network: ws
-  port: '16626'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 522bf832-cb94-4588-bb4e-a578d1f72603
-  ws-opts:
-    headers:
-      Host: bc35dd8f9bb478fdf27856815a6d1dc8.mobgslb.tbcache.com
-    path: /
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG - udptoos.com
-  network: ws
+  name: 🇮🇱IL - udptoos.com
+  network: tcp
   port: '443'
-  server: trackydev.site
-  servername: trackydev.site
+  reality-opts:
+    public-key: AeQDUAVCESyA1hFkw6lENmgWAY3sBH9CFPpPAddPwVc
+    short-id: fffff8acddadcac3
+  server: 34.165.56.30
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  ws-opts:
-    headers:
-      Host: trackydev.site
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: ''
+  uuid: 0c40bce9-8710-4820-8f22-0742b61df999
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇵🇱PL - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: jbiddtGRgeBvlkjbuA3aU-WPjKgEX87tOVh1mFfvOUI
+    short-id: 16e0f049
+  server: pl193.mech-pro.online
+  servername: pl193.mech-pro.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: a15d1b88-e3f4-4f4d-9c04-462a2965a60a
+  xudp: true
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺RU - udptoos.com
   network: tcp
   port: '443'
   reality-opts:
-    public-key: XrgbY2hKJQG8QOZO2J1pGmZsbvjSsSWoM9iULIMGK00
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
-  server: 31.76.34.216
-  servername: ru-c-1.minzt.su
+  server: 45.131.212.231
+  servername: sellflow.org
   tls: true
   type: vless
   udp: true
-  uuid: 94def50e-5f3c-4e4c-9719-3325f42d2131
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇩🇪DE - udptoos.com #2'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 4hvjCaGIMlFeWxMYoAWTNHQOaZkGvGQREOjB3Unn7iE
-    short-id: 29455a3a790acbd0
-  server: 177.1.186.44
-  servername: mcde.67resserv67.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+  uuid: 19513b1b-d29a-4f3e-ba9a-888261e4e048
   xudp: true
