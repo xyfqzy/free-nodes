@@ -1,45 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇮🇱IL - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: AeQDUAVCESyA1hFkw6lENmgWAY3sBH9CFPpPAddPwVc
-    short-id: fffff8acddadcac3
-  server: 34.165.56.30
-  servername: www.cloudflare.com
+- delay: 1712
+  name: 🇳🇱NL - udptoos.com
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+- cipher: aes-256-cfb
+  delay: 701
+  name: 🇺🇸US - udptoos.com
+  password: amazonskr05
+  port: 443
+  server: 98.89.22.134
+  type: ss
   udp: true
-  uuid: 0c40bce9-8710-4820-8f22-0742b61df999
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇵🇱PL - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: jbiddtGRgeBvlkjbuA3aU-WPjKgEX87tOVh1mFfvOUI
-    short-id: 16e0f049
-  server: pl193.mech-pro.online
-  servername: pl193.mech-pro.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: a15d1b88-e3f4-4f4d-9c04-462a2965a60a
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 45.131.212.231
-  servername: sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19513b1b-d29a-4f3e-ba9a-888261e4e048
-  xudp: true
