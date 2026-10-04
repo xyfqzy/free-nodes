@@ -1,41 +1,7 @@
 proxies:
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: ajv
-  name: 🇩🇪DE - udptoos.com
-  network: grpc
-  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+- cipher: aes-256-cfb
+  name: 🇫🇷FR - udptoos.com
+  password: amazonskr05
   port: 443
-  server: 31.77.168.33
-  skip-cert-verify: true
-  sni: d3-de2.cloud-cdn.xyz
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 45.131.212.231
-  servername: sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19513b1b-d29a-4f3e-ba9a-888261e4e048
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇭🇰HK - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: '4433'
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: hk2.xiaoliyu.cyou
-  type: hysteria2
-  up: ''
+  server: 52.47.133.105
+  type: ss
