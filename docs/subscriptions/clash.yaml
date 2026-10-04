@@ -1,7 +1,14 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇫🇷FR - udptoos.com
-  password: amazonskr05
-  port: 443
-  server: 52.47.133.105
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇳CN - udptoos.com
+  network: tcp
+  port: '33102'
+  server: 112.49.63.11
+  servername: sgg.knhqf.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+  xudp: true
