@@ -1,14 +1,28 @@
 proxies:
+- name: 🇳🇱NL - udptoos.com
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
   name: 🇨🇳CN - udptoos.com
-  network: tcp
-  port: '33102'
+  port: 33102
   server: 112.49.63.11
   servername: sgg.knhqf.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  xudp: true
+- flow: xtls-rprx-vision
+  name: '🇨🇳CN - udptoos.com #2'
+  port: 33102
+  server: 27.44.143.169
+  servername: sgg.knhqf.com
+  tls: true
+  type: vless
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
