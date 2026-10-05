@@ -1,106 +1,104 @@
 proxies:
-- name: 🇭🇰HK - udptoos.com
-  password: bdb16019-4b66-4f4a-8f0a-f2e401c1a633
-  port: 443
-  server: node1.luoye.ee
-  sni: node1.luoye.ee
-  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇳CN - udptoos.com
+  network: tcp
+  port: '33102'
+  server: 27.44.143.169
+  servername: sgg.knhqf.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇨🇳CN - udptoos.com #2'
+  network: tcp
+  port: '14343'
+  server: 27.44.143.169
+  servername: thuk.huaweiyouxuan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇨🇳CN - udptoos.com #3'
+  network: tcp
+  port: '33102'
+  server: 112.49.63.11
+  servername: sgg.knhqf.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇨🇳CN - udptoos.com #4'
+  network: tcp
+  port: '14343'
+  server: 27.155.117.209
+  servername: thuk.huaweiyouxuan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇨🇳CN - udptoos.com #5'
+  network: tcp
+  port: '14343'
+  server: 14.17.78.146
+  servername: thuk.huaweiyouxuan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: '4433'
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: hk2.xiaoliyu.cyou
+  type: hysteria2
+  up: ''
+- cipher: aes-256-cfb
+  name: 🇺🇸US - udptoos.com
+  password: amazonskr05
+  port: '443'
+  server: 18.208.223.39
+  type: ss
   udp: true
 - name: '🇭🇰HK - udptoos.com #2'
-  password: 80dd183b-0ca3-4039-bd18-e85b61a1d584
+  password: a72513ad-90f9-4ae0-8ef5-c25b7fb81d77
   port: 443
   server: node1.luoye.ee
   sni: node1.luoye.ee
   type: trojan
   udp: true
 - name: '🇭🇰HK - udptoos.com #3'
-  password: 80dd183b-0ca3-4039-bd18-e85b61a1d584
+  password: fcf891eb-29fc-44a5-98e7-f9856d5bd827
   port: 443
-  server: node2.luoye.ee
-  sni: node2.luoye.ee
-  type: trojan
-  udp: true
-- name: 🇺🇸US - udptoos.com
-  password: bc96cf70-9c62-4f52-aa7b-70b1814a94cf
-  port: 443
-  server: node5.luoye.ee
-  sni: node5.luoye.ee
+  server: node1.luoye.ee
+  sni: node1.luoye.ee
   type: trojan
   udp: true
 - name: '🇭🇰HK - udptoos.com #4'
-  password: a72513ad-90f9-4ae0-8ef5-c25b7fb81d77
-  port: 443
-  server: node1.luoye.ee
-  sni: node1.luoye.ee
-  type: trojan
-  udp: true
-- name: '🇺🇸US - udptoos.com #2'
-  password: 80dd183b-0ca3-4039-bd18-e85b61a1d584
-  port: 443
-  server: node5.luoye.ee
-  sni: node5.luoye.ee
-  type: trojan
-  udp: true
-- name: '🇭🇰HK - udptoos.com #5'
-  password: bc96cf70-9c62-4f52-aa7b-70b1814a94cf
-  port: 443
-  server: node2.luoye.ee
-  sni: node2.luoye.ee
-  type: trojan
-  udp: true
-- name: '🇭🇰HK - udptoos.com #6'
-  password: bdb16019-4b66-4f4a-8f0a-f2e401c1a633
-  port: 443
-  server: node2.luoye.ee
-  sni: node2.luoye.ee
-  type: trojan
-  udp: true
-- name: '🇭🇰HK - udptoos.com #7'
-  password: a72513ad-90f9-4ae0-8ef5-c25b7fb81d77
-  port: 443
-  server: node2.luoye.ee
-  sni: node2.luoye.ee
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇨🇦CA - udptoos.com
-  network: ws
-  port: 443
-  server: w1.lianjieni.com
-  servername: w1.lianjieni.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 81e7cbb5-558c-4892-9849-8271d2d54bee
-  ws-opts:
-    headers:
-      Host: w1.lianjieni.com
-    path: /cdnws
-- auth: 8611afa0-c053-4803-b0cd-30a5f4ea6843
-  down: 100
-  name: '🇺🇸US - udptoos.com #3'
-  obfs: salamander
-  obfs-password: NrKjDaOtEm3ZEQne
-  password: 8611afa0-c053-4803-b0cd-30a5f4ea6843
-  port: 34521
-  server: 45.205.27.78
-  skip-cert-verify: true
-  sni: localhost
-  type: hysteria2
-  udp: true
-  up: 20
-- name: '🇭🇰HK - udptoos.com #8'
   password: bc96cf70-9c62-4f52-aa7b-70b1814a94cf
   port: 443
   server: node1.luoye.ee
   sni: node1.luoye.ee
-  type: trojan
-  udp: true
-- name: '🇺🇸US - udptoos.com #4'
-  password: bdb16019-4b66-4f4a-8f0a-f2e401c1a633
-  port: 443
-  server: node5.luoye.ee
-  sni: node5.luoye.ee
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -117,48 +115,22 @@ proxies:
   type: vless
   udp: true
   uuid: 319d5ffb-57e8-4bbd-ac0c-5d55d0c253de
-- flow: xtls-rprx-vision
-  name: 🇨🇳CN - udptoos.com
-  port: 14343
-  server: 14.17.78.146
-  servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇳CN - udptoos.com #2'
-  port: 14343
-  server: 14.17.78.144
-  servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: ios
   encryption: none
-  name: '🇨🇦CA - udptoos.com #2'
+  name: 🇨🇦CA - udptoos.com
   network: ws
   port: '2087'
-  server: 104.18.1.1
-  servername: 1.proxy2.us.ci.
+  server: 188.114.97.3
+  servername: s4ws.ragingbull.de5.net
   tls: true
   type: vless
   udp: true
-  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: 1.proxy2.us.ci.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    max-early-data: 2560
-    path: /
+      Host: s4ws.ragingbull.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /wsrb7k2m
   xudp: true
