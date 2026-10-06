@@ -1,47 +1,9 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇳CN - udptoos.com
-  network: tcp
-  port: 33102
-  server: 112.49.63.11
-  servername: sgg.knhqf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  xudp: true
-- name: 🇳🇱NL - udptoos.com
-  port: 9002
-  server: 84.17.47.150
+- auth: fe552e75-4ffd-4e1a-984c-44e71c746c15
+  name: 🇸🇬SG - udptoos.com
+  password: fe552e75-4ffd-4e1a-984c-44e71c746c15
+  port: 55000
+  server: 104.234.233.70
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇳CN - udptoos.com #2'
-  network: tcp
-  port: 33102
-  server: 27.44.143.169
-  servername: sgg.knhqf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇨🇳CN - udptoos.com #3'
-  network: tcp
-  port: 14343
-  server: 27.155.117.209
-  servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  xudp: true
+  sni: www.bing.com
+  type: hysteria2
