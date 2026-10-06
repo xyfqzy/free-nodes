@@ -1,33 +1,10 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   name: 🇨🇳CN - udptoos.com
   network: tcp
-  port: '33102'
-  server: 27.44.143.169
-  servername: sgg.knhqf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇳CN - udptoos.com #2'
-  network: tcp
-  port: '14343'
-  server: 27.44.143.169
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇨🇳CN - udptoos.com #3'
-  network: tcp
-  port: '33102'
+  port: 33102
   server: 112.49.63.11
   servername: sgg.knhqf.com
   tls: true
@@ -35,102 +12,36 @@ proxies:
   udp: true
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
   xudp: true
+- name: 🇳🇱NL - udptoos.com
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇨🇳CN - udptoos.com #2'
+  network: tcp
+  port: 33102
+  server: 27.44.143.169
+  servername: sgg.knhqf.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇨🇳CN - udptoos.com #4'
+  name: '🇨🇳CN - udptoos.com #3'
   network: tcp
-  port: '14343'
+  port: 14343
   server: 27.155.117.209
   servername: thuk.huaweiyouxuan.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇨🇳CN - udptoos.com #5'
-  network: tcp
-  port: '14343'
-  server: 14.17.78.146
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇭🇰HK - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: '4433'
-  server: hk2.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: hk2.xiaoliyu.cyou
-  type: hysteria2
-  up: ''
-- cipher: aes-256-cfb
-  name: 🇺🇸US - udptoos.com
-  password: amazonskr05
-  port: '443'
-  server: 18.208.223.39
-  type: ss
-  udp: true
-- name: '🇭🇰HK - udptoos.com #2'
-  password: a72513ad-90f9-4ae0-8ef5-c25b7fb81d77
-  port: 443
-  server: node1.luoye.ee
-  sni: node1.luoye.ee
-  type: trojan
-  udp: true
-- name: '🇭🇰HK - udptoos.com #3'
-  password: fcf891eb-29fc-44a5-98e7-f9856d5bd827
-  port: 443
-  server: node1.luoye.ee
-  sni: node1.luoye.ee
-  type: trojan
-  udp: true
-- name: '🇭🇰HK - udptoos.com #4'
-  password: bc96cf70-9c62-4f52-aa7b-70b1814a94cf
-  port: 443
-  server: node1.luoye.ee
-  sni: node1.luoye.ee
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR - udptoos.com
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: DfFU5OG93GxB1x25Dl2BTkxKsBTFF4Su4PXYPbYvmms
-    short-id: 3c4041d3
-  server: 47.80.19.173
-  servername: gateway.icloud.com
   tls: true
   type: vless
   udp: true
-  uuid: 319d5ffb-57e8-4bbd-ac0c-5d55d0c253de
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦CA - udptoos.com
-  network: ws
-  port: '2087'
-  server: 188.114.97.3
-  servername: s4ws.ragingbull.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /wsrb7k2m
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
   xudp: true
