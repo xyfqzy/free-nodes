@@ -1,25 +1,72 @@
 proxies:
-- name: 🇭🇰HK - udptoos.com
-  password: 56815326-1a2e-4d4b-bbcb-ff3f6f2a487d
-  port: 443
-  server: node1.luoye.ee
-  skip-cert-verify: false
-  sni: node1.luoye.ee
-  type: trojan
+- name: 🇳🇱NL - udptoos.com
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- name: '🇭🇰HK - udptoos.com #2'
-  password: 74bf1088-9604-48ef-8997-746bf83fd9cb
-  port: 443
-  server: node1.luoye.ee
-  skip-cert-verify: false
-  sni: node1.luoye.ee
-  type: trojan
+- name: '🇳🇱NL - udptoos.com #2'
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- name: '🇭🇰HK - udptoos.com #3'
-  password: 654d0888-1452-4e1b-8077-ab00b45409fb
-  port: 443
-  server: node1.luoye.ee
-  skip-cert-verify: false
-  sni: node1.luoye.ee
-  type: trojan
+- name: '🇳🇱NL - udptoos.com #3'
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #4'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #5'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #6'
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO - udptoos.com
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇷🇴RO - udptoos.com #2'
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇷🇴RO - udptoos.com #3'
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇷🇴RO - udptoos.com #4'
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
