@@ -1,9 +1,25 @@
 proxies:
-- auth: fe552e75-4ffd-4e1a-984c-44e71c746c15
-  name: 🇸🇬SG - udptoos.com
-  password: fe552e75-4ffd-4e1a-984c-44e71c746c15
-  port: 55000
-  server: 104.234.233.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+- name: 🇭🇰HK - udptoos.com
+  password: 56815326-1a2e-4d4b-bbcb-ff3f6f2a487d
+  port: 443
+  server: node1.luoye.ee
+  skip-cert-verify: false
+  sni: node1.luoye.ee
+  type: trojan
+  udp: true
+- name: '🇭🇰HK - udptoos.com #2'
+  password: 74bf1088-9604-48ef-8997-746bf83fd9cb
+  port: 443
+  server: node1.luoye.ee
+  skip-cert-verify: false
+  sni: node1.luoye.ee
+  type: trojan
+  udp: true
+- name: '🇭🇰HK - udptoos.com #3'
+  password: 654d0888-1452-4e1b-8077-ab00b45409fb
+  port: 443
+  server: node1.luoye.ee
+  skip-cert-verify: false
+  sni: node1.luoye.ee
+  type: trojan
+  udp: true
