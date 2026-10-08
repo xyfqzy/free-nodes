@@ -1,5 +1,13 @@
 proxies:
 - cipher: aes-256-cfb
+  name: 🇫🇷FR - udptoos.com
+  password: amazonskr05
+  port: 443
+  server: 13.36.178.160
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 🇩🇪DE - udptoos.com
   password: amazonskr05
   port: 443
@@ -10,167 +18,6 @@ proxies:
   name: 🇺🇸US - udptoos.com
   password: amazonskr05
   port: 443
-  server: 54.221.120.243
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸US - udptoos.com #2'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
-    mode: tls
-  port: 2377
-  server: 134.195.101.119
-  type: ss
-  udp: true
-- encryption: none
-  name: '🇺🇸US - udptoos.com #3'
-  network: ws
-  port: '80'
-  server: psf-3.weedly.top
-  type: vless
-  udp: true
-  uuid: b0fae3b7-02de-4002-b8ca-b7159fe33841
-  ws-opts:
-    headers:
-      Host: machinemag.ir
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
-  xudp: true
-- encryption: mlkem768x25519plus.native.0rtt.bq1M9Mo7StSetydCuYnVBzGMeKNBRamRZfzcZEiulEY
-  http-opts:
-    headers:
-      Host:
-      - testspeed-foreign.tci.ir
-    path:
-    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
-  name: '🇩🇪DE - udptoos.com #2'
-  network: http
-  port: '6065'
-  server: 91.107.249.185
-  type: vless
-  udp: true
-  uuid: 9804f109-f750-4dec-9c3a-091982320501
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: x9yfMdHRe9ZAJJUF9kZnDnO3Y7otoyFBCS9RoaIG3Es
-    short-id: ''
-  server: 159.194.250.154
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  name: 🇸🇪SE - udptoos.com
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: NoLIbCssob6T9HvprXBoNoYsZyDN650OViyAMePwp1c
-    short-id: 54cd1667f48828f9
-  server: 89.125.37.43
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 59acafe8-34a8-45a9-a91f-2f9512430850
-  xhttp-opts:
-    mode: auto
-    path: /api
-  xudp: true
-- cipher: aes-256-cfb
-  name: '🇺🇸US - udptoos.com #4'
-  password: amazonskr05
-  port: '443'
   server: 34.228.79.192
   type: ss
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: mlkem768x25519plus.native.0rtt.7ubIdGViskcMx_OjRlI_ZHDAF57lFKYbBhvJA9LsDSY
-  flow: xtls-rprx-vision
-  name: '🇷🇺RU - udptoos.com #2'
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: unyMkEgCJNp-OUOTJTqp-baBcnma66E7J-Jqylmmx0Y
-    short-id: da1ed0217bab3f09
-  server: 135.106.185.11
-  servername: keys.api.2gis.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b5e4cbf-2366-499a-8327-0cd9918c687d
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- encryption: none
-  name: '🇩🇪DE - udptoos.com #3'
-  network: ws
-  port: '80'
-  server: 146.75.119.82
-  type: vless
-  udp: true
-  uuid: 1af4d6fe-f1fa-4cbb-af8d-d8ab46de13ed
-  ws-opts:
-    headers:
-      Host: rb24.ir
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: ws/?ed=2048/@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1/?2048
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '🇩🇪DE - udptoos.com #4'
-  network: xhttp
-  port: '443'
-  server: cgdk.rtfa.electrocitymarket.ru
-  servername: cgdk.rtfa.electrocitymarket.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2519b5e-495e-462e-9703-bbf68011d2f3
-  xhttp-opts:
-    mode: stream-up
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷FR - udptoos.com
-  password: amazonskr05
-  port: '443'
-  server: 13.36.241.80
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇺🇸US - udptoos.com #5'
-  network: ws
-  port: '443'
-  server: 69.46.46.130
-  servername: core-d225e5-df79df-production.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d5beb81-f9c1-46d7-aa0c-78a9daca4c5a
-  ws-opts:
-    headers:
-      Host: core-d225e5-df79df-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /ws/3d5beb81-f9c1-46d7-aa0c-78a9daca4c5a
-  xudp: true
