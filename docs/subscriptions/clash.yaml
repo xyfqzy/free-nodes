@@ -2,22 +2,27 @@ proxies:
 - cipher: aes-256-cfb
   name: 🇫🇷FR - udptoos.com
   password: amazonskr05
-  port: 443
-  server: 13.36.178.160
-  skip-cert-verify: true
+  port: '443'
+  server: 13.36.241.80
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇩🇪DE - udptoos.com
-  password: amazonskr05
-  port: 443
-  server: 18.196.88.40
-  type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇵🇱PL - udptoos.com
+  network: ws
+  port: '2083'
+  server: 31.76.22.195
+  servername: crt.molniya.sbs
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US - udptoos.com
-  password: amazonskr05
-  port: 443
-  server: 34.228.79.192
-  type: ss
-  udp: true
+  uuid: cc4074d6-f450-4025-833a-a6e0100ceaff
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /vless-ws
+  xudp: true
