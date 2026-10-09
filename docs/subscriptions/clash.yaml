@@ -1,28 +1,54 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇫🇷FR - udptoos.com
-  password: amazonskr05
-  port: '443'
-  server: 13.36.241.80
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇵🇱PL - udptoos.com
-  network: ws
-  port: '2083'
-  server: 31.76.22.195
-  servername: crt.molniya.sbs
+- name: 🇺🇸US - udptoos.com
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  tls: false
+  type: http
+  username: fQ67Dpe5dU
+- name: 🇳🇱NL - udptoos.com
+  password: 'null'
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+  username: 'null'
+- name: 🇩🇪DE - udptoos.com
+  password: null
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '🇺🇸US - udptoos.com #2'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '🇺🇸US - udptoos.com #3'
+  password: ''
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
   udp: true
-  uuid: cc4074d6-f450-4025-833a-a6e0100ceaff
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /vless-ws
-  xudp: true
+  username: ''
+- name: '🇺🇸US - udptoos.com #4'
+  port: 443
+  server: 170.199.233.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇮🇩ID - udptoos.com
+  port: 443
+  server: 178.248.73.58
+  skip-cert-verify: true
+  tls: true
+  type: http
