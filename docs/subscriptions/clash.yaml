@@ -1,54 +1,13 @@
 proxies:
-- name: 🇺🇸US - udptoos.com
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  tls: false
-  type: http
-  username: fQ67Dpe5dU
-- name: 🇳🇱NL - udptoos.com
-  password: 'null'
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇩🇪DE - udptoos.com
-  password: null
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '🇺🇸US - udptoos.com #2'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '🇺🇸US - udptoos.com #3'
-  password: ''
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '🇺🇸US - udptoos.com #4'
-  port: 443
-  server: 170.199.233.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇩ID - udptoos.com
-  port: 443
-  server: 178.248.73.58
-  skip-cert-verify: true
-  tls: true
-  type: http
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: '443'
+  server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
+  type: hysteria2
+  up: ''
