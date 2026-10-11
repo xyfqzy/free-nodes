@@ -1,17 +1,8 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇺🇸US - udptoos.com
-  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
-  port: 22069
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 🇫🇷FR - udptoos.com
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 43115
-  server: 62.210.147.2
+- name: 🇰🇷KR - udptoos.com
+  password: ''
+  port: '1090'
+  server: 121.169.46.116
   skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
+  type: socks5
+  username: T2clM0QlM0Q6
