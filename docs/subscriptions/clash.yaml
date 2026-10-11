@@ -1,13 +1,30 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: Q3mAdf68GvbGEGqTAXkWjg
-  port: '8443'
-  server: 173.249.210.76
+- name: 🇳🇱NL - udptoos.com
+  port: 9002
+  server: 84.17.47.149
   skip-cert-verify: true
-  sni: ''
+  tls: true
+  type: http
+- name: '🇳🇱NL - udptoos.com #2'
+  password: None
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- auth: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  name: 🇭🇰HK - udptoos.com
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
-  up: ''
+  udp: true
+- name: 🇺🇸US - udptoos.com
+  port: 443
+  server: 170.199.233.89
+  skip-cert-verify: true
+  tls: true
+  type: http
