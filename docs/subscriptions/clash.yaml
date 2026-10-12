@@ -1,136 +1,52 @@
 proxies:
-- auth: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  name: 🇷🇺RU - udptoos.com
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  skip-cert-verify: true
-  sni: match-stream.lovkisport.blog
-  tls: false
-  type: hysteria2
-- name: 🇩🇪DE - udptoos.com
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇦CA - udptoos.com
-  port: 9443
-  server: 198.44.157.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇺HU - udptoos.com
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE - udptoos.com
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇴NO - udptoos.com
-  port: 9443
-  server: 146.70.170.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇸RS - udptoos.com
-  port: 443
-  server: 146.70.221.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR - udptoos.com
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇩🇪DE - udptoos.com #2'
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 🇳🇱NL - udptoos.com
-  port: 9443
-  server: 149.36.51.161
+  port: 9002
+  server: 84.17.47.125
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB - udptoos.com
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- name: '🇷🇸RS - udptoos.com #2'
+- name: '🇳🇱NL - udptoos.com #2'
   password: None
-  port: 443
-  server: 146.70.221.34
+  port: 9002
+  server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
-- name: '🇩🇪DE - udptoos.com #3'
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇧🇪BE - udptoos.com
-  password: None
-  port: 443
-  server: 146.70.123.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇨🇦CA - udptoos.com #2'
-  port: 443
-  server: 206.223.183.13
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US - udptoos.com
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇬🇧GB - udptoos.com #2'
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: aes-256-gcm
-  name: '🇺🇸US - udptoos.com #2'
-  password: c2fe9024-d253-401a-b868-97421f6eb9e0
-  port: 22059
-  server: ruot.ayucloudservices.nl
-  type: ss
   udp: true
-- client-fingerprint: random
-  name: '🇺🇸US - udptoos.com #3'
-  network: ws
-  port: 8443
-  server: 179.253.227.10
-  servername: us-lax.862400.xyz
+- name: '🇳🇱NL - udptoos.com #3'
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 81eed05f-e2d0-4944-9e48-caeb8d036557
-  ws-opts:
-    headers:
-      Host: us-lax.862400.xyz
-    path: /announcement?ed=2048
+- name: '🇳🇱NL - udptoos.com #4'
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #5'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #6'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #7'
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
