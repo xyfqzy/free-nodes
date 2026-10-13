@@ -1,28 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US - udptoos.com
-  port: 9443
-  reality-opts:
-    public-key: ELJzJkc4SiCeCn6OF-8V9oeoJqXcD1y9WUntP3It53g
-    short-id: 649ab61e575fdbc9
-  server: 213.165.50.45
-  servername: usa.edgeses.org
-  skip-cert-verify: true
-  tls: true
+- encryption: none
+  name: 🇰🇿KZ - udptoos.com
+  network: ws
+  port: '8880'
+  server: 194.76.18.2
   type: vless
   udp: true
-  uuid: c3db7657-88ce-42a6-b998-1e0364b277ac
-- client-fingerprint: chrome
-  name: 🇯🇵JP - udptoos.com
-  port: 443
-  reality-opts:
-    public-key: AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4
-    short-id: 56cd2f720d
-  server: akga01.xyy123.bid
-  servername: buckeye-retail-website.amazon.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05dd8b4c-c202-406a-a550-31c0b92ba312
+  uuid: bb5f4b63-0b91-4f2c-8a02-66c3f99c1aaa
+  ws-opts:
+    headers:
+      Host: yellow-mouse-fcce.400-318.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
+    path: /pyip=Telegram🇨🇳 @WangCai2
+  xudp: true
