@@ -1,16 +1,111 @@
 proxies:
-- encryption: none
-  name: 🇰🇿KZ - udptoos.com
-  network: ws
-  port: '8880'
-  server: 194.76.18.2
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  delay: 541
+  name: 🇵🇱PL - udptoos.com
+  password: e5c65ph
+  port: 443
+  server: 54.36.174.140
+  type: ss
   udp: true
-  uuid: bb5f4b63-0b91-4f2c-8a02-66c3f99c1aaa
-  ws-opts:
-    headers:
-      Host: yellow-mouse-fcce.400-318.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/39.0.2171.95 Safari/537.36
-    path: /pyip=Telegram🇨🇳 @WangCai2
-  xudp: true
+- delay: 1579
+  name: 🇳🇱NL - udptoos.com
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 1006
+  name: '🇳🇱NL - udptoos.com #2'
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 1867
+  name: '🇳🇱NL - udptoos.com #3'
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 2413
+  name: '🇳🇱NL - udptoos.com #4'
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 932
+  name: '🇳🇱NL - udptoos.com #5'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 1067
+  name: '🇳🇱NL - udptoos.com #6'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 1719
+  name: 🇷🇴RO - udptoos.com
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 1200
+  name: '🇷🇴RO - udptoos.com #2'
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 1175
+  name: '🇷🇴RO - udptoos.com #3'
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 1267
+  name: '🇷🇴RO - udptoos.com #4'
+  password: None
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 1847
+  name: '🇷🇴RO - udptoos.com #5'
+  password: None
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 2843
+  name: '🇷🇴RO - udptoos.com #6'
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 2902
+  name: '🇷🇴RO - udptoos.com #7'
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 1653
+  name: 🇺🇸US - udptoos.com
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
