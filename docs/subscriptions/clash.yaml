@@ -1,73 +1,7 @@
 proxies:
-- client-fingerprint: chrome
+- cipher: aes-128-gcm
   name: 🇺🇸US - udptoos.com
-  network: ws
-  port: '443'
-  server: 140.248.186.45
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-2
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  grpc-opts:
-    grpc-service-name: gdd-grpc
-  name: 🇮🇳IN - udptoos.com
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
-    short-id: ''
-  server: 31.58.95.10
-  servername: de-gdd-1.unturned-rust-dead.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-2
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #3'
-  network: ws
-  port: '443'
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-1
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
+  password: 85590bd2-807b-49b9-af20-1101c18b9eda
+  port: 35031
+  server: ruot.ayucloudservices.nl
+  type: ss
