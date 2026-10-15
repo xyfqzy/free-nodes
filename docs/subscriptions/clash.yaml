@@ -1,59 +1,75 @@
 proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE - udptoos.com
+  network: tcp
+  port: 443
+  server: 152.53.186.202
+  servername: deinfo.chaosnetwork.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5538eaaa-ac3d-4414-a1f5-280212949ed9
 - name: 🇳🇱NL - udptoos.com
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #2'
   password: None
-  port: 9002
-  server: 84.17.47.125
+  port: 443
+  server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #3'
-  port: 9002
-  server: 84.17.47.150
+- name: '🇩🇪DE - udptoos.com #2'
+  password: null
+  port: 443
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #4'
-  port: 9002
-  server: 84.17.47.148
+  username: null
+- name: '🇩🇪DE - udptoos.com #3'
+  port: 443
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #5'
+- name: 🇷🇸RS - udptoos.com
+  password: null
+  port: 443
+  server: 146.70.221.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇪🇸ES - udptoos.com
+  password: null
+  port: 443
+  server: 82.102.17.178
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇱🇻LV - udptoos.com
   password: None
-  port: 9002
-  server: 84.17.47.148
+  port: 443
+  server: 109.248.147.66
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #6'
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
+  username: null
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
+    short-id: 1dd8558159ecd0
+  server: sg4.oh-node.com
+  servername: www.changiairport.com
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: '🇳🇱NL - udptoos.com #7'
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US - udptoos.com
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+  xudp: true
