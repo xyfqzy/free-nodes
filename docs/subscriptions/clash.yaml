@@ -1,75 +1,88 @@
 proxies:
 - alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE - udptoos.com
-  network: tcp
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: 🇫🇷FR - udptoos.com
+  port: 24667
+  protocol: udp
+  server: 62.210.70.191
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: 🇸🇬SG - udptoos.com
+  password: '1234'
+  port: 2080
+  server: 13.212.55.110
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- auth: a34f3990b69f44bfa0d32385
+  name: 🇦🇺AU - udptoos.com
+  obfs: salamander
+  obfs-password: a34f3990b69f44bfa0d32385
+  password: a34f3990b69f44bfa0d32385
+  port: 20000
+  ports: 20000-30000
+  server: 192.9.175.191
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇨🇦CA - udptoos.com
+  password: amazonskr05
   port: 443
-  server: 152.53.186.202
-  servername: deinfo.chaosnetwork.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5538eaaa-ac3d-4414-a1f5-280212949ed9
+  server: 15.175.213.130
+  type: ss
 - name: 🇳🇱NL - udptoos.com
-  password: None
-  port: 443
-  server: 149.36.51.129
+  port: 9002
+  server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
-- name: '🇩🇪DE - udptoos.com #2'
-  password: null
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '🇩🇪DE - udptoos.com #3'
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇸RS - udptoos.com
-  password: null
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇪🇸ES - udptoos.com
-  password: null
-  port: 443
-  server: 82.102.17.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇱🇻LV - udptoos.com
-  password: None
-  port: 443
-  server: 109.248.147.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
-    short-id: 1dd8558159ecd0
-  server: sg4.oh-node.com
-  servername: www.changiairport.com
-  tls: true
-  type: vless
   udp: true
-  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
-  xudp: true
+- name: '🇳🇱NL - udptoos.com #2'
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #3'
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #4'
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #5'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #6'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇳🇱NL - udptoos.com #7'
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
