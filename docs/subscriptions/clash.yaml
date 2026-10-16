@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  name: 🇦🇪AE - udptoos.com
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mWxcYeYE-M3iE0RBjTzG88QI9kj2wivJDoIYDu_aG3w
+    short-id: 29c2dd1e3ef7c4d4
+  server: 45.59.120.217
+  servername: strm.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8732f92b-ba85-48f7-92e4-ad029f1cd4e7
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -11,78 +24,75 @@ proxies:
   sni: bing.com
   type: hysteria
   up: 11 Mbps
-- name: 🇸🇬SG - udptoos.com
-  password: '1234'
-  port: 2080
-  server: 13.212.55.110
+- name: 🇨🇦CA - udptoos.com
+  port: 443
+  server: 172.64.68.89
   skip-cert-verify: true
+  tls: true
   type: http
-  username: '1234'
-- auth: a34f3990b69f44bfa0d32385
+- auth: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
+  name: 🇺🇸US - udptoos.com
+  password: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
+  port: 443
+  server: 179.255.104.98
+  skip-cert-verify: true
+  sni: dl1.yuanshicheng.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇵🇱PL - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
+    short-id: 7a3f9e2b1c8d4f6a
+  server: 45.198.0.24
+  servername: pl.ru-msk.club
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5544327-834c-455a-9db5-2454c788fa17
+  xudp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+    short-id: 1a
+  server: 133.242.187.161
+  servername: s3.ap-east-1.amazonaws.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
+    short-id: '111111'
+  server: 37.143.15.206
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4599572f-bcfa-461e-bc73-d80e1ea65aa6
+  xudp: true
+- auth: 633bc3be486b646190661ac2387c150a
   name: 🇦🇺AU - udptoos.com
   obfs: salamander
-  obfs-password: a34f3990b69f44bfa0d32385
-  password: a34f3990b69f44bfa0d32385
-  port: 20000
-  ports: 20000-30000
-  server: 192.9.175.191
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇨🇦CA - udptoos.com
-  password: amazonskr05
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  password: 633bc3be486b646190661ac2387c150a
   port: 443
-  server: 15.175.213.130
-  type: ss
-- name: 🇳🇱NL - udptoos.com
-  port: 9002
-  server: 84.17.47.125
+  server: 152.67.115.203
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #2'
-  password: None
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #3'
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #4'
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #5'
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #6'
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #7'
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  sni: www.bing.com
+  type: hysteria2
