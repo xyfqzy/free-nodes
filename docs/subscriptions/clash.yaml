@@ -1,18 +1,49 @@
 proxies:
+- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
+  http-opts:
+    headers:
+      Host:
+      - mitivpn-s5.b-cdn.net
+    path:
+    - /
+  name: 🇳🇱NL - udptoos.com
+  network: http
+  port: '25566'
+  server: rrr.soreanapanel.com
+  type: vless
+  udp: true
+  uuid: 3c1dbb51-4160-4f9f-839e-218272142eaf
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US - udptoos.com
-  network: ws
-  port: '8443'
-  server: 141.193.213.21
-  servername: u.srilankangrill.online
+  encryption: none
+  name: 🇩🇪DE - udptoos.com
+  network: xhttp
+  port: '443'
+  server: 195.137.226.85
+  servername: mobile.zandix.ir
   tls: true
   type: vless
   udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+  uuid: 2c291d4c-f01b-4a17-b87d-aa29b7becdc9
+  xhttp-opts:
+    host: mobile.zandix.ir
+    mode: auto
     path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  server: 152.232.57.10
+  servername: api.videobereg.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
   xudp: true
