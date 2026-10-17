@@ -1,49 +1,15 @@
 proxies:
-- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
-  http-opts:
-    headers:
-      Host:
-      - mitivpn-s5.b-cdn.net
-    path:
-    - /
-  name: 🇳🇱NL - udptoos.com
-  network: http
-  port: '25566'
-  server: rrr.soreanapanel.com
-  type: vless
-  udp: true
-  uuid: 3c1dbb51-4160-4f9f-839e-218272142eaf
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE - udptoos.com
-  network: xhttp
-  port: '443'
-  server: 195.137.226.85
-  servername: mobile.zandix.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2c291d4c-f01b-4a17-b87d-aa29b7becdc9
-  xhttp-opts:
-    host: mobile.zandix.ir
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 🇺🇸US - udptoos.com
-  network: tcp
-  port: '443'
+  name: 🇸🇬SG - udptoos.com
+  port: 56656
   reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: 152.232.57.10
-  servername: api.videobereg.cc
+    public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
+    short-id: aae6d935
+  server: funagfrdfs.alixxplay.com
+  servername: cdn-dynmedia-1.microsoft.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  xudp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
