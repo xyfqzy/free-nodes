@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 🇸🇬SG - udptoos.com
+  name: 🇯🇵JP - udptoos.com
   port: 56656
   reality-opts:
     public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
