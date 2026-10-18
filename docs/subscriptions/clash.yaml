@@ -1,14 +1,28 @@
 proxies:
-- name: 🇨🇦CA - udptoos.com
-  network: ws
-  port: 2095
-  server: www.epicgames.com
+- delay: 909
+  name: 🇸🇬SG - udptoos.com
+  password: bad06c3525a6eaee1757b34776b83892
+  port: 12019
+  server: 4c2d5151.266nets.com
   skip-cert-verify: true
-  tls: false
-  type: vless
+  sni: ixigua.com
+  type: trojan
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: openapi.pure-ai.us.ci
-    path: /
+- delay: 2100
+  name: '🇸🇬SG - udptoos.com #2'
+  password: bad06c3525a6eaee1757b34776b83892
+  port: 12013
+  server: 4c2d5151.266nets.com
+  skip-cert-verify: true
+  sni: ixigua.com
+  type: trojan
+  udp: true
+- delay: 825
+  name: '🇸🇬SG - udptoos.com #3'
+  password: bad06c3525a6eaee1757b34776b83892
+  port: 12001
+  server: 4c2d5151.266nets.com
+  skip-cert-verify: true
+  sni: ixigua.com
+  type: trojan
+  udp: true
