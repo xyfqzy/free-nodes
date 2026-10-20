@@ -1,70 +1,90 @@
 proxies:
-- delay: 2991
-  name: 🇩🇪DE - udptoos.com
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG - udptoos.com
+  network: ws
+  port: '443'
+  server: 165.22.106.244
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: http
-- delay: 1081
-  name: '🇩🇪DE - udptoos.com #2'
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- delay: 1709
-  name: 🇫🇷FR - udptoos.com
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-- delay: 2056
-  name: 🇳🇱NL - udptoos.com
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- delay: 2408
-  name: '🇳🇱NL - udptoos.com #2'
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- delay: 1726
-  name: '🇳🇱NL - udptoos.com #3'
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-- delay: 2164
-  name: 🇷🇴RO - udptoos.com
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- delay: 2117
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
   name: 🇺🇸US - udptoos.com
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
+  network: ws
+  port: '2083'
+  server: 185.92.182.106
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: http
-- cipher: chacha20-ietf-poly1305
-  country: 🇹🇼TW
-  delay: 610
-  name: 🇹🇼TW - udptoos.com
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)5337fad:11915
-    mode: tls
-  port: 2377
-  server: 60.249.14.95
-  type: ss
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸US - udptoos.com #2'
+  network: ws
+  port: '2053'
+  server: 154.17.6.42
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸US - udptoos.com #3'
+  network: ws
+  port: '443'
+  server: 154.21.197.32
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇸🇬SG - udptoos.com #2'
+  network: ws
+  port: '443'
+  server: 216.195.195.205
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /fp=unsafe
+  xudp: true
