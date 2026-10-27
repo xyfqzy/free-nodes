@@ -1,41 +1,6 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇺🇸US - udptoos.com
-  network: ws
-  port: '443'
-  server: 199.232.78.160
-  servername: firefox.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: ''
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 193.160.141.27
-  servername: abuse.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
   name: 🇳🇱NL - udptoos.com
   network: xhttp
   port: '443'
@@ -52,41 +17,15 @@ proxies:
     mode: stream-up
     path: /api/v1/stream
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #2'
-  network: tcp
+- down: ''
+  fingerprint: ''
+  name: 🇫🇷FR - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: 4b1be712-774c-4b65-8491-a3339e124a70
   port: '443'
-  reality-opts:
-    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
-    short-id: 896f52ba2cfca903
-  server: 47.251.108.158
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇱🇻LV - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
-    short-id: 5c256336e3b673fa
-  server: 195.123.213.28
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02fcc1a4-ee90-4970-8bbb-4ffaa8109d24
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇧🇬BG - udptoos.com
-  password: 9ej82EKe2gq7gLAM
-  port: '9085'
-  server: 213.183.63.60
-  type: ss
-  udp: true
+  server: 195.177.94.166
+  skip-cert-verify: true
+  sni: fr2-cl3.happy-glonaris.top
+  type: hysteria2
+  up: ''
