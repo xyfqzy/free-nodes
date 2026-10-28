@@ -1,8 +1,149 @@
 proxies:
-- name: 🇳🇱NL - udptoos.com
-  password: test123
-  port: '1080'
-  server: 185.145.99.41
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇭🇰HK - udptoos.com
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
   skip-cert-verify: true
-  type: socks5
-  username: test123
+  sni: images.ctfassets.net
+  type: anytls
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: aZDDxJRwRH2J4FPtoIr7DmOvpQPh9sbGbvV-NpVpfms
+    short-id: 336c2cff6e3717c4
+  server: 155.117.232.61
+  servername: node-usa.blok-signalon.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+  name: '🇺🇸US - udptoos.com #2'
+  network: ws
+  port: '443'
+  server: 199.232.239.239
+  servername: firefox.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36805edb-1e85-4199-a59f-117010b70017
+  ws-opts:
+    headers:
+      Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇮🇱IL - udptoos.com
+  network: tcp
+  port: '25895'
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+    short-id: a73f0410d728c823
+  server: 79.182.39.232
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇺🇸US - udptoos.com #3'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: aZDDxJRwRH2J4FPtoIr7DmOvpQPh9sbGbvV-NpVpfms
+    short-id: 336c2cff6e3717c4
+  server: node-usa.blok-signalon.top
+  servername: node-usa.blok-signalon.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇪🇪EE - udptoos.com
+  network: xhttp
+  port: '443'
+  server: 31.76.70.90
+  servername: 597dad6b.con.fernarchive.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE - udptoos.com
+  network: xhttp
+  port: '443'
+  server: 144.31.217.28
+  servername: 9187bd6f.con.fernarchive.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇮FI - udptoos.com
+  network: xhttp
+  port: '443'
+  server: 823bcb90.con.fernarchive.online
+  servername: 823bcb90.con.fernarchive.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    mode: auto
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: beru-uk
+  name: 🇷🇺RU - udptoos.com
+  network: grpc
+  port: '8444'
+  server: ru3.radiolumens.uk
+  servername: ru3.radiolumens.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36cf792c-f07d-4500-97ea-a395e5178deb
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇫🇷FR - udptoos.com
+  obfs: ''
+  obfs-password: ''
+  password: 4b1be712-774c-4b65-8491-a3339e124a70
+  port: '443'
+  server: fr2-cl3.happy-glonaris.top
+  skip-cert-verify: true
+  sni: fr2-cl3.happy-glonaris.top
+  type: hysteria2
+  up: ''
