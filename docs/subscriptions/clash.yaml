@@ -1,19 +1,52 @@
 proxies:
-- name: 🇨🇳CN - udptoos.com
-  port: 40583
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http
-- down: ''
-  fingerprint: ''
-  name: 🇭🇰HK - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦CA - udptoos.com
+  network: ws
   port: '443'
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
-  type: hysteria2
-  up: ''
+  server: 172.67.74.177
+  servername: wallweb-4r0.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
+  ws-opts:
+    headers:
+      Host: wallweb-4r0.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP - udptoos.com
+  network: tcp
+  port: '9443'
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 45.202.255.92
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB - udptoos.com
+  network: xhttp
+  port: '2196'
+  reality-opts:
+    public-key: 72syjF50mzlhjtKDTOS4HGhPFgOncmbK45PmZL5wXQo
+    short-id: 31c73fbd73dacd59
+  server: uk2.zanzelo.ir
+  servername: aparat.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce334334-3ab8-45a2-8af7-f151f413e402
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
