@@ -1,11 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇹🇷TR - udptoos.com
-  port: 443
-  server: free.ertebatgoostar.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- client-fingerprint: firefox
+  name: 🇺🇸US - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: dN2EhTLZsQ1RsO4rCdoIBIi7mFtmqsC2iekPft3MPnY
+    short-id: '1835'
+  server: 141.193.154.234
+  servername: cloudflare.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 118b0abc-c8f6-476a-9777-bc73f6e2548b
+  uuid: 80fdddb8-3eb8-41ad-9916-fbb42c442e6e
+  xudp: true
