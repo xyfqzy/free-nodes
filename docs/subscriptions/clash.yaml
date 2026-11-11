@@ -1,50 +1,43 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇮🇹IT - udptoos.com
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.36
-  type: ss
+- name: 🇬🇧GB - udptoos.com
+  password: None
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇱🇻LV - udptoos.com
+  port: 443
+  server: 109.248.147.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR - udptoos.com
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE - udptoos.com
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇨🇦CA - udptoos.com
+  network: xhttp
+  port: '443'
+  server: saltmint.space
+  servername: saltmint.space
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.90
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #3'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.27
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #4'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #5'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #6'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.81
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #7'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.18
-  type: ss
-  udp: true
+  uuid: ab044ce9-1eef-47fd-8cbd-32310f96f66b
+  xhttp-opts:
+    host: saltmint.space
+    mode: packet-up
+    path: /Sm4Wk8Xt2Rr6Nw9Zj7Hc1Ys5D/
+  xudp: true
