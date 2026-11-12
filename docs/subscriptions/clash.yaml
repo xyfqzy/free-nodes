@@ -1,50 +1,19 @@
 proxies:
-- fingerprint: ''
-  name: 🇹🇼TW - udptoos.com
-  password: 0324fbc29561
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL - udptoos.com
+  network: xhttp
   port: '443'
-  server: sdf65h46wr.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
+  reality-opts:
+    public-key: dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw
+    short-id: 7b2b1a14a6e0630d
+  server: 9.247.54.228
+  servername: fc82dfx.nl8.h1clayd.click
+  tls: true
+  type: vless
   udp: true
-  username: 0324fbc29561
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: 🇫🇷FR - udptoos.com
-  obfs: ''
-  port: '24667'
-  protocol: ''
-  server: 62.210.28.175
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: '11'
-- alpn:
-  - h3
-  auth_str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 🇺🇸US - udptoos.com
-  obfs: ''
-  port: '22335'
-  protocol: ''
-  server: 198.200.57.142
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria
-  up: '11'
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: '🇫🇷FR - udptoos.com #2'
-  obfs: ''
-  port: '36699'
-  protocol: ''
-  server: 163.172.117.163
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria
-  up: '11'
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  xhttp-opts:
+    mode: auto
+    path: /0616f2d729aa
+  xudp: true
