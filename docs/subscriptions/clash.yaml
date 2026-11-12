@@ -1,43 +1,50 @@
 proxies:
-- name: 🇬🇧GB - udptoos.com
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇱🇻LV - udptoos.com
-  port: 443
-  server: 109.248.147.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR - udptoos.com
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE - udptoos.com
-  password: None
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇨🇦CA - udptoos.com
-  network: xhttp
+- fingerprint: ''
+  name: 🇹🇼TW - udptoos.com
+  password: 0324fbc29561
   port: '443'
-  server: saltmint.space
-  servername: saltmint.space
-  tls: true
-  type: vless
+  server: sdf65h46wr.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
-  uuid: ab044ce9-1eef-47fd-8cbd-32310f96f66b
-  xhttp-opts:
-    host: saltmint.space
-    mode: packet-up
-    path: /Sm4Wk8Xt2Rr6Nw9Zj7Hc1Ys5D/
-  xudp: true
+  username: 0324fbc29561
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: 🇫🇷FR - udptoos.com
+  obfs: ''
+  port: '24667'
+  protocol: ''
+  server: 62.210.28.175
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: '11'
+- alpn:
+  - h3
+  auth_str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇺🇸US - udptoos.com
+  obfs: ''
+  port: '22335'
+  protocol: ''
+  server: 198.200.57.142
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria
+  up: '11'
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: '🇫🇷FR - udptoos.com #2'
+  obfs: ''
+  port: '36699'
+  protocol: ''
+  server: 163.172.117.163
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria
+  up: '11'
