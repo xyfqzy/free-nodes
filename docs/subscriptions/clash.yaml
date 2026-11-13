@@ -1,39 +1,47 @@
 proxies:
-- name: 🇩🇪DE - udptoos.com
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇺RU - udptoos.com
-  password: None
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇰HK - udptoos.com
+- name: 🇸🇪SE - udptoos.com
   password: ''
-  port: '8443'
-  server: 38.76.140.254
+  port: '9443'
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
-- name: 🇫🇷FR - udptoos.com
+- name: 🇧🇬BG - udptoos.com
+  password: None
+  port: '443'
+  server: 185.94.192.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇨🇿CZ - udptoos.com
   password: ''
   port: '443'
-  server: 82.66.235.221
+  server: 185.216.35.66
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
-- name: '🇩🇪DE - udptoos.com #2'
-  password: 'null'
-  port: '9002'
-  server: 158.173.154.1
+- name: 🇩🇪DE - udptoos.com
+  password: None
+  port: '443'
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: ''
+- client-fingerprint: chrome
+  name: '🇩🇪DE - udptoos.com #2'
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+    short-id: 974f7f8f
+  server: 9.247.174.134
+  servername: play.googleapis.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
+  xudp: true
