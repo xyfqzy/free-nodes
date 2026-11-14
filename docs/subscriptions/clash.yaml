@@ -1,17 +1,122 @@
 proxies:
-- cipher: aes-256-gcm
-  delay: 600
-  name: 🇮🇹IT - udptoos.com
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
+- name: 🇨🇭CH - udptoos.com
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
   udp: true
-- cipher: aes-256-gcm
-  country: 🇳🇿 NZ
-  delay: 1349
-  name: '🇮🇹IT - udptoos.com #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
+  x-toolall-mihomo: true
+- name: 🇳🇱NL - udptoos.com
+  password: ''
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: '🇨🇭CH - udptoos.com #2'
+  password: ''
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇹🇼TW - udptoos.com
+  password: 0324fbc29561
+  port: 443
+  server: sdf65h46wr.df6h451rh.xin
+  servername: images.ctfassets.net
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  tls: true
+  type: anytls
+  x-toolall-mihomo: true
+- name: '🇨🇭CH - udptoos.com #3'
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇨🇿CZ - udptoos.com
+  port: 443
+  server: 185.216.35.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇩🇰DK - udptoos.com
+  port: 443
+  server: 185.245.84.50
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇸🇪SE - udptoos.com
+  port: 9443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: 99f2107b03f8
+  name: 🇺🇸US - udptoos.com
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  server: 162.35.101.177
+  servername: 0592efg.us8.h1clayd.click
+  tls: true
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  x-toolall-mihomo: true
+- name: 🇧🇬BG - udptoos.com
+  port: 9443
+  server: 169.150.237.1
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇭🇷HR - udptoos.com
+  password: None
+  port: 443
+  server: 154.47.29.161
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: 🇩🇪DE - udptoos.com
+  obfs: ''
+  port: '26691'
+  protocol: ''
+  server: 5.83.129.143
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria
+  up: '11'
