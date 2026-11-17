@@ -1,43 +1,142 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇮🇹IT - udptoos.com
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.63
-  type: ss
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺RU - udptoos.com
+  network: grpc
+  port: '443'
+  server: vps3.nemnogogo.com
+  servername: vps3.nemnogogo.com
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.45
-  type: ss
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇷🇺RU - udptoos.com #2'
+  network: xhttp
+  port: '443'
+  server: 193.160.208.240
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #3'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.72
-  type: ss
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  xhttp-opts:
+    mode: auto
+    path: /assets/twru01/
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇵🇭PH - udptoos.com
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: PA1xWXjxZLn68I-6cjWVdqc0dYhWbu9W5c1GpjEOZgE
+    short-id: 8a9442353eebbe0f
+  server: 103.118.211.38
+  servername: czechia.richforever.ru
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #4'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.90
-  type: ss
+  uuid: 3dbd9377-43cc-46c3-b32c-2605908024eb
+  xhttp-opts:
+    host: czechia.richforever.ru
+    mode: auto
+    path: /49b9f446
+    x-padding-bytes: 100-300
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE - udptoos.com
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: 8d0d0679f42ffd98
+  server: 136.148.208.221
+  servername: 8a2e72t.nl20.h1clayd.shop
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #5'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.99
-  type: ss
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  xudp: true
+- client-fingerprint: firefox
+  name: '🇸🇪SE - udptoos.com #2'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: a7c92e4b10d6f835
+  server: 88.216.214.159
+  servername: api-svc-mgr.galioncc.com
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #6'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.36
-  type: ss
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇮🇷IR - udptoos.com
+  port: 443
+  server: 194.60.228.97
+  servername: base.hosamobenl.co.uk
+  skip-cert-verify: true
+  sni: base.hosamobenl.co.uk
+  tls: true
+  type: vless
   udp: true
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇸🇪SE - udptoos.com #3'
+  port: 443
+  reality-opts:
+    public-key: GQC47B2ZbBygpgJap7Em9lZmCZZkzlckiadXWXlVxGU
+    short-id: 2a67748b0d641e16
+  server: 195.72.62.7
+  servername: fexzoo.net
+  skip-cert-verify: true
+  sni: fexzoo.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+- name: 🇺🇸US - udptoos.com
+  network: ws
+  port: 443
+  server: 199.232.78.120
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
+  ws-opts:
+    headers:
+      Host: ushetzijji.global.ssl.fastly.net.
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸US - udptoos.com #2'
+  network: ws
+  port: '2083'
+  server: 198.202.24.142
+  servername: vipfree.dr-ping.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    headers:
+      Host: vipfree.dr-ping.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
