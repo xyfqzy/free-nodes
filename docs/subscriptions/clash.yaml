@@ -1,16 +1,15 @@
 proxies:
-- client-fingerprint: ios
-  encryption: none
-  name: 🇸🇪SE - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: a7c92e4b10d6f835
-  server: 88.216.60.73
-  servername: ns-api-gw.galioncc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  xudp: true
+- name: 🇹🇭TH - udptoos.com
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: '42000'
+  server: 103.14.164.30
+  skip-cert-verify: true
+  type: socks5
+  username: route164JIa2CBPxfy
+- name: 🇸🇬SG - udptoos.com
+  password: c0a34a
+  port: '62000'
+  server: 66.80.2.252
+  skip-cert-verify: true
+  type: socks5
+  username: usereb7d
