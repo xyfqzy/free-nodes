@@ -1,163 +1,23 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇺🇸US - udptoos.com
-  network: ws
-  password: f426d3c9-fb43-43c0-868b-898dfa451a74
-  port: '443'
-  server: 103.11.76.183
-  skip-cert-verify: false
-  sni: likejennie.pages.dev
-  type: trojan
+- alpn:
+  - h3
+  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  down: 200
+  name: 🇭🇰HK - udptoos.com
+  obfs: salamander
+  obfs-password: fcfqz5o4znnjqtrp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: hkzfsg2.mateflora.com
+  skip-cert-verify: true
+  sni: hkzfsg2.mateflora.com
+  type: hysteria2
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /
-- name: 🇹🇭TH - udptoos.com
-  password: 1pB7HV6u
-  port: '42000'
-  server: 151.246.109.158
+  up: 100
+- name: 🇹🇼TW - udptoos.com
+  password: 2902c46c8493
+  port: 443
+  server: er8u54dh.df6h451rh.xin
   skip-cert-verify: true
-  type: socks5
-  username: AJ3d9gJw
-- name: '🇹🇭TH - udptoos.com #2'
-  password: mpbK00Pl
-  port: '42000'
-  server: 192.204.15.135
-  skip-cert-verify: true
-  type: socks5
-  username: X3s3JteD
-- name: 🇻🇳VN - udptoos.com
-  password: jHsK2gqs
-  port: '62000'
-  server: 103.184.113.190
-  skip-cert-verify: true
-  type: socks5
-  username: qT46DZLv
-- name: 🇲🇽MX - udptoos.com
-  password: lcFa8dTH
-  port: '62000'
-  server: 94.194.165.96
-  skip-cert-verify: true
-  type: socks5
-  username: QyVdo5ks
-- name: '🇲🇽MX - udptoos.com #2'
-  password: DJy1T0dt
-  port: '42000'
-  server: 144.225.47.161
-  skip-cert-verify: true
-  type: socks5
-  username: Tek2x6av
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇺🇸US - udptoos.com #2'
-  network: xhttp
-  port: '4443'
-  server: 179.253.80.175
-  servername: swo2.nexfile.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  xhttp-opts:
-    path: /api/v1/sync/
-  xudp: true
-- name: '🇹🇭TH - udptoos.com #3'
-  password: zdnivBaI
-  port: '62000'
-  server: 109.66.136.194
-  skip-cert-verify: true
-  type: socks5
-  username: r3ZzP8WW
-- name: '🇲🇽MX - udptoos.com #3'
-  password: 2j7CCZQb
-  port: '62000'
-  server: 94.194.164.203
-  skip-cert-verify: true
-  type: socks5
-  username: rVkkraqT
-- name: '🇹🇭TH - udptoos.com #4'
-  password: KT5hiU8o
-  port: '42000'
-  server: 104.234.70.82
-  skip-cert-verify: true
-  type: socks5
-  username: rnt2L4XO
-- name: '🇹🇭TH - udptoos.com #5'
-  password: ao3W5ZML
-  port: '42000'
-  server: 168.222.8.119
-  skip-cert-verify: true
-  type: socks5
-  username: JPjarpW3
-- name: '🇹🇭TH - udptoos.com #6'
-  password: mpbK00Pl
-  port: '42000'
-  server: 192.204.15.192
-  skip-cert-verify: true
-  type: socks5
-  username: X3s3JteD
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪DE - udptoos.com
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  port: '443'
-  server: 47.254.167.157
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: '🇺🇸US - udptoos.com #3'
-  network: xhttp
-  port: '4443'
-  server: swo2.nexfile.net
-  servername: swo2.nexfile.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  xhttp-opts:
-    mode: auto
-    path: /api/v1/sync/
-  xudp: true
-- name: '🇹🇭TH - udptoos.com #7'
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
-  port: '42000'
-  server: 103.14.164.202
-  skip-cert-verify: true
-  type: socks5
-  username: route164JIa2CBPxfy
-- name: '🇹🇭TH - udptoos.com #8'
-  password: Ks4Iab43
-  port: '42000'
-  server: 82.47.152.151
-  skip-cert-verify: true
-  type: socks5
-  username: userLjVB
-- name: 🇮🇩ID - udptoos.com
-  password: RRWtX6XP
-  port: '62000'
-  server: 203.84.138.59
-  skip-cert-verify: true
-  type: socks5
-  username: 9tcjLp2W
-- name: '🇹🇭TH - udptoos.com #9'
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
-  port: '42000'
-  server: 103.14.164.30
-  skip-cert-verify: true
-  type: socks5
-  username: route164JIa2CBPxfy
-- name: 🇫🇷FR - udptoos.com
-  password: Zn5mR7vA
-  port: '42000'
-  server: 144.56.22.78
-  skip-cert-verify: true
-  type: socks5
-  username: L8wP3kQx
-- name: '🇹🇭TH - udptoos.com #10'
-  password: fAgE2jqK
-  port: '42000'
-  server: 151.246.108.69
-  skip-cert-verify: true
-  type: socks5
-  username: h87527jJ
+  sni: px.ads.linkedin.com
+  type: anytls
